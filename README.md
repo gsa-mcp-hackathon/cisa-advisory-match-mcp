@@ -1,0 +1,27 @@
+# CISA Advisory Matching MCP
+
+**GSA MCP Hackathon submission — version 0.8.0 candidate**
+
+Matches a fictional ICS device inventory against public CISA advisories using an MCP server and an IBM watsonx Orchestrate agent. Reports affected-range status, source version rules, alias provenance, coverage limits, and local product-catalog candidates. All inventory is explicitly fictional; advisory data is public CISA content.
+
+## Quick start
+
+The full source, setup, and build instructions are in the [`cisa-advisory-match-mcp-v08/`](cisa-advisory-match-mcp-v08/) directory.
+
+| File | Purpose |
+|---|---|
+| [`cisa-advisory-match-mcp-v08/README.md`](cisa-advisory-match-mcp-v08/README.md) | Setup, tools, supported comparisons, and limits |
+| [`cisa-advisory-match-mcp-v08/CATALOG_BUILD.md`](cisa-advisory-match-mcp-v08/CATALOG_BUILD.md) | How to build the product catalog from the pinned public CISA snapshot |
+| [`cisa-advisory-match-mcp-v08/config/gsa_jc_inventory_agent_v08.yaml`](cisa-advisory-match-mcp-v08/config/gsa_jc_inventory_agent_v08.yaml) | IBM Orchestrate agent configuration |
+| [`cisa-advisory-match-mcp-v08/server.py`](cisa-advisory-match-mcp-v08/server.py) | MCP server entry point (STDIO) |
+| [`cisa-advisory-match-mcp-v08/test-results/`](cisa-advisory-match-mcp-v08/test-results/) | IBM verification and agent test records |
+
+## Catalog database
+
+The SQLite product catalog is **not included** in this repository. It is derived from public CISA data and must be built before running the full test suite or the catalog search tool. See [`CATALOG_BUILD.md`](cisa-advisory-match-mcp-v08/CATALOG_BUILD.md) for the exact steps, pinned source commit, and expected build output.
+
+## Project summary
+
+An MCP wrapper calls the public [cyanheads CISA MCP server](https://github.com/cyanheads/cisa-cybersecurity-mcp-server) to discover ICS advisories and check KEV, then compares product and version rules in original [CISA CSAF](https://github.com/cisagov/CSAF) documents. No model makes the version comparison. A local offline catalog of CSAF product names supports candidate discovery without a network call. An IBM watsonx Orchestrate native agent calls the six MCP tools and reports findings with source citations, uncertainty labels, and coverage disclosures.
+
+See [`docs/evaluation.md`](cisa-advisory-match-mcp-v08/docs/evaluation.md) for measured results and [`docs/aliases.md`](cisa-advisory-match-mcp-v08/docs/aliases.md) for the alternate-name catalog and sources.

@@ -1,0 +1,23 @@
+[
+  {
+    "advisory_id": "ICSA-23-150-01",
+    "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2023/icsa-23-150-01.json",
+    "sha256": "49558c415de6e9158cbf09183efdb863b5a63777f042696442093325bb32896b",
+    "retrieved_at": "2026-11-06T15:41:23.816386+00:00",
+    "revision": "1"
+  },
+  {
+    "advisory_id": "ICSA-24-086-04",
+    "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2024/icsa-24-086-04.json",
+    "sha256": "889d9a0e189c09dee871d6011760e5c0d1bafe1ebec5d7f6dba14541b300f029",
+    "retrieved_at": "2026-11-06T15:41:31.507721+00:00",
+    "revision": "1"
+  },
+  {
+    "advisory_id": "ICSA-25-028-04",
+    "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2025/icsa-25-028-04.json",
+    "sha256": "fc9e650438d22893b2942d68624cc6d13597364b6eff7bfcc5b71394ffc7bdcd",
+    "retrieved_at": "2026-11-06T15:41:40.744387+00:00",
+    "revision": "1"
+  }
+]

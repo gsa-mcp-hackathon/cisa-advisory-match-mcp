@@ -1,0 +1,32 @@
+{
+  "test": "routing-retest-B2",
+  "prompt": "Find CISA advisory candidates for fictional Allen-Bradley ControlLogix.",
+  "note": "Fresh session after instruction update. No tool name specified in prompt.",
+  "first_tool_called": "search_product_catalog",
+  "tool_args": {
+    "scope": "OT",
+    "product": "ControlLogix",
+    "manufacturer": "Allen-Bradley",
+    "max_results": 10
+  },
+  "key_tool_result_fields": {
+    "candidate_count": 69,
+    "candidates_returned": 10,
+    "candidates_omitted": 59,
+    "match_basis": "documented alias phrase",
+    "alias_id": "candidate-rockwell-allen-bradley",
+    "alias_mode": "candidate",
+    "identity_review_required": true,
+    "scan_truncated": false,
+    "coverage_complete": false,
+    "applicability": "not_assessed",
+    "catalog_built_at": "2026-11-17T18:30:57.503343+00:00",
+    "sample_advisories": ["ICSA-26-244-05", "ICSA-26-244-03", "ICSA-26-211-05"]
+  },
+  "agent_answer_summary": "10 candidates shown (69 total, 59 omitted). All via candidate alias candidate-rockwell-allen-bradley (Allen-Bradley to Rockwell Automation). identity_review_required=true on all results. applicability=not_assessed. coverage_complete=false with 59 omitted candidates noted. No affected claim made.",
+  "chose_catalog_without_tool_name": true,
+  "identity_review_disclosed": true,
+  "coverage_gaps_disclosed": true,
+  "affected_claim_made": false,
+  "pass_fail": "PASS"
+}

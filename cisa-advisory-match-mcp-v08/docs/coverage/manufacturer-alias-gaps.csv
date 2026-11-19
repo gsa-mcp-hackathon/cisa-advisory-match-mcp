@@ -1,0 +1,795 @@
+vendor,advisory_count,alias_status
+"Schneider Electric Software, LLC",84,review_only
+Philips,39,no_documented_alias
+"Becton, Dickinson and Company (BD)",22,no_documented_alias
+"AVEVA Software, LLC",21,review_only
+AVEVA,20,review_only
+Medtronic,15,no_documented_alias
+"Sensormatic Electronics, LLC, Johnson Controls Inc.",14,no_documented_alias
+3S-Smart Software Solutions GmbH,11,review_only
+Baxter,10,no_documented_alias
+"PHOENIX CONTACT, Innominate Security Technologies",10,no_documented_alias
+"Exacq Technologies, Johnson Controls Inc.",9,no_documented_alias
+Hospira,7,no_documented_alias
+Santesoft,7,no_documented_alias
+LCDS - LeÃ£o Consultoria e Desenvolvimento de Sistemas LTDA ME,6,no_documented_alias
+Panasonic,6,no_documented_alias
+"Red Lion, AutomationDirect",6,no_documented_alias
+SpiderControl,6,no_documented_alias
+Trane,6,no_documented_alias
+GeutebrÃ¼ck,5,no_documented_alias
+InduSoft,5,no_documented_alias
+IOServer,5,no_documented_alias
+MatrikonOPC,5,no_documented_alias
+Measuresoft,5,no_documented_alias
+MicroDicom,5,no_documented_alias
+Microsoft,5,no_documented_alias
+7-Technologies,4,no_documented_alias
+ARC Informatique,4,no_documented_alias
+CISA,4,no_documented_alias
+Codewrights,4,no_documented_alias
+Cogent Real-Time Systems,4,no_documented_alias
+GE Digital,4,no_documented_alias
+"ICONICS, Mitsubishi Electric",4,no_documented_alias
+JTEKT Corporation,4,no_documented_alias
+LCDS LeÃ£o Consultoria e Desenvolvimento de Sistemas LTDA ME,4,no_documented_alias
+MICROSYS,4,no_documented_alias
+Motorola Solutions,4,no_documented_alias
+Progea,4,no_documented_alias
+Softing,4,review_only
+Ashlar-Vellum,3,no_documented_alias
+Automated Logic,3,no_documented_alias
+Automated Logic Corporation (ALC),3,no_documented_alias
+B. Braun Medical,3,no_documented_alias
+Baicells Technologies,3,no_documented_alias
+Digi International,3,no_documented_alias
+"Digi International, Inc.",3,no_documented_alias
+Dingtian,3,no_documented_alias
+Dover Fueling Solutions,3,no_documented_alias
+Elcomplus LLC,3,no_documented_alias
+Elipse,3,no_documented_alias
+Emerson Process Management,3,no_documented_alias
+GE Healthcare,3,no_documented_alias
+HID Global,3,no_documented_alias
+IniNet Solutions,3,no_documented_alias
+Intel,3,no_documented_alias
+Korenix,3,no_documented_alias
+KUNBUS,3,no_documented_alias
+MikroTik,3,no_documented_alias
+MZ Automation GmbH,3,no_documented_alias
+Open Automation Software,3,no_documented_alias
+Optigo Networks,3,no_documented_alias
+Orthanc,3,no_documented_alias
+Red Hat,3,no_documented_alias
+Rockwell,3,review_only
+SAUTER,3,no_documented_alias
+Sielco,3,no_documented_alias
+SUSE,3,no_documented_alias
+VISAM,3,no_documented_alias
+Wind River,3,no_documented_alias
+XZERES,3,no_documented_alias
+3S CODESYS,2,no_documented_alias
+3S-Smart Software Solutions,2,no_documented_alias
+7T,2,no_documented_alias
+Abbott Laboratories,2,no_documented_alias
+Adcon Telemetry,2,no_documented_alias
+Advantech/BroadWin,2,no_documented_alias
+APSystems,2,no_documented_alias
+Arbiter Systems,2,no_documented_alias
+Axis Communications,2,no_documented_alias
+"Bently Nevada, Baker Hughes",2,no_documented_alias
+BirdDog,2,no_documented_alias
+Black Box,2,no_documented_alias
+Boston Scientific,2,no_documented_alias
+Cambium Networks,2,no_documented_alias
+CareCam,2,no_documented_alias
+CAREL,2,no_documented_alias
+Carlo Gavazzi,2,no_documented_alias
+Carrier,2,no_documented_alias
+Certec,2,no_documented_alias
+Change Healthcare,2,no_documented_alias
+Cogent,2,no_documented_alias
+Contec Health,2,no_documented_alias
+"Contolled Electronic Management Systems Ltd, Johnson Contols Inc.",2,no_documented_alias
+ControlByWeb,2,no_documented_alias
+Cooper Power Systems,2,no_documented_alias
+ CP Plus,2,no_documented_alias
+Crestron,2,no_documented_alias
+"Dahua Technology Co, Ltd",2,no_documented_alias
+Datakit,2,no_documented_alias
+Distributed Data Systems,2,no_documented_alias
+Ebyte,2,no_documented_alias
+EFACEC,2,no_documented_alias
+Endress+Hauser,2,no_documented_alias
+Enphase ,2,no_documented_alias
+ENTTEC,2,no_documented_alias
+ETIC Telecom,2,no_documented_alias
+Exemys,2,no_documented_alias
+EZAutomation,2,no_documented_alias
+FESTO Didactic,2,no_documented_alias
+Flexera,2,no_documented_alias
+Franklin Fueling System,2,no_documented_alias
+Gardyn,2,no_documented_alias
+GE Vernova,2,no_documented_alias
+Gemalto,2,no_documented_alias
+GEOVAP,2,no_documented_alias
+goTenna,2,no_documented_alias
+Grassroots,2,no_documented_alias
+Güralp Systems,2,no_documented_alias
+Hanwha Techwin,2,no_documented_alias
+Hikvision,2,no_documented_alias
+Hillrom,2,no_documented_alias
+"Hirschmann Automation and Control GmbH, Belden Inc.",2,no_documented_alias
+Host Engineering,2,no_documented_alias
+Illumina,2,no_documented_alias
+INEA,2,no_documented_alias
+InHand Networks,2,no_documented_alias
+iniNet Solutions GmbH,2,no_documented_alias
+Intrado,2,no_documented_alias
+Jinan USR IOT Technology Limited (PUSR),2,no_documented_alias
+JTEKT ELECTRONICS CORPORATION,2,no_documented_alias
+"Kantech, Johnson Controls Inc.",2,no_documented_alias
+Kepware Technologies,2,no_documented_alias
+Keysight,2,no_documented_alias
+Keysight Technologies,2,no_documented_alias
+KiloView,2,no_documented_alias
+KUKA,2,no_documented_alias
+LCDS - Leão Consultoria e Desenvolvimento de Sistemas Ltda ME,2,no_documented_alias
+LG Innotek,2,no_documented_alias
+LOYTEC,2,no_documented_alias
+lwIP,2,no_documented_alias
+"Matrikon, Honeywell",2,no_documented_alias
+MAXHUB,2,no_documented_alias
+MB connect line,2,no_documented_alias
+Medixant,2,no_documented_alias
+Milesight,2,no_documented_alias
+multiple,2,no_documented_alias
+MZ Automation,2,no_documented_alias
+NASA,2,no_documented_alias
+Nice,2,no_documented_alias
+Nordex,2,no_documented_alias
+Nortek,2,no_documented_alias
+NUUO,2,no_documented_alias
+o6 Automation GmbH,2,no_documented_alias
+Ocean Data Systems,2,no_documented_alias
+OFFIS,2,no_documented_alias
+OpenPLC_V3,2,no_documented_alias
+Ovarro,2,no_documented_alias
+Phillips,2,no_documented_alias
+Planet Technology,2,no_documented_alias
+Red Lion,2,review_only
+Reliable Controls,2,no_documented_alias
+Resource Data Management,2,no_documented_alias
+Rittal,2,no_documented_alias
+RoboDK,2,no_documented_alias
+Samsung,2,no_documented_alias
+SAUTER Controls,2,no_documented_alias
+ScadaTEC,2,no_documented_alias
+SDG Technologies,2,no_documented_alias
+"Sensormatic Electronics, LLC, a subsidiary of Johnson Controls Inc.",2,no_documented_alias
+Shelly,2,no_documented_alias
+Sinapsi,2,no_documented_alias
+Sixnet,2,no_documented_alias
+Smiths Medical,2,no_documented_alias
+Snap One,2,no_documented_alias
+SOCOMEC,2,no_documented_alias
+Software Toolbox,2,no_documented_alias
+Solar Controls,2,no_documented_alias
+Thales,2,no_documented_alias
+Thermo Fisher,2,no_documented_alias
+ThroughTek,2,no_documented_alias
+Tibbo,2,no_documented_alias
+Toptech Systems,2,no_documented_alias
+Trihedral Engineering,2,no_documented_alias
+Trihedral Engineering Limited,2,no_documented_alias
+Tycon Systems,2,no_documented_alias
+Universal Robots,2,no_documented_alias
+Valmet,2,no_documented_alias
+Westermo Network Technologies,2,no_documented_alias
+"Xylem, Inc.",2,no_documented_alias
+ZOLL,2,no_documented_alias
+2N,1,no_documented_alias
+360 Systems,1,no_documented_alias
+3S,1,no_documented_alias
+3S Smart Software Solutions,1,no_documented_alias
+ABB ; Cisco ; Digi ; eWON ; Meinberg ; Moxa ; Red Lion; Siemens,1,no_documented_alias
+"ABB, Phoenix Contact, Schneider Electric, Siemens, and WAGO",1,no_documented_alias
+ABUP,1,no_documented_alias
+ABUS,1,no_documented_alias
+Accuenergy,1,no_documented_alias
+Accuenergy Acuvim II,1,no_documented_alias
+"Acoustic Technology, Inc. (ATI Systems)",1,no_documented_alias
+Acrisure,1,no_documented_alias
+Adminer,1,no_documented_alias
+"Aethon, ST Engineering",1,no_documented_alias
+AGG Software,1,no_documented_alias
+Airleader GmbH,1,no_documented_alias
+Airspan Networks,1,no_documented_alias
+Akuvox,1,no_documented_alias
+ALBEDO Telecom,1,no_documented_alias
+Alisonic,1,no_documented_alias
+AliveCor,1,no_documented_alias
+All-Line Equipment Company,1,no_documented_alias
+alpitronic,1,no_documented_alias
+Alstom,1,no_documented_alias
+Alstom Grid,1,no_documented_alias
+Altair,1,no_documented_alias
+American Auto-Matrix,1,no_documented_alias
+AMTELCO,1,no_documented_alias
+ANDRITZ,1,no_documented_alias
+Animas,1,no_documented_alias
+Anjvision,1,no_documented_alias
+Annke,1,no_documented_alias
+Anritsu,1,no_documented_alias
+Anviz,1,no_documented_alias
+Apeman,1,no_documented_alias
+Apollo Pharmacy,1,no_documented_alias
+Applied Systems Engineering,1,no_documented_alias
+Arbiter Systems; Innomoninate; Meinberg; Siemens; Wind River System,1,no_documented_alias
+ARDEREG,1,no_documented_alias
+Armatura LLC,1,no_documented_alias
+ASKI Energy,1,no_documented_alias
+Association of American Railroads (AAR),1,no_documented_alias
+Assured Telematics Inc.,1,no_documented_alias
+Atelmo,1,no_documented_alias
+Atlas Copco,1,no_documented_alias
+Auto-Maskin,1,no_documented_alias
+Autodesk,1,no_documented_alias
+Automated Solutions,1,no_documented_alias
+Autonomy Logic,1,no_documented_alias
+AUVESY,1,no_documented_alias
+Avation,1,no_documented_alias
+AVer,1,no_documented_alias
+"AVEVA Software, LLC and Schneider Electric Software, LLC",1,no_documented_alias
+Avtec,1,no_documented_alias
+AVTECH SECURITY Corporation,1,no_documented_alias
+B+B SmartWorx,1,no_documented_alias
+"B+B SmartWorx, Advantech",1,no_documented_alias
+B. Braun,1,no_documented_alias
+B. Braun Melsungen AG,1,no_documented_alias
+"Bachmann Electronic, GmbH",1,no_documented_alias
+Baker Hughes - Bently Nevada,1,no_documented_alias
+BeaconMedaes,1,no_documented_alias
+Beckwith Electric,1,no_documented_alias
+Belledonne Communications,1,no_documented_alias
+Bendix,1,no_documented_alias
+Bentley Systems,1,no_documented_alias
+BINOM3,1,no_documented_alias
+BIOTRONIK,1,no_documented_alias
+BLF-Tech LLC,1,no_documented_alias
+"BMC Medical, 3B Medical",1,no_documented_alias
+Botslab,1,no_documented_alias
+BPL Medical Technologies,1,no_documented_alias
+Bransys,1,no_documented_alias
+Brickcom,1,no_documented_alias
+Brightpick AI,1,no_documented_alias
+BrightSign,1,no_documented_alias
+Burk Technology,1,no_documented_alias
+C3-ilex,1,no_documented_alias
+CA Technologies,1,no_documented_alias
+Cambium,1,no_documented_alias
+Campbell Scientific,1,no_documented_alias
+Canary Labs,1,no_documented_alias
+Capsule Technologies,1,no_documented_alias
+CareFusion,1,no_documented_alias
+Carestream,1,no_documented_alias
+Carlo Gavazzi Automation,1,no_documented_alias
+Carlson Software,1,no_documented_alias
+Carrier LenelS2,1,no_documented_alias
+Cassia Networks,1,no_documented_alias
+Catapult Software,1,no_documented_alias
+Centralite,1,no_documented_alias
+Ceragon,1,no_documented_alias
+Certec EDV GmbH,1,no_documented_alias
+CG Automation,1,no_documented_alias
+Chargemap,1,no_documented_alias
+Chirp Systems,1,no_documented_alias
+"CIMON, Inc",1,no_documented_alias
+Circontrol,1,no_documented_alias
+Circutor,1,no_documented_alias
+Cisco,1,no_documented_alias
+"CKS, a subsidiary of Johnson Controls Inc.",1,no_documented_alias
+Claroty,1,no_documented_alias
+Clorius Controls,1,no_documented_alias
+CloudCharge,1,no_documented_alias
+CloudEdge,1,no_documented_alias
+Cogent Real-Time Systems Inc,1,no_documented_alias
+Columbia Weather Systems,1,no_documented_alias
+"Columbia Weather Systems, Inc.",1,no_documented_alias
+Commend,1,no_documented_alias
+Computrols,1,no_documented_alias
+Consilium Safety,1,no_documented_alias
+Contec,1,no_documented_alias
+Contemporary Controls Sedona Alliance,1,no_documented_alias
+Continental AG,1,no_documented_alias
+Control By Web,1,no_documented_alias
+ControlID,1,no_documented_alias
+Copeland,1,no_documented_alias
+Cradlepoint,1,no_documented_alias
+CSWorks,1,no_documented_alias
+CTEK,1,no_documented_alias
+"Ctek, Inc.",1,no_documented_alias
+CubeSpace,1,no_documented_alias
+CyberData,1,no_documented_alias
+CyberPower,1,no_documented_alias
+CyberVision,1,no_documented_alias
+D-Link (India Limited),1,no_documented_alias
+Daikin Europe N.V,1,no_documented_alias
+Daikin Holdings Singapore Pte Ltd,1,no_documented_alias
+Daktronics,1,no_documented_alias
+Danelec,1,no_documented_alias
+Danfoss,1,no_documented_alias
+Dario Health,1,no_documented_alias
+Datalogic,1,no_documented_alias
+Datalogics,1,no_documented_alias
+Dataprobe,1,no_documented_alias
+Davolink,1,no_documented_alias
+Deep Sea Electronics,1,no_documented_alias
+Delta Controls,1,no_documented_alias
+Detcon,1,no_documented_alias
+DEXMA,1,no_documented_alias
+Digital Alert Systems,1,no_documented_alias
+Digital Canal Structural,1,no_documented_alias
+Digital Watchdog,1,no_documented_alias
+Digium,1,no_documented_alias
+Dominion Voting Systems,1,no_documented_alias
+Dorsett Controls,1,no_documented_alias
+Dover Fueling Solutions (DFS),1,no_documented_alias
+DPS Electronics,1,no_documented_alias
+Dreame Technology,1,no_documented_alias
+Dräger,1,no_documented_alias
+DuraComm Corporation,1,no_documented_alias
+EasyIO,1,no_documented_alias
+Eaton Cooper Power Systems,1,no_documented_alias
+Eaton’s Cooper,1,no_documented_alias
+Echelon,1,no_documented_alias
+Eclipse,1,no_documented_alias
+Eclipse Foundation,1,no_documented_alias
+Econolite,1,no_documented_alias
+ECOVACS,1,no_documented_alias
+Edimax,1,no_documented_alias
+EG4 Electronics,1,no_documented_alias
+EIPStackGroup,1,no_documented_alias
+Elber,1,no_documented_alias
+Elecsys,1,no_documented_alias
+Electrolink,1,no_documented_alias
+Elseta,1,no_documented_alias
+Elvaco,1,no_documented_alias
+ENEA,1,no_documented_alias
+"ENEA, Green Hills Software, ITRON, IP Infusion, and Wind River",1,no_documented_alias
+EnOcean Edge Inc,1,no_documented_alias
+"EnOcean Edge Inc, a subsidiary of EnOcean GmbH-",1,no_documented_alias
+Entes,1,no_documented_alias
+Environmental Systems Corporation,1,no_documented_alias
+Envitech Ltd,1,no_documented_alias
+ePower,1,no_documented_alias
+Eppendorf,1,no_documented_alias
+eProsima,1,no_documented_alias
+Equinox,1,no_documented_alias
+Eufy,1,no_documented_alias
+EuroTel,1,no_documented_alias
+EV Energy,1,no_documented_alias
+EV2GO,1,no_documented_alias
+Everest Software LLC,1,no_documented_alias
+Everon,1,no_documented_alias
+EVMAPA,1,no_documented_alias
+EVoke Systems,1,no_documented_alias
+eWON,1,review_only
+Fazecast,1,no_documented_alias
+"Fernhill Software, Ltd.",1,no_documented_alias
+Festo Didactic SE,1,no_documented_alias
+Fiat-Chrysler Automobile US (FCA US) LLC,1,no_documented_alias
+Fidelix,1,no_documented_alias
+Fieldcomm Group,1,no_documented_alias
+Flow Neuroscience,1,no_documented_alias
+Fourth Frontier,1,no_documented_alias
+Fox-IT,1,no_documented_alias
+Fr. Sauter AG,1,no_documented_alias
+Frangoteam,1,no_documented_alias
+Franklin Electric Fueling Systems ,1,no_documented_alias
+Franklin Fueling Systems,1,no_documented_alias
+Fresenius Kabi,1,no_documented_alias
+Fujifilm,1,no_documented_alias
+FUJIFILM Healthcare Americas Corporation,1,no_documented_alias
+Fujitsu Limited,1,no_documented_alias
+Fujitsu Software,1,no_documented_alias
+Fultek,1,no_documented_alias
+"FURUNO ELECTRIC CO.,LTD.",1,no_documented_alias
+FXC,1,no_documented_alias
+GAIN Electronic Co. Ltd,1,no_documented_alias
+Galil,1,no_documented_alias
+GarrettCom,1,no_documented_alias
+GE Veronva,1,no_documented_alias
+General Electric (GE) and Emerson,1,no_documented_alias
+General Industrial Controls,1,no_documented_alias
+"General Motors (GM), Shanghai OnStar (SOS)",1,no_documented_alias
+GENIVI Alliance,1,no_documented_alias
+GeoVision,1,no_documented_alias
+Gessler GmbH,1,no_documented_alias
+GeutebrÃ¼ck GmbH,1,no_documented_alias
+GMOD,1,no_documented_alias
+GPL Odorizers,1,no_documented_alias
+gpsd Open Source Project,1,no_documented_alias
+Green Hills Software,1,no_documented_alias
+Grid Protection Alliance,1,no_documented_alias
+Growatt,1,no_documented_alias
+Grundfos Pumps Corporation,1,no_documented_alias
+"Guangzhou Juan IoT Technology Co., Ltd.",1,no_documented_alias
+GurumNetworks,1,no_documented_alias
+H.VIEW,1,no_documented_alias
+"Haas Automation, Inc",1,no_documented_alias
+Haiwell,1,no_documented_alias
+Hamilton Medical AG,1,no_documented_alias
+"Hangzhou Xiongmai Technology Co, Ltd",1,no_documented_alias
+"Hangzhou Xiongmai Technology Co., Ltd",1,no_documented_alias
+Hardy Barth,1,no_documented_alias
+Harman,1,no_documented_alias
+HCC Embedded,1,no_documented_alias
+HEIDENHAIN,1,no_documented_alias
+Hetronic,1,no_documented_alias
+"Hillrom and ELI, Baxter International Inc.",1,no_documented_alias
+Hitron Systems,1,no_documented_alias
+HIWIN,1,no_documented_alias
+HMS Industrial Networks,1,no_documented_alias
+Hubbell,1,no_documented_alias
+Hubitat,1,no_documented_alias
+Hughes Network Systems,1,no_documented_alias
+Hydro-Québec,1,no_documented_alias
+Hyundai Motor America,1,no_documented_alias
+i-GEN Solutions,1,no_documented_alias
+i-SENS Inc,1,no_documented_alias
+i.MX,1,no_documented_alias
+Iagona,1,no_documented_alias
+iba Systems,1,no_documented_alias
+IBC Solar,1,no_documented_alias
+IBHsoftec,1,no_documented_alias
+iCam365,1,no_documented_alias
+Ice Qube,1,no_documented_alias
+IDenticard,1,no_documented_alias
+IDIS,1,no_documented_alias
+IDS,1,no_documented_alias
+IGL-Technologies,1,no_documented_alias
+igloohome,1,no_documented_alias
+Ilevia,1,no_documented_alias
+"Inaba Denki Sangyo Co., Ltd.",1,no_documented_alias
+INDAS,1,no_documented_alias
+Industrial Control Links,1,no_documented_alias
+Industrial Video & Control,1,no_documented_alias
+Infinite Automation Systems,1,no_documented_alias
+INFINITT Healthcare,1,no_documented_alias
+Ing. Punzenberger COPA-DATA,1,no_documented_alias
+Inkscape,1,no_documented_alias
+Innokas YhtymÃ¤ Oy,1,no_documented_alias
+Inosoft,1,no_documented_alias
+InSAT,1,no_documented_alias
+Instantel,1,no_documented_alias
+Insulet,1,no_documented_alias
+Integration Objects,1,no_documented_alias
+Intellicom,1,no_documented_alias
+"Interlogix, Carrier Global Corporation",1,no_documented_alias
+InterSystems Corporation,1,no_documented_alias
+INVT Electric,1,no_documented_alias
+IOSiX,1,no_documented_alias
+IPCOMM,1,no_documented_alias
+iRZ,1,no_documented_alias
+Iskra,1,no_documented_alias
+ISO/IEC,1,no_documented_alias
+IXON,1,no_documented_alias
+J4Care,1,no_documented_alias
+Janitza,1,no_documented_alias
+JanTek,1,no_documented_alias
+Johnson & Johnson,1,no_documented_alias
+Kabona AB,1,no_documented_alias
+Kaleris,1,no_documented_alias
+Kastle Systems,1,no_documented_alias
+"Keysight Technologies, Inc.",1,no_documented_alias
+Kieback & Peter,1,no_documented_alias
+Kieback&Peter,1,no_documented_alias
+Kingspan,1,no_documented_alias
+KMC Controls,1,no_documented_alias
+KMW,1,no_documented_alias
+KNX Association,1,no_documented_alias
+Koyo,1,no_documented_alias
+Labcenter Electronics,1,no_documented_alias
+Labkotec,1,no_documented_alias
+Landis+Gyr,1,no_documented_alias
+Lantech,1,no_documented_alias
+LAVA Computer MFG Inc,1,no_documented_alias
+LenelS2,1,no_documented_alias
+Leviton,1,no_documented_alias
+LifePoint Informatics,1,no_documented_alias
+LITEON,1,no_documented_alias
+Locus Energy,1,no_documented_alias
+LOYTEC electronics GmbH,1,no_documented_alias
+"LS ELECTRIC, LS Industrial Systems (LSIS) Co. Ltd",1,no_documented_alias
+"LS ELECTRIC, LS Industrial Systems (LSIS) Co. Ltd-",1,no_documented_alias
+Luxion,1,no_documented_alias
+Lynxspring,1,no_documented_alias
+"M&M Software GmbH, WAGO Kontakttechnik",1,no_documented_alias
+MachineSense LLC.,1,no_documented_alias
+Magnetrol,1,no_documented_alias
+Marel,1,no_documented_alias
+marKoni,1,no_documented_alias
+Martem,1,no_documented_alias
+MDT Software,1,no_documented_alias
+Meari,1,no_documented_alias
+Measuresoft Development,1,no_documented_alias
+MegaSys Computer Technologies,1,no_documented_alias
+Megasys Enterprises,1,no_documented_alias
+Meinberg,1,no_documented_alias
+Meinberg Radio Clocks GmbH & Co. KG,1,no_documented_alias
+Meridian Cooperative,1,no_documented_alias
+Mesa Labs,1,no_documented_alias
+Meteocontrol,1,no_documented_alias
+METZ CONNECT,1,no_documented_alias
+MiCODUS,1,no_documented_alias
+MICROSENS,1,no_documented_alias
+Miele Professional,1,no_documented_alias
+Millbeck Communications,1,no_documented_alias
+Mirion Medical,1,no_documented_alias
+Mirion Technologies,1,no_documented_alias
+Mitsubishi Electric Europe B.V.,1,no_documented_alias
+"Mitsubishi Electric Iconics Digital Solutions, Mitsubishi Electric",1,no_documented_alias
+Mitsubishi Electric India,1,no_documented_alias
+MOBATIME,1,no_documented_alias
+Mobile Industrial Robots (MiR),1,no_documented_alias
+Mobiliti,1,no_documented_alias
+Mobility46,1,no_documented_alias
+Mobotix,1,no_documented_alias
+Modbus Tools,1,no_documented_alias
+Monroe Electronics,1,no_documented_alias
+Monta,1,no_documented_alias
+Morpho,1,no_documented_alias
+Motorola,1,no_documented_alias
+multiple open source,1,no_documented_alias
+multiple trailer and brake manufacturers,1,no_documented_alias
+N-Tron,1,review_only
+n/a,1,no_documented_alias
+Nari,1,no_documented_alias
+National Instruments Corp. (NI),1,no_documented_alias
+National Renewable Energy Laboratory (NREL),1,no_documented_alias
+"Natus Medical, Inc. (Natus)",1,no_documented_alias
+Navis,1,no_documented_alias
+NAVTOR,1,no_documented_alias
+Naxclow,1,no_documented_alias
+Nedap Librix,1,no_documented_alias
+NetComm Wireless,1,no_documented_alias
+Network Thermostat,1,no_documented_alias
+Network Vision,1,no_documented_alias
+New Rock Technologies,1,no_documented_alias
+Newport,1,no_documented_alias
+NEXCOM,1,no_documented_alias
+NextGen Healthcare,1,no_documented_alias
+Nexx,1,no_documented_alias
+NIHON KOHDEN,1,no_documented_alias
+Nokia,1,no_documented_alias
+NovaTech,1,no_documented_alias
+NSA,1,no_documented_alias
+NTP,1,no_documented_alias
+NXP Semiconductors,1,no_documented_alias
+"Object Computing, Inc. (OCI)",1,no_documented_alias
+OleumTech,1,no_documented_alias
+OmniMetrix,1,no_documented_alias
+"OMNTEC Mfg., Inc.",1,no_documented_alias
+OPC Foundation,1,no_documented_alias
+OPCFoundation,1,no_documented_alias
+Open Design Alliance,1,no_documented_alias
+Open Design Alliance (ODA),1,no_documented_alias
+Open Health Imaging Foundation (OHIF),1,no_documented_alias
+OpenClinic GA,1,no_documented_alias
+OpenCode Systems,1,no_documented_alias
+OpenPLC,1,no_documented_alias
+OpenSSL,1,no_documented_alias
+Optergy,1,no_documented_alias
+Optimalog,1,no_documented_alias
+OPW Fuel Management Systems,1,no_documented_alias
+OPW Fuel Managements Systems,1,no_documented_alias
+ORing,1,no_documented_alias
+ORing Industrial Networking,1,no_documented_alias
+"Orpak, Gilbarco Veeder-Root",1,no_documented_alias
+Ossur,1,no_documented_alias
+Outback Power,1,no_documented_alias
+Oxford Nanopore Technologies,1,no_documented_alias
+Packet Power,1,no_documented_alias
+Pacom,1,no_documented_alias
+PACTware Consortium,1,no_documented_alias
+Pangea Communications,1,no_documented_alias
+Panoramic Corporation,1,no_documented_alias
+Paradox,1,no_documented_alias
+Parsons,1,no_documented_alias
+PayRange,1,no_documented_alias
+"PDQ Manufacturing, Inc.",1,no_documented_alias
+"Pelco, Inc.",1,no_documented_alias
+PerFact,1,no_documented_alias
+Pharos Controls,1,no_documented_alias
+Phoenix Broadband Technologies LLC,1,no_documented_alias
+Phoenix Contact Software,1,no_documented_alias
+"PiiGAB, Processinformation i G�teborg Aktiebolag",1,no_documented_alias
+Pilz GmbH & Co. KG (Pilz),1,no_documented_alias
+Pixmeo,1,no_documented_alias
+Portwell,1,no_documented_alias
+Positron S.R.L,1,no_documented_alias
+Post Oak Traffic Systems,1,no_documented_alias
+Prima Systems,1,no_documented_alias
+Priva,1,no_documented_alias
+Pro-face,1,no_documented_alias
+"Pro-face America, Inc., a subsidiary of Digital Electronics Corporation",1,no_documented_alias
+ProMinent,1,no_documented_alias
+Pronetiqs,1,no_documented_alias
+"ProPump and Controls, Inc.",1,no_documented_alias
+Prosys OPC,1,no_documented_alias
+PSI GridConnect GmbH (formerly PSI Nentec GmbH),1,no_documented_alias
+Pulsetto,1,no_documented_alias
+PX4,1,no_documented_alias
+pydicom,1,no_documented_alias
+Pyramid Solutions,1,no_documented_alias
+"Pyramid Solutions, Inc.",1,no_documented_alias
+Qardio,1,no_documented_alias
+QNAP,1,no_documented_alias
+QNX,1,no_documented_alias
+Qognify ,1,no_documented_alias
+"Qolsys, Inc.",1,no_documented_alias
+Qualcomm,1,no_documented_alias
+Qualcomm Life,1,no_documented_alias
+Quanovate Tech Inc. (operating as Mira / Mira Care),1,no_documented_alias
+Quest,1,no_documented_alias
+RAD Data Communications,1,no_documented_alias
+Radiometrics,1,no_documented_alias
+Raise3D,1,no_documented_alias
+Raisecomm,1,no_documented_alias
+Rapid Response Monitoring,1,no_documented_alias
+Rapid Software LLC,1,no_documented_alias
+Real Time Automation (RTA),1,no_documented_alias
+Real-Time Innovations (RTI),1,no_documented_alias
+RealFlex Technologies,1,no_documented_alias
+Red Lion Controls,1,no_documented_alias
+Rently,1,no_documented_alias
+Reolink,1,no_documented_alias
+"Ricon Mobile, Inc.",1,no_documented_alias
+RISS SRL,1,no_documented_alias
+RLE International GmbH,1,no_documented_alias
+Roche Diagnostics,1,no_documented_alias
+RONDS,1,no_documented_alias
+Ruijie,1,no_documented_alias
+SAE IT-systems,1,no_documented_alias
+SafeNet,1,no_documented_alias
+Saia Burgess Controls,1,no_documented_alias
+SALTO,1,no_documented_alias
+Satel,1,no_documented_alias
+Satel Iberia,1,no_documented_alias
+Savannah,1,no_documented_alias
+SCADA Engine,1,no_documented_alias
+SCADA Server,1,no_documented_alias
+Scada-LTS,1,no_documented_alias
+ScadaBR,1,no_documented_alias
+SearchBlox,1,no_documented_alias
+Secheron,1,no_documented_alias
+Securus CCTV,1,no_documented_alias
+SenseLive,1,no_documented_alias
+Sensormatic Electronics,1,no_documented_alias
+"Sensormatic Electronics, a subsidiary of Johnson Controls, Inc.",1,no_documented_alias
+"Sensormatic Electronics, LLC, an affiliate of Johnson Controls Inc.",1,no_documented_alias
+Sensys Networks,1,no_documented_alias
+Sequi,1,no_documented_alias
+SEW-EURODRIVE,1,no_documented_alias
+Sewio,1,no_documented_alias
+"SHUN HU Technology Co, Ltd",1,no_documented_alias
+Siemens ; Invensys Wonderware,1,no_documented_alias
+"Siemens Healthineers, Siemens",1,no_documented_alias
+Silex Technology,1,no_documented_alias
+Silex Technology and GE Healthcare,1,no_documented_alias
+Simens,1,no_documented_alias
+SIMPlight,1,no_documented_alias
+SinoTrack,1,no_documented_alias
+SiRcom,1,no_documented_alias
+SMA,1,no_documented_alias
+SMA Solar Technology,1,no_documented_alias
+SMA Solar Technology AG,1,no_documented_alias
+Softneta,1,no_documented_alias
+Solar-Log,1,no_documented_alias
+SolisCloud,1,no_documented_alias
+"SOOIL Developments Co, Ltd.",1,no_documented_alias
+Spacelabs,1,no_documented_alias
+Sparsh Securitech,1,no_documented_alias
+SpecView,1,no_documented_alias
+SpiceJet,1,no_documented_alias
+ST Engineering iDirect,1,no_documented_alias
+St. Jude Medical,1,no_documented_alias
+"Step Tools, Inc",1,no_documented_alias
+StoneFly,1,no_documented_alias
+Stryker,1,no_documented_alias
+Sub-IoT project,1,no_documented_alias
+SUBNET,1,no_documented_alias
+Sunbird,1,no_documented_alias
+Sungrow,1,no_documented_alias
+SunPower,1,no_documented_alias
+Sunway ForceControl Technology,1,no_documented_alias
+Suprema Inc.,1,no_documented_alias
+Survision,1,no_documented_alias
+Swann Communications,1,no_documented_alias
+SWARCO TRAFFIC SYSTEMS,1,no_documented_alias
+Swisslog Healthcare,1,no_documented_alias
+SWTCH EV,1,no_documented_alias
+Synectix,1,no_documented_alias
+Synergy Systems & Solutions (SSS),1,no_documented_alias
+Systech Corporation,1,no_documented_alias
+SystemK,1,no_documented_alias
+Tec4Data,1,no_documented_alias
+TEL-STER Sp. z o. o.,1,no_documented_alias
+Telecrane,1,no_documented_alias
+Teledyne DALSA,1,no_documented_alias
+Teltonika,1,no_documented_alias
+TEM,1,no_documented_alias
+"Tesla Motors, Inc.",1,no_documented_alias
+Texas Instruments,1,no_documented_alias
+The EPICS Community,1,no_documented_alias
+ThreatQuotient Inc.,1,no_documented_alias
+Tigo Energy,1,no_documented_alias
+Tollgrade,1,no_documented_alias
+"Tollgrade Communications, Inc.",1,no_documented_alias
+TP-Link Systems Inc.,1,no_documented_alias
+Treck Inc,1,no_documented_alias
+Treck Inc.,1,no_documented_alias
+TrendMakers,1,no_documented_alias
+TRi Inc.,1,no_documented_alias
+"Triangle Research International, Inc.’s (Tri Inc.)",1,no_documented_alias
+Trihedral,1,no_documented_alias
+Trimble,1,no_documented_alias
+Tropos Networks,1,no_documented_alias
+TwinOaks Computing,1,no_documented_alias
+U-Boot,1,no_documented_alias
+Ubia,1,no_documented_alias
+Uffizio,1,no_documented_alias
+Unified Automation,1,no_documented_alias
+Unified Automation GmbH,1,no_documented_alias
+Uniview,1,no_documented_alias
+"ValueHD, PTZOptics, multiCAM Systems, SMTAV",1,no_documented_alias
+Vanderbilt Industries,1,no_documented_alias
+Varex Imaging,1,no_documented_alias
+Vecna Technologies Inc,1,no_documented_alias
+Veeder-Root,1,no_documented_alias
+Vertikal Systems,1,no_documented_alias
+Vertiv,1,no_documented_alias
+Vestel,1,no_documented_alias
+VideoInsight,1,no_documented_alias
+Viessmann,1,no_documented_alias
+Viessmann Climate Solutions SE,1,no_documented_alias
+Viidure,1,no_documented_alias
+VIMESA,1,no_documented_alias
+VIPA Controls,1,no_documented_alias
+Visonic,1,no_documented_alias
+VIVOTEK,1,no_documented_alias
+Voltronic Power,1,no_documented_alias
+"Voltronic Power, PowerShield",1,no_documented_alias
+Vonets,1,no_documented_alias
+Vyaire Medical,1,no_documented_alias
+Wabtec,1,no_documented_alias
+Walchem,1,no_documented_alias
+Watchfire,1,no_documented_alias
+Welker,1,no_documented_alias
+WellinTech KingSCADA,1,no_documented_alias
+Western Telematic Inc,1,no_documented_alias
+WHILL Inc.,1,no_documented_alias
+WIN-911,1,no_documented_alias
+Wind River; GE,1,no_documented_alias
+Wärtsilä,1,no_documented_alias
+xArrow,1,no_documented_alias
+xArrow Software,1,no_documented_alias
+XCharge,1,no_documented_alias
+Xiiaozet,1,no_documented_alias
+XINJE,1,no_documented_alias
+Xiongmai Technology,1,no_documented_alias
+Yadea,1,no_documented_alias
+Yarbo,1,no_documented_alias
+Yealink,1,no_documented_alias
+YoSmart,1,no_documented_alias
+Ypsomed,1,no_documented_alias
+Zavio,1,no_documented_alias
+Zebra,1,no_documented_alias
+Zebra Technologies,1,no_documented_alias
+Zenitel,1,no_documented_alias
+Zero Motorcycles,1,no_documented_alias
+ZF,1,no_documented_alias
+ZKTeco,1,no_documented_alias
+ZLAN Information Technology Co.,1,no_documented_alias
+Zoneminder,1,no_documented_alias

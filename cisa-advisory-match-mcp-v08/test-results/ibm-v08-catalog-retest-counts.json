@@ -1,0 +1,39 @@
+{
+  "test": "catalog-retest-controllogix-count-distinction",
+  "recorded_at": "2026-11-18T20:15:00Z",
+  "note": "Fresh session after candidate-count wording fix. Prompt explicitly asks to distinguish found/returned/omitted/displayed.",
+  "prompt": "Find CISA advisory candidates for fictional Allen-Bradley ControlLogix. Show three examples. State exactly how many candidates the tool found, how many it returned in its response, how many it omitted, and how many examples you are displaying. Write in plain language.",
+  "first_tool_called": "search_product_catalog",
+  "tool_args": {
+    "scope": "OT",
+    "product": "ControlLogix",
+    "manufacturer": "Allen-Bradley",
+    "max_results": 10
+  },
+  "key_tool_result_fields": {
+    "candidate_count": 69,
+    "candidates_in_response": 10,
+    "candidates_omitted": 59,
+    "rows_scanned": 28713,
+    "scan_truncated": false,
+    "candidate_count_is_lower_bound": false,
+    "alias_expansion_omitted": 0,
+    "alias_id": "candidate-rockwell-allen-bradley",
+    "alias_mode": "candidate",
+    "identity_review_required": true,
+    "coverage_complete": false,
+    "applicability": "not_assessed"
+  },
+  "agent_answer_check": {
+    "candidates_found_reported_correctly": {"value": 69, "correct": true},
+    "candidates_returned_in_response_reported_correctly": {"value": 10, "correct": true},
+    "candidates_omitted_reported_correctly": {"value": 59, "correct": true},
+    "examples_displayed_reported_correctly": {"value": 3, "correct": true},
+    "candidate_count_equated_to_response_size": false,
+    "identity_review_disclosed": true,
+    "alias_mode_candidate_disclosed": true,
+    "affected_claim_made": false,
+    "match_inventory_limits_attributed_to_catalog": false
+  },
+  "pass_fail": "PASS"
+}

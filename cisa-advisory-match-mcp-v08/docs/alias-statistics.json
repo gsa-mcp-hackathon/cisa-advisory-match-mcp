@@ -1,0 +1,21 @@
+{
+  "catalog_version": "2026.11.06.2",
+  "sha256": "7da10268ea2d3febfe867215bcb3e95cd1be855bdbbc476f5067d68d937d0a07",
+  "vendors": {
+    "groups": 107,
+    "equivalent_groups": 74,
+    "candidate_groups": 33,
+    "distinct_labels": 201,
+    "label_entries": 242
+  },
+  "products": {
+    "groups": 150,
+    "equivalent_groups": 120,
+    "candidate_groups": 30,
+    "distinct_labels": 364,
+    "label_entries": 377
+  },
+  "distinct_labels_across_both_categories": 565,
+  "distinct_source_urls": 326,
+  "counting_note": "Case and whitespace normalized. Counts include full and alternate names; groups are symmetric and are not counts of devices, all possible alternate names, or validated advisory matches."
+}

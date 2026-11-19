@@ -1,0 +1,43 @@
+{
+  "document": {
+    "title": "Synthetic IT advisory, not a real CISA source",
+    "tracking": {
+      "id": "VA-26-295-01",
+      "version": "test-fixture"
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "category": "vendor",
+        "name": "Synthetic Vendor",
+        "branches": [
+          {
+            "category": "product_name",
+            "name": "Synthetic Product",
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "<2.0",
+                "product": {
+                  "name": "Synthetic Product <2.0",
+                  "product_id": "P1"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2099-1000",
+      "product_status": {
+        "known_affected": [
+          "P1"
+        ]
+      }
+    }
+  ]
+}

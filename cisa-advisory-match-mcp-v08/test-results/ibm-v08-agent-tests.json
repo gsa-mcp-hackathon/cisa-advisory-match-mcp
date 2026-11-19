@@ -1,0 +1,92 @@
+{
+  "agent": "gsa_jc_inventory_agent_v08",
+  "toolkit": "gsa_jc_inventory_advisory_v08",
+  "recorded_at": "2026-11-17T19:30:00Z",
+  "note": "All inventory is fictional. All public advisory data. No credentials in record.",
+  "tests": [
+    {
+      "id": "A",
+      "prompt": "Check Honeywell IQ4E Firmware 3.29 against ICSA-26-069-03.",
+      "tool_called": "match_inventory",
+      "tool_args": {
+        "inventory": [{"product": "IQ4E Firmware", "version": "3.29", "asset_id": "asset1", "manufacturer": "Honeywell"}],
+        "advisory_ids": ["ICSA-26-069-03"],
+        "max_advisories": 8
+      },
+      "key_tool_result_fields": {
+        "assessment": "affected_range_match",
+        "cve": "CVE-2026-3611",
+        "version_rule": "<v3.30",
+        "identity_match_type": "exact",
+        "kev_listed": false,
+        "kev_catalog_version": "2026.11.17",
+        "kev_date_released": "2026-11-17T17:53:15.5664Z",
+        "product_name_in_advisory": "Honeywell IQ4E Firmware: <v3.30",
+        "source_sha256": "e4fe8ac356b7836d737b18444ea7ce16967886382f4b351a2c51f29066b23f1f"
+      },
+      "product_word_preserved": "IQ4E Firmware passed to tool unchanged",
+      "agent_answer_summary": "affected_range_match, version 3.29 inside <v3.30. KEV: CVE-2026-3611 not listed, catalog 2026.11.17, not listed != safe. Scope: ICSA-26-069-03 only.",
+      "pass_fail": "PASS",
+      "reasoning": "Firmware word preserved; finding reflects actual tool result; KEV disclosed as not listed with version/date, not as a safety claim; source limitations stated."
+    },
+    {
+      "id": "B",
+      "prompt": "Find CISA advisory candidates for Allen-Bradley ControlLogix.",
+      "note": "Agent first tried search_advisory_candidates (OT feed too large, failed safely with response_too_large). Explicit follow-up 'Use search_product_catalog' in same thread triggered correct tool.",
+      "tool_called": "search_product_catalog",
+      "tool_args": {
+        "product": "ControlLogix",
+        "manufacturer": "Allen-Bradley",
+        "max_results": 10
+      },
+      "key_tool_result_fields": {
+        "candidate_count": 69,
+        "candidates_returned": 10,
+        "candidates_omitted": 59,
+        "match_basis": "documented alias phrase",
+        "alias_id": "candidate-rockwell-allen-bradley",
+        "alias_kind": "manufacturer",
+        "alias_mode": "candidate",
+        "identity_review_required": true,
+        "scan_truncated": false,
+        "coverage_complete": false,
+        "applicability": "not_assessed",
+        "catalog_built_at": "2026-11-17T18:30:57.503343+00:00",
+        "sample_advisories": ["ICSA-26-244-05", "ICSA-26-244-03", "ICSA-26-211-05"]
+      },
+      "agent_answer_summary": "69 candidates (10 shown, 59 omitted). All via documented alias candidate-rockwell-allen-bradley (Allen-Bradley to Rockwell Automation). identity_review_required=true on every result. applicability=not_assessed. Explicit follow-up needed to reach search_product_catalog.",
+      "pass_fail": "PASS",
+      "reasoning": "search_product_catalog called with original product/manufacturer; alias review disclosed; identity_review_required reported; no affected claim made; initial search_advisory_candidates failure disclosed accurately."
+    },
+    {
+      "id": "C",
+      "prompt": "Check our fictional Schneider PLC.",
+      "tool_called": "none",
+      "tool_args": null,
+      "key_tool_result_fields": null,
+      "agent_answer_summary": "Agent asked for full manufacturer string, complete product label, and firmware/software version before calling any tool.",
+      "pass_fail": "PASS",
+      "reasoning": "PLC is a category word. No tool called, no product invented. Agent correctly requested manufacturer, model, and version."
+    },
+    {
+      "id": "D",
+      "prompt": "Explain VA-26-295-01 in plain language.",
+      "tool_called": "read_cisa_it_advisory",
+      "tool_args": {"advisory_id": "VA-26-295-01"},
+      "key_tool_result_fields": {
+        "mode": "selected_it_advisory_source_summary",
+        "title": "PHP insecure error handling and state management",
+        "cves": ["CVE-2026-109618", "CVE-2026-109619"],
+        "kev_status": "not_checked",
+        "applicability": "not_assessed",
+        "known_affected_ranges": ["<8.2.35", "<8.3.36", "<8.4.27", "<8.5.12"],
+        "fixed_versions": ["8.2.35", "8.3.36", "8.4.27", "8.5.12"],
+        "source_sha256": "72fc053072e43eb96fea5e3c3dd3c32aca0616d32d3832be3acb29e06bfaaff9"
+      },
+      "agent_answer_summary": "Identified as IT advisory source reading. Summarised PHP CVEs, affected ranges, fixed versions. Closed with explicit applicability caveat. KEV not_checked preserved — not collapsed to not listed.",
+      "pass_fail": "PASS",
+      "reasoning": "Response frames this as source reading, not inventory match. KEV not_checked not converted to not listed. No IT applicability determination made."
+    }
+  ],
+  "overall": "4/4 PASS"
+}

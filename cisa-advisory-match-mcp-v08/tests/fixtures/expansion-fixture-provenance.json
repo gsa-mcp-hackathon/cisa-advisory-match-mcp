@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "icsa-14-133-01.json",
+    "advisory_id": "ICSA-14-133-01",
+    "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2014/icsa-14-133-01.json",
+    "source_commit": "020f7c01c13b08df34a9557e734d76ed7943c537",
+    "sha256": "a35c3ce84449cf9a3429f7e42c93e46a7f2325463d4964a21981a1a48eeef27f",
+    "retrieved_at": "2026-11-06T18:19:25.935222+00:00",
+    "revision": "2",
+    "original_bytes": true
+  },
+  {
+    "filename": "icsa-20-212-04.json",
+    "advisory_id": "ICSA-20-212-04",
+    "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json",
+    "source_commit": "020f7c01c13b08df34a9557e734d76ed7943c537",
+    "sha256": "1a649f1de3c8075c2e5cc6bf76a6e8fafd8c8ecd48323064e6fe2db5afad013c",
+    "retrieved_at": "2026-11-06T18:19:25.935222+00:00",
+    "revision": "14",
+    "original_bytes": true
+  },
+  {
+    "filename": "icsa-22-242-03.json",
+    "advisory_id": "ICSA-22-242-03",
+    "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2022/icsa-22-242-03.json",
+    "source_commit": "020f7c01c13b08df34a9557e734d76ed7943c537",
+    "sha256": "9ee52a95d14a68708f3a472e3151dc019ede9394552bcc3b0e32845c0364e717",
+    "retrieved_at": "2026-11-06T18:19:25.935222+00:00",
+    "revision": "1",
+    "original_bytes": true
+  },
+  {
+    "filename": "icsa-25-072-07.json",
+    "advisory_id": "ICSA-25-072-07",
+    "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2025/icsa-25-072-07.json",
+    "source_commit": "020f7c01c13b08df34a9557e734d76ed7943c537",
+    "sha256": "ca10841a90fb556c5fc53745a308fe20e7730178a94f007f64b0339a12a4334d",
+    "retrieved_at": "2026-11-06T18:19:25.935222+00:00",
+    "revision": "3",
+    "original_bytes": true
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "recorded_at": "2026-11-17T00:00:00+00:00",
+  "note": "Timestamps are approximate; exact wall-clock not recorded in this session. Recorded by Bob after instruction correction.",
+  "test_label": "v0.8 catalog-routing retest 2 — scope and formatting correction verification",
+  "agent": "gsa_jc_inventory_agent_v08",
+  "thread_id": "redacted-session-id",
+  "instruction_change": "Corrected two passages in agent instructions: (1) line 15 — removed the clause that allowed claiming a full-corpus check when candidate_selection_complete is true; replaced with 'A completed bounded search is still a bounded search.' (2) line 45 — replaced pipe-escaping guidance with prefer-plain-list rule.",
+  "prompt": "Find CISA advisory candidates for fictional Allen-Bradley ControlLogix.",
+  "tool_call": {
+    "name": "search_product_catalog",
+    "arguments": {
+      "scope": "OT",
+      "product": "ControlLogix",
+      "max_results": 10,
+      "manufacturer": "Allen-Bradley"
+    }
+  },
+  "tool_result_summary": {
+    "candidate_count": 69,
+    "candidate_count_is_lower_bound": false,
+    "candidates_omitted": 59,
+    "candidates_returned": 10,
+    "coverage_complete": false,
+    "mode": "local_product_catalog_candidates",
+    "scan_truncated": false,
+    "manifest_built_at": "2026-11-17T18:30:57.503343+00:00",
+    "manifest_revision": "1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2"
+  },
+  "tool_candidate_advisory_ids": [
+    "ICSA-26-244-05",
+    "ICSA-26-244-03",
+    "ICSA-26-211-05",
+    "ICSA-26-197-06",
+    "ICSA-26-167-03",
+    "ICSA-26-029-03",
+    "ICSA-25-252-07",
+    "ICSA-24-284-20",
+    "ICSA-24-284-18",
+    "ICSA-24-256-18"
+  ],
+  "displayed_advisory_ids": [
+    "ICSA-26-244-05",
+    "ICSA-26-244-03",
+    "ICSA-26-211-05",
+    "ICSA-26-197-06",
+    "ICSA-26-167-03",
+    "ICSA-26-029-03",
+    "ICSA-25-252-07",
+    "ICSA-24-284-20",
+    "ICSA-24-284-18",
+    "ICSA-24-256-18"
+  ],
+  "count_check": {
+    "tool_array_length": 10,
+    "displayed_rows": 10,
+    "duplicate_ids_in_tool_array": false,
+    "counts_agree": true
+  },
+  "scope_description_check": {
+    "agent_states_bounded": true,
+    "agent_states_not_full_corpus": true,
+    "agent_discloses_coverage_complete_false": true,
+    "agent_discloses_59_omitted": true,
+    "pass": true
+  },
+  "formatting_check": {
+    "pipe_containing_rows": ["ICSA-26-211-05", "ICSA-24-284-20", "ICSA-24-284-18"],
+    "plain_list_used_for_pipe_rows": false,
+    "table_still_used": true,
+    "column_split_artefact_present": true,
+    "note": "Pipe artefact persists in display rows 3, 8, 9. Instruction says prefer plain list; agent did not follow it for those entries. Display-only defect — no factual content affected."
+  },
+  "overall_pass": true,
+  "pass_criteria": "Counts accurate, no duplicate IDs, scope described as bounded with no full-corpus claim, coverage_complete false and 59 omitted disclosed."
+}

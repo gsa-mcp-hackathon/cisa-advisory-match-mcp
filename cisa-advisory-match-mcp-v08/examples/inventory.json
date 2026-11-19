@@ -1,0 +1,7 @@
+[
+  {"asset_id":"demo-controller-01","manufacturer":"Honeywell","product":"IQ4E Firmware","version":"3.29"},
+  {"asset_id":"demo-controller-02","manufacturer":"Honeywell","product":"IQ4E Firmware","version":"3.30"},
+  {"asset_id":"demo-controller-03","manufacturer":"Honeywell","product":"IQ4E Firmware","version":null},
+  {"asset_id":"demo-controller-04","manufacturer":"Honeywell","product":"IQ4E Firmware","version":"3.30-beta"},
+  {"asset_id":"demo-controller-05","manufacturer":"Honeywell","product":"IQ4E","version":"3.29"}
+]

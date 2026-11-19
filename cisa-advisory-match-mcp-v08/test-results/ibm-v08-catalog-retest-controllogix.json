@@ -1,0 +1,47 @@
+{
+  "test": "catalog-retest-controllogix-post-instruction-fix",
+  "recorded_at": "2026-11-18T19:30:00Z",
+  "note": "Fresh session after catalog-paragraph instruction update. Same prompt as the pre-fix run.",
+  "prompt": "Find CISA advisory candidates for fictional Allen-Bradley ControlLogix. Show three examples and explain the identity review and search limits using the tool's findings. Clearly distinguish how many candidates the tool returned from how many examples you show. Write in plain language.",
+  "first_tool_called": "search_product_catalog",
+  "tool_args": {
+    "scope": "OT",
+    "product": "ControlLogix",
+    "manufacturer": "Allen-Bradley",
+    "max_results": 10
+  },
+  "key_tool_result_fields": {
+    "mode": "local_product_catalog_candidates",
+    "candidate_count": 69,
+    "candidates_returned": 10,
+    "candidates_omitted": 59,
+    "rows_scanned": 28713,
+    "scan_truncated": false,
+    "candidate_count_is_lower_bound": false,
+    "alias_expansion_omitted": 0,
+    "match_basis": "documented alias phrase",
+    "alias_id": "candidate-rockwell-allen-bradley",
+    "alias_kind": "manufacturer",
+    "alias_mode": "candidate",
+    "identity_review_required": true,
+    "coverage_complete": false,
+    "applicability": "not_assessed",
+    "catalog_built_at": "2026-11-17T18:30:57.503343+00:00",
+    "sample_advisories": ["ICSA-26-244-05", "ICSA-26-244-03", "ICSA-26-211-05"]
+  },
+  "agent_answer_check": {
+    "candidate_count_reported": true,
+    "candidates_omitted_reported": true,
+    "rows_scanned_reported": true,
+    "scan_truncated_reported": true,
+    "examples_shown_distinct_from_total": true,
+    "alias_id_reported": true,
+    "alias_mode_candidate_disclosed": true,
+    "identity_review_disclosed": true,
+    "coverage_complete_false_disclosed": true,
+    "affected_claim_made": false,
+    "match_inventory_limits_attributed_to_catalog": false,
+    "three_term_two_page_twelve_request_in_answer": false
+  },
+  "pass_fail": "PASS"
+}

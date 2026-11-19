@@ -1,0 +1,8 @@
+{
+  "version": "0.7.0",
+  "catalog_version": "2026.11.06.2",
+  "revision_recorded": "2026-11-17T11:52:12-05:00",
+  "requested_by": "Johnson Chen",
+  "project": "GSA MCP Hackathon",
+  "status": "prepared candidate; real catalog ingestion, MCP and IBM agent testing pending"
+}

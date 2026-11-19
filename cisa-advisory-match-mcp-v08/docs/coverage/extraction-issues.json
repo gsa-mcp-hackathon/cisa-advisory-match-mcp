@@ -1,0 +1,3801 @@
+{
+  "issues": [
+    {
+      "advisory_id": "ICSA-24-354-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "SDM600"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<1.3.4"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2024/icsa-24-354-02.json"
+    },
+    {
+      "advisory_id": "ICSA-24-354-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "SDM600"
+        },
+        {
+          "category": "product_version",
+          "name": "1.3.4"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2024/icsa-24-354-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B_PC4"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B_PC5"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R16A"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B"
+        }
+      ],
+      "product_id": "CSAFPID-0006",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_PC2"
+        }
+      ],
+      "product_id": "CSAFPID-0007",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_PC3"
+        }
+      ],
+      "product_id": "CSAFPID-0008",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_PC4"
+        }
+      ],
+      "product_id": "CSAFPID-0009",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-014-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0010",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-014-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOX61x"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<R16B"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOX61x"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXCST"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<16.2.1"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXCST"
+        },
+        {
+          "category": "product_version",
+          "name": "16.2.1"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=R15B_PC4"
+        }
+      ],
+      "product_id": "CSAFPID-0006",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B_PC5"
+        }
+      ],
+      "product_id": "CSAFPID-0007",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R16A"
+        }
+      ],
+      "product_id": "CSAFPID-0008",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B"
+        }
+      ],
+      "product_id": "CSAFPID-0009",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=R16B_PC2"
+        }
+      ],
+      "product_id": "CSAFPID-0010",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=R16B_PC3"
+        }
+      ],
+      "product_id": "CSAFPID-0011",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "FOXMAN-UN"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0012",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-06.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-07",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-07.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-07",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-07.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-07",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version",
+          "name": "R16A"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-07.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-07",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_Revision_C"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-07.json"
+    },
+    {
+      "advisory_id": "ICSA-25-016-07",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_Revision_D"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-016-07.json"
+    },
+    {
+      "advisory_id": "ICSA-25-021-01",
+      "path": [
+        {
+          "category": "specification",
+          "name": "Traffic Alert and Collision Avoidance System (TCAS) II"
+        },
+        {
+          "category": "product_name",
+          "name": "TCAS II"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=7.1"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-021-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B_PC4"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B_PC5"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R16A"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B"
+        }
+      ],
+      "product_id": "CSAFPID-0006",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_PC2"
+        }
+      ],
+      "product_id": "CSAFPID-0007",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_PC3"
+        }
+      ],
+      "product_id": "CSAFPID-0008",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_PC4"
+        }
+      ],
+      "product_id": "CSAFPID-0009",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-030-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0010",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-030-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-051-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "NEXUS Series"
+        },
+        {
+          "category": "product_family",
+          "name": "NEXUS-3-x"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=3.08.02"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-051-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-051-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "FLXEON Controllers"
+        },
+        {
+          "category": "product_family",
+          "name": "FBVi"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=9.3.4"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-051-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-051-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "FLXEON Controllers"
+        },
+        {
+          "category": "product_family",
+          "name": "FBVi"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=9.3.5"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-051-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-051-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "FLXEON Controllers"
+        },
+        {
+          "category": "product_family",
+          "name": "FBTi"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=9.3.4"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-051-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-051-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "FLXEON Controllers"
+        },
+        {
+          "category": "product_family",
+          "name": "FBTi"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=9.3.5"
+        }
+      ],
+      "product_id": "CSAFPID-0006",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-051-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-051-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "FLXEON Controllers"
+        },
+        {
+          "category": "product_family",
+          "name": "CBXi"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=9.3.4"
+        }
+      ],
+      "product_id": "CSAFPID-0007",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-051-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-051-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "FLXEON Controllers"
+        },
+        {
+          "category": "product_family",
+          "name": "CBXi"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=9.3.5"
+        }
+      ],
+      "product_id": "CSAFPID-0008",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-051-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version",
+          "name": "R16A"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_Revision_C"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B_Revision_D"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<R16B"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "XMC20"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "ECST"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<16.2.1"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "ECST"
+        },
+        {
+          "category": "product_version",
+          "name": "16.2.1"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=R15B_PC4"
+        }
+      ],
+      "product_id": "CSAFPID-0006",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R15B_PC5"
+        }
+      ],
+      "product_id": "CSAFPID-0007",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R16A"
+        }
+      ],
+      "product_id": "CSAFPID-0008",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version",
+          "name": "R16B"
+        }
+      ],
+      "product_id": "CSAFPID-0009",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=R16B_PC2"
+        }
+      ],
+      "product_id": "CSAFPID-0010",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=R16B_PC3"
+        }
+      ],
+      "product_id": "CSAFPID-0011",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-063-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "UNEM"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<R15A"
+        }
+      ],
+      "product_id": "CSAFPID-0012",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-063-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "PCU400"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=6.5_K"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "PCU400"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=9.4.1"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "PCU400"
+        },
+        {
+          "category": "product_version",
+          "name": "6.6.0"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "PCU400"
+        },
+        {
+          "category": "product_version",
+          "name": "9.4.2"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "PCULogger"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=1.1.0"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "PCULogger"
+        },
+        {
+          "category": "product_version",
+          "name": "1.2.0"
+        }
+      ],
+      "product_id": "CSAFPID-0006",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.0.0|<2.2.1"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.1.0|<=2.2.1.7"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.2.0|<=2.2.2.4"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.3.0|<=2.2.3.4"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.4.0|<=2.2.4.2"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.5.0|<=2.2.5.1"
+        }
+      ],
+      "product_id": "CSAFPID-0006",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.1.8"
+        }
+      ],
+      "product_id": "CSAFPID-0007",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.2.5"
+        }
+      ],
+      "product_id": "CSAFPID-0008",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.3.5"
+        }
+      ],
+      "product_id": "CSAFPID-0009",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.4.3"
+        }
+      ],
+      "product_id": "CSAFPID-0010",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.5.2"
+        }
+      ],
+      "product_id": "CSAFPID-0011",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.1.0.0|<=2.1.0.4"
+        }
+      ],
+      "product_id": "CSAFPID-0012",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.0.0.0|<=2.0.0.14"
+        }
+      ],
+      "product_id": "CSAFPID-0013",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.1.0.5"
+        }
+      ],
+      "product_id": "CSAFPID-0014",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 670 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.0.0.14"
+        }
+      ],
+      "product_id": "CSAFPID-0015",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.0.0|<2.2.1"
+        }
+      ],
+      "product_id": "CSAFPID-0016",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.1.0|<=2.2.1.7"
+        }
+      ],
+      "product_id": "CSAFPID-0017",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.4.0|<=2.2.4.2"
+        }
+      ],
+      "product_id": "CSAFPID-0018",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.5.0|<=2.2.5.1"
+        }
+      ],
+      "product_id": "CSAFPID-0019",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.1.8"
+        }
+      ],
+      "product_id": "CSAFPID-0020",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.4.3"
+        }
+      ],
+      "product_id": "CSAFPID-0021",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.5.2"
+        }
+      ],
+      "product_id": "CSAFPID-0022",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.1.0.0|<=2.1.0.4"
+        }
+      ],
+      "product_id": "CSAFPID-0023",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=1.3.0.0|<=1.3.0.7"
+        }
+      ],
+      "product_id": "CSAFPID-0024",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version",
+          "name": "2.1.0.5"
+        }
+      ],
+      "product_id": "CSAFPID-0025",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version",
+          "name": "1.3.0.8"
+        }
+      ],
+      "product_id": "CSAFPID-0026",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=1.2.0.0|<1.2.1"
+        }
+      ],
+      "product_id": "CSAFPID-0027",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=1.1.0.0|<1.1.1"
+        }
+      ],
+      "product_id": "CSAFPID-0028",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion 650 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=1.0.0.0|<1.0.1"
+        }
+      ],
+      "product_id": "CSAFPID-0029",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion SAM600-IO"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.1.0|<=2.2.1.7"
+        }
+      ],
+      "product_id": "CSAFPID-0030",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion SAM600-IO"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=2.2.5.0|<=2.2.5.1"
+        }
+      ],
+      "product_id": "CSAFPID-0031",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion SAM600-IO"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.1.8"
+        }
+      ],
+      "product_id": "CSAFPID-0032",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-065-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Relion SAM600-IO"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.5.2"
+        }
+      ],
+      "product_id": "CSAFPID-0033",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-065-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-093-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "DC drives & power controllers"
+        },
+        {
+          "category": "product_name",
+          "name": "DCS880"
+        },
+        {
+          "category": "product_name",
+          "name": "ABB Drive Application Builder license (IEC 61131-3)"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-093-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-093-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "DC drives & power controllers"
+        },
+        {
+          "category": "product_name",
+          "name": "DCS880"
+        },
+        {
+          "category": "product_name",
+          "name": "DEMag"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-093-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-093-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "DC drives & power controllers"
+        },
+        {
+          "category": "product_name",
+          "name": "DCS880"
+        },
+        {
+          "category": "product_name",
+          "name": "DCC"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-093-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-093-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "DC drives & power controllers"
+        },
+        {
+          "category": "product_name",
+          "name": "DCT880"
+        },
+        {
+          "category": "product_name",
+          "name": "ABB Drive Application Builder license (IEC 61131-3)"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-093-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-093-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "DC drives & power controllers"
+        },
+        {
+          "category": "product_name",
+          "name": "DCT880"
+        },
+        {
+          "category": "product_name",
+          "name": "Power Optimizer"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-093-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-100-09",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Arctic"
+        },
+        {
+          "category": "product_version",
+          "name": "ARG600"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-100-09.json"
+    },
+    {
+      "advisory_id": "ICSA-25-100-09",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Arctic"
+        },
+        {
+          "category": "product_version",
+          "name": "ARC600"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-100-09.json"
+    },
+    {
+      "advisory_id": "ICSA-25-100-09",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Arctic"
+        },
+        {
+          "category": "product_version",
+          "name": "ARR600"
+        }
+      ],
+      "product_id": "CSAFPID-0006",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-100-09.json"
+    },
+    {
+      "advisory_id": "ICSA-25-100-09",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Arctic"
+        },
+        {
+          "category": "product_version",
+          "name": "ARP600"
+        }
+      ],
+      "product_id": "CSAFPID-0007",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-100-09.json"
+    },
+    {
+      "advisory_id": "ICSA-25-182-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "FESTO Didactic"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware Siemens Simatic S7-1500 / ET200SP"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<V2.9.2"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-182-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-182-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "FESTO Didactic"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware Siemens Simatic S7-1500 / ET200SP"
+        },
+        {
+          "category": "product_version_range",
+          "name": "V2.9.2"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-182-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-182-03",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "FESTO"
+        },
+        {
+          "category": "product_family",
+          "name": "Software"
+        },
+        {
+          "category": "product_family",
+          "name": "CODESYS provided by Festo"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:all/*"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-182-03.json"
+    },
+    {
+      "advisory_id": "ICSA-25-182-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Festo"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "4.0.14"
+        }
+      ],
+      "product_id": "CSAFPID-0009",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-182-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-182-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Festo"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=3.8.14"
+        }
+      ],
+      "product_id": "CSAFPID-0010",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-182-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-182-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Festo"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "4.0.18"
+        }
+      ],
+      "product_id": "CSAFPID-0011",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-182-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-182-04",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Festo"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "3.8.18"
+        }
+      ],
+      "product_id": "CSAFPID-0012",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-182-04.json"
+    },
+    {
+      "advisory_id": "ICSA-25-182-07",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "MSM"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=2.2.9"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-182-07.json"
+    },
+    {
+      "advisory_id": "ICSA-25-196-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Asset Suite 9 series"
+        },
+        {
+          "category": "product_version",
+          "name": "9.6.4.4"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-196-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-196-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Asset Suite 9 series"
+        },
+        {
+          "category": "product_version",
+          "name": "9.6.4.5"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-196-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-196-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Asset Suite 9 series"
+        },
+        {
+          "category": "product_version",
+          "name": "9.7"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-196-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-196-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Hitachi Energy"
+        },
+        {
+          "category": "product_family",
+          "name": "Asset Suite 9 series"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=11.5"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-196-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-273-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Festo"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:all/*"
+        }
+      ],
+      "product_id": "CSAFPID-0021",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-273-02.json"
+    },
+    {
+      "advisory_id": "ICSA-25-273-03",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Festo"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=2.0.12"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-273-03.json"
+    },
+    {
+      "advisory_id": "ICSA-25-273-03",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Festo"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=1.2.34_rev.404"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-273-03.json"
+    },
+    {
+      "advisory_id": "ICSA-25-303-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ISO/IEC"
+        },
+        {
+          "category": "specification",
+          "name": "ISO 15118 standard"
+        },
+        {
+          "category": "specification",
+          "name": "Part 15118-2 Network and Application Protocol Requirements"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-303-01.json"
+    },
+    {
+      "advisory_id": "ICSA-25-322-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "METZ CONNECT"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<2.2.0"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-322-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-322-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "METZ CONNECT"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2.0"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-322-05.json"
+    },
+    {
+      "advisory_id": "ICSA-25-324-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Festo"
+        },
+        {
+          "category": "product_family",
+          "name": "Hardware"
+        },
+        {
+          "category": "product_name",
+          "name": "MES PC"
+        },
+        {
+          "category": "product_name",
+          "name": "DELL XE3"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2025/icsa-25-324-05.json"
+    },
+    {
+      "advisory_id": "ICSA-26-015-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Festo"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:all/*"
+        }
+      ],
+      "product_id": "CSAFPID-0056",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-015-02.json"
+    },
+    {
+      "advisory_id": "ICSA-26-083-03",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "Schneider Electric"
+        },
+        {
+          "category": "product_family",
+          "name": "ProLeiT"
+        },
+        {
+          "category": "patch_level",
+          "name": "ProLeiT-2025-001"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-083-03.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:generic/<V1.0.6.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0017",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:generic/<V1.1.9.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0018",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:generic/<V1.2.0.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0019",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:generic/<V1.2.1.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0020",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:generic/<V1.2.3.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0021",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:generic/<V1.2.5.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0022",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:generic/<V1.2.8.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0023",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.0.6.S1"
+        }
+      ],
+      "product_id": "CSAFPID-0024",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.1.9.S1"
+        }
+      ],
+      "product_id": "CSAFPID-0025",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.0.S1"
+        }
+      ],
+      "product_id": "CSAFPID-0026",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.1.S1"
+        }
+      ],
+      "product_id": "CSAFPID-0027",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.3.S1"
+        }
+      ],
+      "product_id": "CSAFPID-0028",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.5.S1"
+        }
+      ],
+      "product_id": "CSAFPID-0029",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.8.S1"
+        }
+      ],
+      "product_id": "CSAFPID-0030",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.0.6.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0031",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.1.9.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0032",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.0.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0033",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.1.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0034",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.3.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0035",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.5.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0036",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-085-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "WAGO"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "V1.2.8.S0"
+        }
+      ],
+      "product_id": "CSAFPID-0037",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-085-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "7.0"
+        }
+      ],
+      "product_id": "CSAFPID-0011",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "A_0"
+        }
+      ],
+      "product_id": "CSAFPID-0012",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "A_1"
+        }
+      ],
+      "product_id": "CSAFPID-0013",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "A_2.003"
+        }
+      ],
+      "product_id": "CSAFPID-0014",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "A_3.005"
+        }
+      ],
+      "product_id": "CSAFPID-0015",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "A_4.001"
+        }
+      ],
+      "product_id": "CSAFPID-0016",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "B_0.005"
+        }
+      ],
+      "product_id": "CSAFPID-0017",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "C_0"
+        }
+      ],
+      "product_id": "CSAFPID-0018",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=3.10|<=3.52"
+        }
+      ],
+      "product_id": "CSAFPID-0019",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "3.53"
+        }
+      ],
+      "product_id": "CSAFPID-0020",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "3.3"
+        }
+      ],
+      "product_id": "CSAFPID-0021",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "2.3"
+        }
+      ],
+      "product_id": "CSAFPID-0022",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "2.2"
+        }
+      ],
+      "product_id": "CSAFPID-0023",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "2.1"
+        }
+      ],
+      "product_id": "CSAFPID-0024",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Firmware"
+        },
+        {
+          "category": "product_version",
+          "name": "3.4"
+        }
+      ],
+      "product_id": "CSAFPID-0025",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "AWIN"
+        },
+        {
+          "category": "product_version",
+          "name": "GW120"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-05.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_name",
+          "name": "AWIN Firmware"
+        },
+        {
+          "category": "product_name",
+          "name": "GW100 rev.2"
+        },
+        {
+          "category": "product_version",
+          "name": "2.0-0"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-05.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_name",
+          "name": "AWIN Firmware"
+        },
+        {
+          "category": "product_name",
+          "name": "GW100 rev.2"
+        },
+        {
+          "category": "product_version",
+          "name": "2.0-1"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-05.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_name",
+          "name": "AWIN Firmware"
+        },
+        {
+          "category": "product_name",
+          "name": "GW100 rev.2"
+        },
+        {
+          "category": "product_version",
+          "name": "2.1-0"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-05.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_name",
+          "name": "AWIN Firmware"
+        },
+        {
+          "category": "product_name",
+          "name": "GW120"
+        },
+        {
+          "category": "product_version",
+          "name": "1.2-0"
+        }
+      ],
+      "product_id": "CSAFPID-0006",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-05.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_name",
+          "name": "AWIN Firmware"
+        },
+        {
+          "category": "product_name",
+          "name": "GW120"
+        },
+        {
+          "category": "product_version",
+          "name": "1.2-1"
+        }
+      ],
+      "product_id": "CSAFPID-0007",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-05.json"
+    },
+    {
+      "advisory_id": "ICSA-26-120-05",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_name",
+          "name": "AWIN Firmware"
+        },
+        {
+          "category": "product_name",
+          "name": "GW120"
+        },
+        {
+          "category": "product_version",
+          "name": "2.0-0"
+        }
+      ],
+      "product_id": "CSAFPID-0008",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-120-05.json"
+    },
+    {
+      "advisory_id": "ICSA-26-139-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "CoreSense™ HM"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=2.3.1"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-139-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-139-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "CoreSense™ HM"
+        },
+        {
+          "category": "product_version",
+          "name": "2.3.4"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-139-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-139-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "CoreSense™ M10"
+        },
+        {
+          "category": "product_version_range",
+          "name": "<=1.4.1.12"
+        }
+      ],
+      "product_id": "CSAFPID-0003",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-139-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-139-01",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "CoreSense™ M10"
+        },
+        {
+          "category": "product_version",
+          "name": "1.4.1.31"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-139-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-195-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Ability Edgenius"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=3.2.0.0|<3.2.4.1"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-195-02.json"
+    },
+    {
+      "advisory_id": "ICSA-26-195-02",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Ability Edgenius"
+        },
+        {
+          "category": "product_version",
+          "name": "3.2.4.1"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-195-02.json"
+    },
+    {
+      "advisory_id": "ICSA-26-218-01",
+      "path": [
+        {
+          "category": "product_name",
+          "name": "IIoT services with MongoDB"
+        },
+        {
+          "category": "product_version",
+          "name": "4.2"
+        }
+      ],
+      "product_id": "CSAFPID-0002",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-218-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-219-01",
+      "path": [
+        {
+          "category": "specification",
+          "name": "Advisory Circular 90-117 Data Link Communications"
+        },
+        {
+          "category": "product_name",
+          "name": "ATN-B1 CPDLC"
+        },
+        {
+          "category": "product_version_range",
+          "name": "vers:all/*"
+        }
+      ],
+      "product_id": "CSAFPID-0001",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-219-01.json"
+    },
+    {
+      "advisory_id": "ICSA-26-260-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Ability Edgenius"
+        },
+        {
+          "category": "product_version_range",
+          "name": ">=3.2.0.0|<3.2.4.1"
+        }
+      ],
+      "product_id": "CSAFPID-0004",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-260-06.json"
+    },
+    {
+      "advisory_id": "ICSA-26-260-06",
+      "path": [
+        {
+          "category": "vendor",
+          "name": "ABB"
+        },
+        {
+          "category": "product_family",
+          "name": "Ability Edgenius"
+        },
+        {
+          "category": "product_version",
+          "name": "3.2.4.1"
+        }
+      ],
+      "product_id": "CSAFPID-0005",
+      "reason": "ambiguous_or_missing_vendor_product_lineage",
+      "source_path": "csaf_files/OT/white/2026/icsa-26-260-06.json"
+    }
+  ],
+  "source_commit": "020f7c01c13b08df34a9557e734d76ed7943c537"
+}

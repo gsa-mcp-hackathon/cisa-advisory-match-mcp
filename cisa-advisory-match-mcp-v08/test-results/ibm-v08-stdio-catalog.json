@@ -1,0 +1,355 @@
+[
+  {
+    "step": "initialize",
+    "server_info": {
+      "name": "gsa_jc_inventory_advisory",
+      "version": "0.7.0"
+    },
+    "ok": true
+  },
+  {
+    "case": "OT literal \u2014 S7-300 exact phrase",
+    "args": {
+      "product": "S7-300",
+      "scope": "OT",
+      "max_results": 5
+    },
+    "mode": "local_product_catalog_candidates",
+    "candidate_count": 189,
+    "candidates_returned": 5,
+    "candidates_omitted": 184,
+    "scan_truncated": false,
+    "alias_expansion_omitted": 0,
+    "coverage_complete": false,
+    "applicability": "not_assessed",
+    "sample_candidates": [
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-134-06",
+        "manufacturer": "Siemens",
+        "product_family": "SIMATIC S7-300 CPU 314C-2 PN/DP (6ES7314-6EH04-0AB0)",
+        "product_name": "SIMATIC S7-300 CPU 314C-2 PN/DP (6ES7314-6EH04-0AB0)",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "9d7e3a86278978f65757b50f10703cc47fa1893f0f20112da220b7dbd2763bea",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-134-06.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-25-352-05",
+        "manufacturer": "Siemens",
+        "product_family": "SIMATIC S7-300 CPU 314C-2 PN/DP (6ES7314-6EH04-0AB0)",
+        "product_name": "SIMATIC S7-300 CPU 314C-2 PN/DP (6ES7314-6EH04-0AB0)",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "755a742dea3f2599d5fb3d13a5043b30486a93688393207e10ee3aad7e1e26ee",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2025/icsa-25-352-05.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-25-105-03",
+        "manufacturer": "Siemens",
+        "product_family": "SIMATIC S7-300 CPU 314C-2 PN/DP (6ES7314-6EH04-0AB0)",
+        "product_name": "SIMATIC S7-300 CPU 314C-2 PN/DP (6ES7314-6EH04-0AB0)",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "50f6caaf35c74b4a04945b348e8eb20b1afad3c10fb66b1c66696065b52ef2d7",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2025/icsa-25-105-03.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      }
+    ]
+  },
+  {
+    "case": "OT manufacturer scoped \u2014 Siemens S7-1200",
+    "args": {
+      "product": "S7-1200",
+      "manufacturer": "Siemens",
+      "scope": "OT",
+      "max_results": 5
+    },
+    "mode": "local_product_catalog_candidates",
+    "candidate_count": 490,
+    "candidates_returned": 5,
+    "candidates_omitted": 485,
+    "scan_truncated": false,
+    "alias_expansion_omitted": 0,
+    "coverage_complete": false,
+    "applicability": "not_assessed",
+    "sample_candidates": [
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-25-352-05",
+        "manufacturer": "Siemens",
+        "product_family": "SIMATIC S7-1200 CPU 1211C AC/DC/Rly (6ES7211-1BE40-0XB0)",
+        "product_name": "SIMATIC S7-1200 CPU 1211C AC/DC/Rly (6ES7211-1BE40-0XB0)",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "755a742dea3f2599d5fb3d13a5043b30486a93688393207e10ee3aad7e1e26ee",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2025/icsa-25-352-05.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-25-294-03",
+        "manufacturer": "Siemens",
+        "product_family": "SIMATIC S7-1200 CPU V1 family (incl. SIPLUS variants)",
+        "product_name": "SIMATIC S7-1200 CPU V1 family (incl. SIPLUS variants)",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "47bf5ed98e5ecaac1618cddae673d664f359a9c5af948b0c6665c3067f965e9d",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2025/icsa-25-294-03.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-25-259-05",
+        "manufacturer": "Siemens",
+        "product_family": "SIMATIC S7-1200 CPU 1211C AC/DC/Rly (6ES7211-1BE40-0XB0)",
+        "product_name": "SIMATIC S7-1200 CPU 1211C AC/DC/Rly (6ES7211-1BE40-0XB0)",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "bb7b9079e068dc141f015648cfbd386be1164acad37ebabc1fc1dac32f620669",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2025/icsa-25-259-05.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      }
+    ]
+  },
+  {
+    "case": "OT bare product \u2014 SCALANCE",
+    "args": {
+      "product": "SCALANCE",
+      "scope": "OT",
+      "max_results": 5
+    },
+    "mode": "local_product_catalog_candidates",
+    "candidate_count": 4327,
+    "candidates_returned": 5,
+    "candidates_omitted": 4322,
+    "scan_truncated": false,
+    "alias_expansion_omitted": 0,
+    "coverage_complete": false,
+    "applicability": "not_assessed",
+    "sample_candidates": [
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-174-03",
+        "manufacturer": "Siemens",
+        "product_family": "SCALANCE LPE9403 (6GK5998-3GS00-2AC2)",
+        "product_name": "SCALANCE LPE9403 (6GK5998-3GS00-2AC2)",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "9c10472bf8037429597b3d6cc6402daaf351ad7bf5b896e2d54dc3c13c943e39",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-174-03.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-134-06",
+        "manufacturer": "Siemens",
+        "product_family": "SCALANCE M804PB (6GK5804-0AP00-2AA2)",
+        "product_name": "SCALANCE M804PB (6GK5804-0AP00-2AA2) < V8.3",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "9d7e3a86278978f65757b50f10703cc47fa1893f0f20112da220b7dbd2763bea",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-134-06.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-295-17",
+        "manufacturer": "Siemens",
+        "product_family": "SCALANCE LPE9413 (6GK5998-3GS01-2AC2)",
+        "product_name": "SCALANCE LPE9413 (6GK5998-3GS01-2AC2)",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "546b219d78460d23dbe8b6a3b05142519bb128bd31fb13df1715ef388e7be1ba",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-295-17.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      }
+    ]
+  },
+  {
+    "case": "IT product \u2014 Windows 10",
+    "args": {
+      "product": "Windows 10",
+      "scope": "IT",
+      "max_results": 5
+    },
+    "mode": "local_product_catalog_candidates",
+    "candidate_count": 1,
+    "candidates_returned": 1,
+    "candidates_omitted": 0,
+    "scan_truncated": false,
+    "alias_expansion_omitted": 0,
+    "coverage_complete": false,
+    "applicability": "not_assessed",
+    "sample_candidates": [
+      {
+        "scope": "IT",
+        "advisory_id": "VA-25-273-01",
+        "manufacturer": "Microsoft",
+        "product_family": "Windows 10",
+        "product_name": "Microsoft Windows 10 vers:all/*",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "f69b255b8b00ee0ee80dd8e908fd65c787d9b500d7daf539e53ff969746e4e03",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/IT/white/2025/va-25-273-01.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      }
+    ]
+  },
+  {
+    "case": "No-result \u2014 FictionalProduct XYZ-9999",
+    "args": {
+      "product": "FictionalProduct XYZ-9999",
+      "max_results": 5
+    },
+    "mode": "local_product_catalog_candidates",
+    "candidate_count": 0,
+    "candidates_returned": 0,
+    "candidates_omitted": 0,
+    "scan_truncated": false,
+    "alias_expansion_omitted": 0,
+    "coverage_complete": false,
+    "applicability": "not_assessed",
+    "sample_candidates": []
+  },
+  {
+    "case": "OT max_results=5 limit check \u2014 Modicon",
+    "args": {
+      "product": "Modicon",
+      "scope": "OT",
+      "max_results": 5
+    },
+    "mode": "local_product_catalog_candidates",
+    "candidate_count": 251,
+    "candidates_returned": 5,
+    "candidates_omitted": 246,
+    "scan_truncated": false,
+    "alias_expansion_omitted": 0,
+    "coverage_complete": false,
+    "applicability": "not_assessed",
+    "sample_candidates": [
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-260-04",
+        "manufacturer": "Schneider Electric",
+        "product_family": "Modicon M340 Firmware",
+        "product_name": "Modicon M340 Firmware Versions prior to SV3.70",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "b512d8d8be43efe36fded8ee3c0bbb4dee3b0c232e4b60a69929a5aaa8456d27",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-260-04.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-160-01",
+        "manufacturer": "Schneider Electric",
+        "product_family": "Modicon Managed Switches",
+        "product_name": "Modicon Managed Switches All Versions",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "b3e2b62c80d9c613e7e8a5961a3d1739c4ae9cb380aba199a59e13856015adc6",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-160-01.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-078-02",
+        "manufacturer": "Schneider Electric",
+        "product_family": "Modicon Controllers M241",
+        "product_name": "Modicon Controllers M241",
+        "match_basis": "normalized literal phrase",
+        "source_sha256": "c72ab978220fcbfd64399ee28113e664380aca53d6163eea8a75c05b7b097a67",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-078-02.json",
+        "identity_review_required": null,
+        "alias_mappings": null
+      }
+    ]
+  },
+  {
+    "case": "OT documented alias \u2014 Allen-Bradley ControlLogix",
+    "args": {
+      "product": "ControlLogix",
+      "manufacturer": "Allen-Bradley",
+      "scope": "OT",
+      "max_results": 5
+    },
+    "mode": "local_product_catalog_candidates",
+    "candidate_count": 69,
+    "candidates_returned": 5,
+    "candidates_omitted": 64,
+    "scan_truncated": false,
+    "alias_expansion_omitted": 0,
+    "coverage_complete": false,
+    "applicability": "not_assessed",
+    "sample_candidates": [
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-244-05",
+        "manufacturer": "Rockwell Automation",
+        "product_family": "ControlLogix 5580",
+        "product_name": "Rockwell Automation ControlLogix 5580 <34.015",
+        "match_basis": "documented alias phrase",
+        "source_sha256": "6c101b7f065fc1185ee8f4799d4f005c7d4012caaf243526452e682e5eab3eaa",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-244-05.json",
+        "identity_review_required": true,
+        "alias_mappings": [
+          {
+            "id": "candidate-rockwell-allen-bradley",
+            "kind": "manufacturer",
+            "mode": "candidate",
+            "source_urls": [
+              "https://www.rockwellautomation.com/en-us/company/about-us/our-brands.html"
+            ]
+          }
+        ]
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-244-03",
+        "manufacturer": "Rockwell Automation",
+        "product_family": "ControlLogix 5580",
+        "product_name": "Rockwell Automation ControlLogix 5580 <=V33",
+        "match_basis": "documented alias phrase",
+        "source_sha256": "548a72a7533666dd7c0a90c4cdecaf707732efa1a07cf951ce7ca0853273230b",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-244-03.json",
+        "identity_review_required": true,
+        "alias_mappings": [
+          {
+            "id": "candidate-rockwell-allen-bradley",
+            "kind": "manufacturer",
+            "mode": "candidate",
+            "source_urls": [
+              "https://www.rockwellautomation.com/en-us/company/about-us/our-brands.html"
+            ]
+          }
+        ]
+      },
+      {
+        "scope": "OT",
+        "advisory_id": "ICSA-26-211-05",
+        "manufacturer": "Rockwell Automation",
+        "product_family": "ControlLogix 5580",
+        "product_name": "Rockwell Automation ControlLogix 5580: >=V36|<=V37",
+        "match_basis": "documented alias phrase",
+        "source_sha256": "165fa8d5a04cf957d1c4b453f2da9b0ea9d57e71ecc06f34950fce90c7804e61",
+        "source_url": "https://raw.githubusercontent.com/cisagov/CSAF/1cd0e9e91ab4a57d6e3631597fd0c06908b70bb2/csaf_files/OT/white/2026/icsa-26-211-05.json",
+        "identity_review_required": true,
+        "alias_mappings": [
+          {
+            "id": "candidate-rockwell-allen-bradley",
+            "kind": "manufacturer",
+            "mode": "candidate",
+            "source_urls": [
+              "https://www.rockwellautomation.com/en-us/company/about-us/our-brands.html"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

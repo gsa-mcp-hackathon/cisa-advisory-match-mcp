@@ -1,0 +1,4057 @@
+{
+  "schema_version": 1,
+  "version": "2026.11.06.2",
+  "policy": "Only documented direct scoped equivalents may establish name identity. Candidate relations require review. No transitive acquisition chains.",
+  "vendors": [
+    {
+      "id": "vendor-siemens",
+      "names": [
+        "Siemens",
+        "Siemens AG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.siemens.com/en-us/corporate-information/"
+      ],
+      "rationale": "Official corporate page identifies Siemens AG as marketplace operator. Regional subsidiaries are not included. Expanded German legal-name form was removed because it was not reproduced in the root review of the current page.",
+      "source_title": "Siemens corporate information"
+    },
+    {
+      "id": "vendor-schneider",
+      "names": [
+        "Schneider Electric",
+        "Schneider Electric SE"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.se.com/ww/en/about-us/legal/legal-information/"
+      ],
+      "rationale": "Corporate page identifies the legal name Schneider Electric SE; no automatic equivalence to acquired brands.",
+      "source_title": "Schneider Electric legal information"
+    },
+    {
+      "id": "vendor-rockwell",
+      "names": [
+        "Rockwell Automation",
+        "Rockwell Automation, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://literature.rockwellautomation.com/idc/groups/literature/documents/br/5058-br004_-en-p.pdf"
+      ],
+      "rationale": "Official branded brochure uses the corporate and legal names. Allen-Bradley is handled separately as a related brand.",
+      "source_title": "Rockwell Automation Quick Facts"
+    },
+    {
+      "id": "vendor-honeywell",
+      "names": [
+        "Honeywell",
+        "Honeywell International",
+        "Honeywell International Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.honeywell.com/us/en/legal/terms-and-conditions",
+        "https://www.tridium.com/us/en/Learn/about-us/about-tridium"
+      ],
+      "rationale": "The publisher explicitly defines Honeywell as Honeywell International Inc.; this does not equate its subsidiaries or product families.",
+      "source_title": "Honeywell website terms of use"
+    },
+    {
+      "id": "vendor-tridium",
+      "names": [
+        "Tridium",
+        "Tridium Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.tridium.com/us/en/Learn/about-us/about-tridium"
+      ],
+      "rationale": "Tridium corporate page names Tridium Inc.; Honeywell parent relationship is candidate-only.",
+      "source_title": "About Tridium"
+    },
+    {
+      "id": "vendor-trend",
+      "names": [
+        "Trend",
+        "Trend Control Systems",
+        "Trend Control Systems Limited"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/manuals-and-guides/cyber-security-manuals/trends/hon-ba-bms-en-tp201331-uk8pr1224n.pdf?download=false"
+      ],
+      "rationale": "Official Trend product guidance identifies Trend Control Systems Limited. This mapping is only for manufacturer-field use in the ICS context.",
+      "source_title": "Security Best Practice for Trend Products"
+    },
+    {
+      "id": "vendor-abb",
+      "names": [
+        "ABB",
+        "ABB Ltd"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://global.abb/group/en/about/corporate-governance/share-register"
+      ],
+      "rationale": "Corporate page explicitly refers to ABB Ltd as ABB. No equivalence to ABB Power Grids or Hitachi Energy is implied.",
+      "source_title": "ABB share register"
+    },
+    {
+      "id": "vendor-mitsubishi-electric",
+      "names": [
+        "Mitsubishi Electric",
+        "Mitsubishi Electric Corporation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.mitsubishielectric.com/en/about/corporate-data/"
+      ],
+      "rationale": "Official global corporate profile supplies the legal name. The broad name Mitsubishi is intentionally excluded.",
+      "source_title": "Mitsubishi Electric corporate data"
+    },
+    {
+      "id": "vendor-omron",
+      "names": [
+        "Omron",
+        "OMRON Corporation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.omron.com/global/en/about/corporate/outline/"
+      ],
+      "rationale": "Official company profile identifies OMRON Corporation. Subsidiaries are not automatically included.",
+      "source_title": "OMRON basic corporate information"
+    },
+    {
+      "id": "vendor-yokogawa",
+      "names": [
+        "Yokogawa",
+        "Yokogawa Electric Corporation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.yokogawa.com/about/company-overview/general-information/"
+      ],
+      "rationale": "Official corporate data identifies Yokogawa Electric Corporation.",
+      "source_title": "Yokogawa general information"
+    },
+    {
+      "id": "vendor-phoenix-contact",
+      "names": [
+        "Phoenix Contact",
+        "Phoenix Contact GmbH & Co. KG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://update.phoenixcontact.com/en/imprint/"
+      ],
+      "rationale": "Official publisher site notice identifies Phoenix Contact GmbH & Co. KG. Phoenix alone is excluded.",
+      "source_title": "Phoenix Contact site notice"
+    },
+    {
+      "id": "vendor-beckhoff",
+      "names": [
+        "Beckhoff",
+        "Beckhoff Automation",
+        "Beckhoff Automation GmbH & Co. KG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.beckhoff.com/en-en/legal-notice/"
+      ],
+      "rationale": "Official brand website identifies Beckhoff Automation GmbH & Co. KG. Regional LLC is not equated by this record.",
+      "source_title": "Beckhoff worldwide legal notice"
+    },
+    {
+      "id": "vendor-bosch-rexroth",
+      "names": [
+        "Bosch Rexroth",
+        "Bosch Rexroth AG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.boschrexroth.com/en/dc//imprint/"
+      ],
+      "rationale": "Official imprint identifies Bosch Rexroth AG. Bosch alone is not an equivalent manufacturer label.",
+      "source_title": "Bosch Rexroth imprint"
+    },
+    {
+      "id": "vendor-br",
+      "names": [
+        "B&R",
+        "B&R Industrial Automation",
+        "B&R Industrial Automation GmbH"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.br-automation.com/en/about-us/"
+      ],
+      "rationale": "Official about page uses B&R and the complete corporate name for the automation manufacturer. ABB relation is candidate-only.",
+      "source_title": "About B&R"
+    },
+    {
+      "id": "vendor-moxa",
+      "names": [
+        "Moxa",
+        "Moxa Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.moxa.com/en/terms-of-use"
+      ],
+      "rationale": "Official terms identify Moxa Inc. under the Moxa name. Other Moxa affiliates are not individually equated here.",
+      "source_title": "Moxa website terms of use"
+    },
+    {
+      "id": "vendor-advantech",
+      "names": [
+        "Advantech",
+        "Advantech Co., Ltd."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.advantech.com/en-us/about/historyandmilestones"
+      ],
+      "rationale": "Official history identifies Advantech Co., Ltd. as the company name.",
+      "source_title": "Advantech history and milestones"
+    },
+    {
+      "id": "vendor-weidmueller",
+      "names": [
+        "Weidmüller",
+        "Weidmueller",
+        "Weidmüller Interface GmbH & Co. KG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.weidmueller.com/int/other/imprint.jsp"
+      ],
+      "rationale": "Official imprint uses the accented company name and the weidmueller domain/contact spelling. This is an explicit listed spelling mapping, not general transliteration.",
+      "source_title": "Weidmüller imprint"
+    },
+    {
+      "id": "vendor-fatek",
+      "names": [
+        "FATEK",
+        "FATEK Automation",
+        "FATEK Automation Corp.",
+        "FATEK Automation Corporation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.fatek.com/en/about.php"
+      ],
+      "rationale": "Official profile explicitly provides the FATEK brand, abbreviated corporation form, and full corporation form.",
+      "source_title": "About FATEK"
+    },
+    {
+      "id": "vendor-wecon",
+      "names": [
+        "WECON",
+        "Wecon Technology"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.we-con.com.cn/en/"
+      ],
+      "rationale": "Official homepage title and body use Wecon Technology and WECON for the HMI/PLC manufacturer. No guessed legal suffixes are added.",
+      "source_title": "Wecon Technology"
+    },
+    {
+      "id": "vendor-automationdirect",
+      "names": [
+        "AutomationDirect",
+        "AutomationDirect.com",
+        "AutomationDirect.com, Inc.",
+        "Automation Direct"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://cdn.automationdirect.com/static/legal/termsofuse.pdf",
+        "https://about.automationdirect.com/index.html",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-035-01.json",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2022/icsa-22-167-03.json"
+      ],
+      "rationale": "Official terms identify AutomationDirect.com, Inc. as website operator and use AutomationDirect.com for that operator; brand short name is the website brand. CISA uses Automation Direct in the vendor branch while naming AutomationDirect in each advisory title; this documented space variant is explicitly enumerated.",
+      "source_title": "AutomationDirect terms of use"
+    },
+    {
+      "id": "vendor-codesys",
+      "names": [
+        "CODESYS",
+        "CODESYS GmbH",
+        "CODESYS, GmbH"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.codesys.com/company/facts-figures/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2023/icsa-23-236-04.json"
+      ],
+      "rationale": "Official company profile identifies CODESYS GmbH. Mapping is manufacturer-field only; it does not make all embedded CODESYS implementations identical. CISA uses CODESYS, GmbH for the advisory titled CODESYS Development System; that specific comma variant is enumerated rather than globally stripping punctuation.",
+      "source_title": "CODESYS facts and figures"
+    },
+    {
+      "id": "vendor-copadata",
+      "names": [
+        "COPA-DATA",
+        "Ing. Punzenberger COPA-DATA GmbH"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.copadata.com/en/imprint/"
+      ],
+      "rationale": "Headquarters imprint gives the full corporate name for the COPA-DATA publisher.",
+      "source_title": "COPA-DATA imprint"
+    },
+    {
+      "id": "vendor-cognex",
+      "names": [
+        "Cognex",
+        "Cognex Corporation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://investor.cognex.com/home/default.aspx"
+      ],
+      "rationale": "Official corporate overview uses Cognex Corporation and Cognex.",
+      "source_title": "Cognex corporate overview"
+    },
+    {
+      "id": "vendor-prosoft",
+      "names": [
+        "ProSoft Technology",
+        "ProSoft Technology, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.prosoft-technology.com/About-Us/Corporate-Profile"
+      ],
+      "rationale": "Official website title provides the legal name and profile uses ProSoft Technology. Belden relationship is candidate-only.",
+      "source_title": "ProSoft Technology corporate profile"
+    },
+    {
+      "id": "vendor-inductive",
+      "names": [
+        "Inductive Automation",
+        "Inductive Automation, LLC"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://inductiveautomation.com/support/training-services-agreement"
+      ],
+      "rationale": "Official agreement explicitly defines Inductive Automation as Inductive Automation, LLC.",
+      "source_title": "Inductive Automation training services agreement"
+    },
+    {
+      "id": "vendor-sick",
+      "names": [
+        "SICK",
+        "SICK AG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.sick.com/media/docs/2/72/672/technical_information_safers3_profisafe_communication_en_im0101672.pdf"
+      ],
+      "rationale": "Official technical publication identifies SICK AG alongside the SICK brand.",
+      "source_title": "SICK safeRS3 PROFIsafe communication technical information"
+    },
+    {
+      "id": "vendor-lenze",
+      "names": [
+        "Lenze",
+        "Lenze SE"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.lenze.com/en-us/imprint/"
+      ],
+      "rationale": "Official brand site names Lenze SE as service provider.",
+      "source_title": "Lenze imprint"
+    },
+    {
+      "id": "vendor-sprecher",
+      "names": [
+        "Sprecher Automation",
+        "Sprecher Automation GmbH"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.sprecher-automation.com/en/imprint"
+      ],
+      "rationale": "Official imprint identifies Sprecher Automation GmbH.",
+      "source_title": "Sprecher Automation imprint"
+    },
+    {
+      "id": "vendor-turck",
+      "names": [
+        "Turck",
+        "Hans Turck GmbH & Co. KG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.turck.cloud/imprint"
+      ],
+      "rationale": "Official Turck Cloud imprint identifies Hans Turck GmbH & Co. KG as publisher; Turck subsidiaries are not automatically equated.",
+      "source_title": "Turck Cloud Portal legal notice"
+    },
+    {
+      "id": "vendor-sel",
+      "names": [
+        "SEL",
+        "Schweitzer Engineering Laboratories",
+        "Schweitzer Engineering Laboratories, Inc.",
+        "Schweitzer Engineering Laboratories Inc.",
+        "Schweitzer Engineering Laboratories, Inc. (SEL)"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://selinc.com/company/about/",
+        "https://selinc.com/api/download/6605/?lang=en",
+        "https://ecology.wa.gov/getattachment/986fe02f-216a-410b-a22e-4d4a22051322/20250515SELNOCApp.pdf",
+        "https://selinc.com/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2018/icsa-18-191-02.json"
+      ],
+      "rationale": "Official corporate overview explicitly equates Schweitzer Engineering Laboratories Inc. with SEL; the government-hosted company application also supplies the comma legal-name form. Restrict SEL abbreviation to the ICS manufacturer field. CISA explicitly combines the full legal name with (SEL) in the vendor label; the official company website uses the same company name and acronym.",
+      "source_title": "SEL corporate overview and company profile"
+    },
+    {
+      "id": "candidate-rockwell-allen-bradley",
+      "names": [
+        "Rockwell Automation",
+        "Allen-Bradley"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.rockwellautomation.com/en-us/company/about-us/our-brands.html"
+      ],
+      "rationale": "Allen-Bradley is a Rockwell Automation brand. Brand ownership alone does not establish equivalence of any products or installed components.",
+      "source_title": "Rockwell Automation brands"
+    },
+    {
+      "id": "candidate-honeywell-trend",
+      "names": [
+        "Honeywell",
+        "Trend Control Systems Limited"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.honeywell.com/us/en/legal/affiliates"
+      ],
+      "rationale": "Trend Control Systems Limited is listed as an affiliate. Product and component context still require confirmation.",
+      "source_title": "Honeywell affiliates"
+    },
+    {
+      "id": "candidate-honeywell-tridium",
+      "names": [
+        "Honeywell International",
+        "Tridium"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.tridium.com/us/en/Learn/about-us/about-tridium"
+      ],
+      "rationale": "Tridium describes itself as an independent Honeywell business entity. Parent/subsidiary relationship does not establish interchangeable products.",
+      "source_title": "About Tridium"
+    },
+    {
+      "id": "candidate-abb-br",
+      "names": [
+        "ABB",
+        "B&R"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.br-automation.com/en/about-us/"
+      ],
+      "rationale": "B&R describes its role within ABB. These are related manufacturers, not blanket synonyms.",
+      "source_title": "About B&R"
+    },
+    {
+      "id": "candidate-hitachi-powergrids",
+      "names": [
+        "Hitachi Energy",
+        "Hitachi ABB Power Grids",
+        "ABB Power Grids"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.hitachienergy.com/news-and-events/press-releases/2021/07/hitachi-abb-power-grids-is-evolving-to-become-hitachi-energy-and-broadens-commitment-to-a-sustainable-energy-future"
+      ],
+      "rationale": "Historical power-grid business renaming. Does not equate Hitachi Energy with all ABB or Hitachi products; confirm product lineage and advisory date.",
+      "source_title": "Hitachi ABB Power Grids becomes Hitachi Energy"
+    },
+    {
+      "id": "candidate-codesys-3s",
+      "names": [
+        "CODESYS GmbH",
+        "3S-Smart Software Solutions GmbH"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://us.codesys.com/the-company/news-center/latest-news/3s-smart-software-solutions-gmbh-becomes-codesys-gmbh/"
+      ],
+      "rationale": "Official pure name change effective June 19, 2020. Kept candidate-only to preserve historical publisher context and avoid implicit OEM runtime equivalence.",
+      "source_title": "3S-Smart Software Solutions GmbH becomes CODESYS GmbH"
+    },
+    {
+      "id": "candidate-schneider-modicon",
+      "names": [
+        "Schneider Electric",
+        "Modicon"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/us/en/about-us/company-profile/history/schneider-electric-history/"
+      ],
+      "rationale": "Official history identifies Modicon in the brand portfolio/history. Relationship is only a discovery lead; do not treat every Schneider product as this brand.",
+      "source_title": "Schneider Electric brand history"
+    },
+    {
+      "id": "candidate-schneider-foxboro",
+      "names": [
+        "Schneider Electric",
+        "Foxboro"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/us/en/about-us/company-profile/history/schneider-electric-history/"
+      ],
+      "rationale": "Official history identifies Foxboro in the brand portfolio/history. Relationship is only a discovery lead; do not treat every Schneider product as this brand.",
+      "source_title": "Schneider Electric brand history"
+    },
+    {
+      "id": "candidate-schneider-square-d",
+      "names": [
+        "Schneider Electric",
+        "Square D"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/us/en/about-us/company-profile/history/schneider-electric-history/"
+      ],
+      "rationale": "Official history identifies Square D in the brand portfolio/history. Relationship is only a discovery lead; do not treat every Schneider product as this brand.",
+      "source_title": "Schneider Electric brand history"
+    },
+    {
+      "id": "candidate-schneider-telemecanique",
+      "names": [
+        "Schneider Electric",
+        "Telemecanique"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/us/en/about-us/company-profile/history/schneider-electric-history/"
+      ],
+      "rationale": "Official history identifies Telemecanique in the brand portfolio/history. Relationship is only a discovery lead; do not treat every Schneider product as this brand.",
+      "source_title": "Schneider Electric brand history"
+    },
+    {
+      "id": "candidate-schneider-merlin-gerin",
+      "names": [
+        "Schneider Electric",
+        "Merlin Gerin"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/us/en/about-us/company-profile/history/schneider-electric-history/"
+      ],
+      "rationale": "Official history identifies Merlin Gerin in the brand portfolio/history. Relationship is only a discovery lead; do not treat every Schneider product as this brand.",
+      "source_title": "Schneider Electric brand history"
+    },
+    {
+      "id": "candidate-aveva-wonderware",
+      "names": [
+        "AVEVA",
+        "Wonderware"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/datasheets/Datasheet_SystemPlatform.pdf"
+      ],
+      "rationale": "AVEVA System Platform is described as formerly Wonderware. This supports a portfolio/history lead, not equivalence across all AVEVA and Wonderware products.",
+      "source_title": "AVEVA System Platform datasheet"
+    },
+    {
+      "id": "candidate-ptc-kepware",
+      "names": [
+        "PTC",
+        "Kepware"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.ptc.com/en/news/2026/ptc-completes-divestiture-of-kepware-and-thingworx-businesses"
+      ],
+      "rationale": "Historical parent relationship; PTC announced completed divestiture on March 16, 2026. Use for older advisories only as a lead, never current ownership/equivalence.",
+      "source_title": "PTC completes divestiture of Kepware and ThingWorx"
+    },
+    {
+      "id": "candidate-velotic-kepware",
+      "names": [
+        "Velotic",
+        "Kepware"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.ptc.com/en/products/kepware"
+      ],
+      "rationale": "Current PTC product page states Kepware is part of Velotic. Related company/portfolio lead only.",
+      "source_title": "Kepware industrial connectivity solutions"
+    },
+    {
+      "id": "candidate-belden-prosoft",
+      "names": [
+        "Belden",
+        "ProSoft Technology"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.prosoft-technology.com/About-Us"
+      ],
+      "rationale": "ProSoft identifies itself as a Belden brand. Belden also has other brands; product identity requires confirmation.",
+      "source_title": "About ProSoft Technology"
+    },
+    {
+      "id": "candidate-hms-ewon",
+      "names": [
+        "HMS Networks",
+        "Ewon"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.hms-networks.com/about-hms/organization"
+      ],
+      "rationale": "HMS organization page identifies Ewon as a product brand. Related-brand discovery only; no sibling brands or product lines are declared equivalent.",
+      "source_title": "HMS organization"
+    },
+    {
+      "id": "candidate-hms-ixxat",
+      "names": [
+        "HMS Networks",
+        "Ixxat"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.hms-networks.com/about-hms/organization"
+      ],
+      "rationale": "HMS organization page identifies Ixxat as a product brand. Related-brand discovery only; no sibling brands or product lines are declared equivalent.",
+      "source_title": "HMS organization"
+    },
+    {
+      "id": "candidate-hms-intesis",
+      "names": [
+        "HMS Networks",
+        "Intesis"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.hms-networks.com/about-hms/organization"
+      ],
+      "rationale": "HMS organization page identifies Intesis as a product brand. Related-brand discovery only; no sibling brands or product lines are declared equivalent.",
+      "source_title": "HMS organization"
+    },
+    {
+      "id": "candidate-hms-anybus",
+      "names": [
+        "HMS Networks",
+        "Anybus"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.hms-networks.com/about-hms/organization"
+      ],
+      "rationale": "HMS organization page identifies Anybus as a product brand. Related-brand discovery only; no sibling brands or product lines are declared equivalent.",
+      "source_title": "HMS organization"
+    },
+    {
+      "id": "candidate-hms-red-lion",
+      "names": [
+        "HMS Networks",
+        "Red Lion"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.hms-networks.com/about-hms/organization"
+      ],
+      "rationale": "HMS organization page identifies Red Lion as a product brand. Related-brand discovery only; no sibling brands or product lines are declared equivalent.",
+      "source_title": "HMS organization"
+    },
+    {
+      "id": "candidate-hms-n-tron",
+      "names": [
+        "HMS Networks",
+        "N-Tron"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.hms-networks.com/about-hms/organization"
+      ],
+      "rationale": "HMS organization page identifies N-Tron as a product brand. Related-brand discovery only; no sibling brands or product lines are declared equivalent.",
+      "source_title": "HMS organization"
+    },
+    {
+      "id": "candidate-automationdirect-plcdirect",
+      "names": [
+        "AutomationDirect",
+        "PLCDirect"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://about.automationdirect.com/index.html",
+        "https://about.automationdirect.com/who-we-are.html"
+      ],
+      "rationale": "Official company history says AutomationDirect.com was originally founded as PLCDirect in 1994. Historical vendor-name discovery lead; do not conflate product families sold by the distributor.",
+      "source_title": "AutomationDirect company history"
+    },
+    {
+      "id": "vendor-wago",
+      "names": [
+        "WAGO",
+        "WAGO GmbH & Co. KG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://techdocs.wago.com/Software/Navigator/en-US/2023489291.html"
+      ],
+      "source_title": "WAGO Navigator legal information",
+      "rationale": "The official WAGO product documentation identifies its publisher as WAGO GmbH & Co. KG. No regional subsidiary or historical corporate name is included."
+    },
+    {
+      "id": "vendor-pilz",
+      "names": [
+        "Pilz",
+        "Pilz GmbH & Co. KG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.pilz.com/download/open/WPaper_Industrial_Security_1007129-ES-02.pdf"
+      ],
+      "source_title": "Pilz Industrial Security whitepaper",
+      "rationale": "The official industrial-security publication identifies Pilz GmbH & Co. KG as its publisher and describes Pilz products. Only the brand and its documented full company name are equated."
+    },
+    {
+      "id": "vendor-weintek",
+      "names": [
+        "Weintek",
+        "Weintek Labs., Inc"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.weintek.com/About/ContactUs",
+        "https://www.weintek.com/About/AboutUs"
+      ],
+      "source_title": "Weintek about and headquarters contact",
+      "rationale": "The manufacturer contact page identifies Weintek Labs., Inc as its international headquarters. Weintek USA., Inc is a separate listed entity and is not included."
+    },
+    {
+      "id": "vendor-unitronics",
+      "names": [
+        "Unitronics",
+        "Unitronics (1989) (RG) Ltd.",
+        "Unitronics (R”G) (1989) Ltd."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.unitronicsplc.com/Download/unitronics_shared/Unitronics_Financial_Statements_Q3_2025.pdf",
+        "https://www.unitronicsplc.com/software-license-agreement/"
+      ],
+      "source_title": "Unitronics company report and software license",
+      "rationale": "Both company report and software license explicitly define the full company name as Unitronics. The two documented ordering/typography variants are retained literally."
+    },
+    {
+      "id": "vendor-horner-apg",
+      "names": [
+        "Horner APG",
+        "Horner APG, LLC",
+        "Horner APG LLC.",
+        "HE-APG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://hornerautomation.com/terms-conditions/",
+        "https://hornerautomation.com/certifications/",
+        "https://hornerautomation.com/warranty-policy/"
+      ],
+      "source_title": "Horner APG terms, certifications and warranty",
+      "rationale": "Official pages use the listed corporate forms and expressly define HE-APG. Horner Automation is separately a division relationship, not silently collapsed into this record."
+    },
+    {
+      "id": "vendor-horner-automation",
+      "names": [
+        "Horner Automation",
+        "Horner Automation Group"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://hornerautomation.com/about-us/",
+        "https://hornerautomation.com/wp-content/uploads/2026/02/HA-420_04_EN_CE_CVS_USA.pdf"
+      ],
+      "source_title": "Horner Automation about and declaration support information",
+      "rationale": "The official about page calls the organization Horner Automation and refers to its group; the declaration labels the same automation organization Horner Automation Group. Parent and sibling Horner businesses are excluded."
+    },
+    {
+      "id": "candidate-horner-apg-automation",
+      "names": [
+        "Horner APG",
+        "Horner Automation"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://hornerautomation.com/about-us/"
+      ],
+      "source_title": "Horner APG group structure",
+      "rationale": "Horner Automation is one of the organizations within Horner APG. A divisional relationship is a review clue, not global manufacturer identity."
+    },
+    {
+      "id": "vendor-idec",
+      "names": [
+        "IDEC",
+        "IDEC Corporation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.idec.com/en/company/profile"
+      ],
+      "source_title": "IDEC corporate profile",
+      "rationale": "Official IDEC company profile supplies IDEC Corporation as the company name. Named regional subsidiaries and the broad former Izumi name are excluded."
+    },
+    {
+      "id": "vendor-softing-industrial",
+      "names": [
+        "Softing Industrial",
+        "Softing Industrial Automation GmbH"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://industrial.softing.com/about-industrial/contact.html",
+        "https://industrial.softing.com/us/company-details.html"
+      ],
+      "source_title": "Softing Industrial contact and company details",
+      "rationale": "The official industrial website identifies its operator as Softing Industrial Automation GmbH. Other Softing companies remain distinct."
+    },
+    {
+      "id": "candidate-softing-parent-industrial",
+      "names": [
+        "Softing",
+        "Softing Industrial Automation GmbH"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://industrial.softing.com/us/imprint.html",
+        "https://industrial.softing.com/newsletter/imprint.html"
+      ],
+      "source_title": "Softing parent and industrial imprint",
+      "rationale": "The imprint distinguishes Softing AG from Softing Industrial Automation GmbH. The short umbrella name is retained only as a review candidate for the industrial company."
+    },
+    {
+      "id": "vendor-secomea",
+      "names": [
+        "Secomea",
+        "Secomea A/S"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://secomea.com/contact/"
+      ],
+      "source_title": "Secomea headquarters contact",
+      "rationale": "The official contact page identifies Secomea A/S as headquarters. Its separately listed North American entity is excluded."
+    },
+    {
+      "id": "vendor-ls-electric",
+      "names": [
+        "LS ELECTRIC",
+        "LS ELECTRIC Co., Ltd",
+        "LS ELECTRIC Co., Ltd."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://org.ls-electric.com/about-us/company",
+        "https://www.ls-electric.com/ko/company/data/2024_2025_LSELECTRIC_CSR_Report.pdf"
+      ],
+      "source_title": "LS ELECTRIC company profile",
+      "rationale": "Official company pages and annual corporate profile give the name LS ELECTRIC Co., Ltd with and without the final period. Historical LG and LSIS names are not inferred."
+    },
+    {
+      "id": "vendor-delta-electronics",
+      "names": [
+        "Delta Electronics",
+        "Delta Electronics, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://industrialautomation.delta-emea.com/downloads/DELTA_IA-ASD_ASDA-Soft_UM_EN_20140710.pdf.pdf"
+      ],
+      "source_title": "Delta ASDA-Soft user guide manufacturer details",
+      "rationale": "The official industrial-automation manual identifies the headquarters as Delta Electronics, Inc. Delta Controls, Delta Products Corporation and regional subsidiaries are not treated as equivalent."
+    },
+    {
+      "id": "vendor-iconics",
+      "names": [
+        "ICONICS",
+        "ICONICS, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://iconics.com/Production/media/News-and-Events/Press%20Releases/2019/PR_Mitsubishi_Partnership_2019_FINAL.pdf",
+        "https://iconics.com/pl-pl/news/press-releases/2021/iconics-appoints-ted-hill-as-new-ceo"
+      ],
+      "source_title": "ICONICS official company announcements",
+      "rationale": "Official announcements use ICONICS and ICONICS, Inc. for the same software company. Mitsubishi Electric parent and later MEIDS name are handled separately."
+    },
+    {
+      "id": "vendor-meids",
+      "names": [
+        "Mitsubishi Electric Iconics Digital Solutions",
+        "MEIDS"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://iconics.com/about"
+      ],
+      "source_title": "About Mitsubishi Electric Iconics Digital Solutions",
+      "rationale": "The current company about page explicitly supplies MEIDS as the abbreviation of Mitsubishi Electric Iconics Digital Solutions; it does not stand for the Mitsubishi Electric parent."
+    },
+    {
+      "id": "candidate-iconics-meids",
+      "names": [
+        "ICONICS",
+        "Mitsubishi Electric Iconics Digital Solutions"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://iconics.com/news/press-releases/2025/strength-in-evolution-iconics-becomes-meids"
+      ],
+      "source_title": "ICONICS official name change announcement",
+      "rationale": "Official announcement reports the 2025 ICONICS name change to Mitsubishi Electric Iconics Digital Solutions. Historical-to-current vendor names remain review-only so product and advisory timeframe can be confirmed."
+    },
+    {
+      "id": "vendor-real-time-automation",
+      "names": [
+        "Real Time Automation",
+        "Real Time Automation, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.rtautomation.com/contact/",
+        "https://www.rtautomation.com/careers/"
+      ],
+      "source_title": "Real Time Automation company contact and careers",
+      "rationale": "Official company pages use the abbreviated company name and legal form. The very short RTA acronym is excluded because broader manufacturer contexts are ambiguous."
+    },
+    {
+      "id": "vendor-eaton",
+      "names": [
+        "Eaton",
+        "Eaton Corporation plc"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.eaton.com/us/en-us/company/news-insights/media-resources.html"
+      ],
+      "source_title": "Eaton media resources corporate naming guidance",
+      "rationale": "Official guidance identifies Eaton Corporation plc as the legal name of the business. The older Eaton Corporation and acquired brands are not made equivalent automatically."
+    },
+    {
+      "id": "vendor-johnson-controls-inc",
+      "names": [
+        "Johnson Controls",
+        "Johnson Controls Inc.",
+        "Johnson Controls Inc",
+        "Johnson Controls, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.johnsoncontrols.com/building-insights/2021/history/this-month-in-history-october-2021",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2023/icsa-23-138-04.json",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-070-05.json",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2026/icsa-26-057-01.json"
+      ],
+      "source_title": "Johnson Controls corporate naming and original CISA vendor labels",
+      "rationale": "The company history identifies Johnson Controls, Inc.; original CISA records pair Johnson Controls advisory titles with these punctuation variants of the manufacturer name. No Sensormatic, Exacq, Tyco, York, or composite vendor strings are silently merged."
+    },
+    {
+      "id": "candidate-johnson-controls-international",
+      "names": [
+        "Johnson Controls",
+        "Johnson Controls International plc"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://investors.johnsoncontrols.com/~/media/Files/J/Johnson-Controls-IR/annual-meeting-materials/fy17-jci-plc-irish-f-s.pdf"
+      ],
+      "source_title": "Johnson Controls merger and legal-entity report",
+      "rationale": "The annual report distinguishes the US Johnson Controls Inc. from the resulting Irish plc. This corporate relation requires review of the original product and timeframe."
+    },
+    {
+      "id": "vendor-emerson",
+      "names": [
+        "Emerson",
+        "Emerson Electric Co."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.emerson.com/en/corporate/imprint",
+        "https://www.emerson.com/en/corporate/terms-of-use"
+      ],
+      "source_title": "Emerson imprint and terms",
+      "rationale": "The official site operator is Emerson Electric Co.; the terms use Emerson as its short name. Distinct acquired product companies and regional entities are excluded."
+    },
+    {
+      "id": "vendor-hms-networks",
+      "names": [
+        "HMS Networks",
+        "HMS Networks AB (publ)"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.hms-networks.com/news",
+        "https://www.hms-networks.com/"
+      ],
+      "source_title": "HMS Networks official corporate news",
+      "rationale": "Corporate news uses HMS Networks AB (publ) for the named group; the official site uses HMS Networks. HMS Industrial Networks and brands are not automatically made the same entity."
+    },
+    {
+      "id": "vendor-belden",
+      "names": [
+        "Belden",
+        "Belden Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://investor.belden.com/overview/"
+      ],
+      "source_title": "Belden investor corporate overview",
+      "rationale": "The official investor page is titled Belden Inc. and identifies Belden in its overview. Subsidiary brands remain separate."
+    },
+    {
+      "id": "vendor-invt",
+      "names": [
+        "INVT",
+        "Shenzhen INVT Electric Co., Ltd."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.invt.com/contact-us",
+        "https://www.invt.com/uploads/file1/20260320/INVT_Network_Power_Product_Catalogue_2026_EN.pdf"
+      ],
+      "source_title": "INVT contact and corporate brief",
+      "rationale": "Official corporate brief explicitly defines INVT as Shenzhen INVT Electric Co., Ltd.; the contact page identifies that headquarters."
+    },
+    {
+      "id": "vendor-inovance",
+      "names": [
+        "Inovance",
+        "Shenzhen Inovance Technology Co., Ltd",
+        "Shenzhen Inovance Technology Co., Ltd.",
+        "深圳市汇川技术股份有限公司"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.inovance.com/portal/investor",
+        "https://portal-file.inovance.com/owfile/ProdDoc/CY/19120152-CY/A01/19120152-CY_A01%E3%80%8AExpansion%20Module%20and%20HMI%E3%80%8B-EN-202221116_Web.pdf?response-content-disposition=attachment"
+      ],
+      "source_title": "Inovance investor corporate names and official HMI brochure",
+      "rationale": "The investor page gives the Chinese company name, English full name and English short name Inovance. The brochure supplies the final-period legal-name variant. The separate Inovance Control Technology subsidiary is excluded."
+    },
+    {
+      "id": "candidate-inovance-control",
+      "names": [
+        "Inovance",
+        "Shenzhen Inovance Control Technology Co., Ltd."
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://portal-file.inovance.com/owfile/ProdDoc/CY/19120152-CY/A01/19120152-CY_A01%E3%80%8AExpansion%20Module%20and%20HMI%E3%80%8B-EN-202221116_Web.pdf?response-content-disposition=attachment"
+      ],
+      "source_title": "Inovance controller subsidiary in official brochure",
+      "rationale": "Official brochure identifies Shenzhen Inovance Control Technology Co., Ltd. as a company controlled by Shenzhen Inovance Technology. Product identity still needs review across this parent/subsidiary relation."
+    },
+    {
+      "id": "vendor-fanuc",
+      "names": [
+        "FANUC",
+        "FANUC CORPORATION"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.fanuc.co.jp/en/profile/booklet/pdf/corporateprofile202603_e.pdf"
+      ],
+      "source_title": "FANUC corporate profile",
+      "rationale": "Official FANUC profile gives FANUC CORPORATION as the company name. FANUC America and other regional entities are excluded."
+    },
+    {
+      "id": "vendor-triangle-microworks",
+      "names": [
+        "Triangle MicroWorks",
+        "Triangle MicroWorks, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.trianglemicroworks.com/contact-us"
+      ],
+      "source_title": "Triangle MicroWorks company contact",
+      "rationale": "Official contact page and footer identify Triangle MicroWorks, Inc. The broad TMW acronym is excluded."
+    },
+    {
+      "id": "vendor-sielco-sistemi",
+      "names": [
+        "Sielco Sistemi",
+        "SIELCO SISTEMI srl"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.sielcosistemi.com/en/privacy-policy"
+      ],
+      "source_title": "Sielco Sistemi site operator",
+      "rationale": "Official site identifies SIELCO SISTEMI srl as owner. Sielco alone is not equated because it could denote a different company."
+    },
+    {
+      "id": "vendor-wellintech",
+      "names": [
+        "WellinTech",
+        "WellinTech Co.,Ltd."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.wellintech.com/uploads/attatchments/KingView-2023.pdf",
+        "https://www.wellintech.com/uploads/attatchments/KingIOServer-2023.pdf"
+      ],
+      "source_title": "WellinTech official product brochures",
+      "rationale": "Both manufacturer brochures give WellinTech Co.,Ltd. as publisher and WellinTech as brand. Product-appended strings such as WellinTech KingSCADA are not vendor aliases."
+    },
+    {
+      "id": "vendor-wibu-systems",
+      "names": [
+        "Wibu-Systems",
+        "WIBU-SYSTEMS AG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://cdn.wibu.com/fileadmin/wibu_downloads/KEYnote_Magazine/KEYnote_41/EN-KEYnote41-WIBU.pdf"
+      ],
+      "source_title": "Wibu-Systems KEYnote publisher imprint",
+      "rationale": "Official company publication uses Wibu-Systems in its company text and WIBU-SYSTEMS AG in its publisher imprint. CodeMeter is a product, not a vendor alias."
+    },
+    {
+      "id": "vendor-opto22",
+      "names": [
+        "Opto 22",
+        "Opto 22, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://documents.opto22.com/1563_E1_E2_Users_Guide.pdf"
+      ],
+      "source_title": "Opto 22 embedded software license in product guide",
+      "rationale": "The official product guide expressly defines Opto 22, Inc. as Opto 22."
+    },
+    {
+      "id": "vendor-fuji-electric",
+      "names": [
+        "Fuji Electric",
+        "Fuji Electric Co., Ltd."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.fujielectric.com/common-resource-gl/ir/data/corporategovernance.pdf"
+      ],
+      "source_title": "Fuji Electric corporate governance report",
+      "rationale": "Official corporate report identifies Fuji Electric Co., Ltd. and uses Fuji Electric as short name. Fuji Electric Engineering & Construction and other subsidiaries are excluded."
+    },
+    {
+      "id": "vendor-festo",
+      "names": [
+        "Festo",
+        "Festo SE & Co. KG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.festo.com/spc/EN_US/data/SPC/0/PDF_SAFE/FittingAids.pdf"
+      ],
+      "source_title": "Festo tools and repair accessories imprint",
+      "rationale": "The official Festo publication identifies Festo SE & Co. KG as its publisher. Regional sales entities and older legal forms are not inferred."
+    },
+    {
+      "id": "vendor-pepperl-fuchs",
+      "names": [
+        "Pepperl+Fuchs",
+        "Pepperl+Fuchs SE"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://files.pepperl-fuchs.com/webcat/navi/productInfo/doc/tdoc6068__eng.pdf?v=20240209102746",
+        "https://files.pepperl-fuchs.com/webcat/navi/productInfo/cert/cert0855s.pdf"
+      ],
+      "source_title": "Pepperl+Fuchs conformity declaration and manufacturer certificate",
+      "rationale": "The official declaration uses the brand and Pepperl+Fuchs SE legal form; the certificate distinguishes separate regional entities, which are excluded."
+    },
+    {
+      "id": "vendor-westermo",
+      "names": [
+        "Westermo",
+        "Westermo Network Technologies AB"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.westermo.com/legal-notice"
+      ],
+      "source_title": "Westermo legal notice",
+      "rationale": "Official Westermo website names its owner Westermo Network Technologies AB. Westermo Data Communications AB and Ependion are not treated as equivalent."
+    },
+    {
+      "id": "vendor-subnet-solutions",
+      "names": [
+        "SUBNET Solutions",
+        "SUBNET Solutions Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://subnet.com/about/"
+      ],
+      "source_title": "SUBNET Solutions corporate overview",
+      "rationale": "Official company overview uses SUBNET Solutions and SUBNET Solutions Inc. Distinct LLC and regional subsidiaries are excluded."
+    },
+    {
+      "id": "vendor-lantronix",
+      "names": [
+        "Lantronix",
+        "Lantronix Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.lantronix.com/about-us/"
+      ],
+      "source_title": "Lantronix company overview",
+      "rationale": "Official about page identifies Lantronix Inc. and uses Lantronix as short name."
+    },
+    {
+      "id": "vendor-national-instruments",
+      "names": [
+        "National Instruments",
+        "National Instruments Corporation",
+        "NI"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.ni.com/en/about-ni/legal/imprint.html/",
+        "https://www.ni.com/content/dam/web/pdfs/WW_Procurement_Terms_and_Conditions_2020Nov_en.pdf"
+      ],
+      "source_title": "National Instruments imprint and official abbreviation",
+      "rationale": "Official imprint identifies National Instruments Corporation and National Instruments; official procurement terms explicitly define NI. This is a manufacturer-field alias and does not equate the Emerson parent or all NI-named third-party products."
+    },
+    {
+      "id": "vendor-myscada",
+      "names": [
+        "mySCADA",
+        "mySCADA Technologies",
+        "mySCADA Technologies s.r.o."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.myscada.org/wp-content/uploads/downloads/other/mySCADA_product_guide_EN_web.pdf",
+        "https://www.myscada.org/wp-content/uploads/downloads/myCMS/myCMS_quick_guide_EN_web.pdf"
+      ],
+      "source_title": "mySCADA company and product guides",
+      "rationale": "Official product guide identifies mySCADA Technologies; the warranty names mySCADA Technologies s.r.o. The short company brand mySCADA is used on the same official site and product guides."
+    },
+    {
+      "id": "vendor-general-electric",
+      "names": [
+        "GE",
+        "General Electric",
+        "General Electric Company",
+        "General Electric (GE)"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.ge.com/sites/default/files/ge_10k_02022024.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-266-02.json"
+      ],
+      "source_title": "GE annual report and original CISA manufacturer label",
+      "rationale": "The annual report explicitly defines GE and General Electric as names for General Electric Company; CISA uses the combined General Electric (GE) label. This does not equate GE Digital, GE Healthcare, GE Vernova, Emerson or acquired/divested businesses."
+    },
+    {
+      "id": "vendor-osisoft",
+      "names": [
+        "OSIsoft",
+        "OSIsoft LLC",
+        "OSIsoft, LLC"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/legal/policies/osisoft/Corporate%20Family%20Software%20License%20and%20Services%20Agreement.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-163-01.json"
+      ],
+      "source_title": "OSIsoft published contract form and CISA vendor spelling",
+      "rationale": "The official published software agreement identifies OSIsoft, LLC; CISA pairs OSIsoft product titles with vendor OSIsoft LLC. The AVEVA owner and PI product names are not vendor aliases."
+    },
+    {
+      "id": "vendor-hitachi-energy",
+      "names": [
+        "Hitachi Energy",
+        "Hitachi Energy Ltd"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.hitachienergy.com/privacy/privacy-notices",
+        "https://www.hitachienergy.com/us/en/privacy/privacy-notices/privacy-notice-mobile01-en"
+      ],
+      "source_title": "Hitachi Energy company identity",
+      "rationale": "Official notices identify Hitachi Energy Ltd and use Hitachi Energy as short form. Historical ABB Power Grids relations remain in the existing review-only group."
+    },
+    {
+      "id": "vendor-ecava",
+      "names": [
+        "Ecava",
+        "Ecava Sdn Bhd"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.integraxor.com/terms-of-use/"
+      ],
+      "source_title": "Ecava IntegraXor website terms",
+      "rationale": "The official IntegraXor website expressly identifies its operator Ecava Sdn Bhd as Ecava. IntegraXor and IGX remain product names."
+    },
+    {
+      "id": "vendor-azeotech",
+      "names": [
+        "AzeoTech",
+        "AzeoTech, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.azeotech.com/about/contact-us.html",
+        "https://www.azeotech.com/about.html"
+      ],
+      "source_title": "AzeoTech company contact and trademark notice",
+      "rationale": "Official contact and about pages use AzeoTech, Inc. and AzeoTech. DAQFactory remains a product name."
+    },
+    {
+      "id": "candidate-schneider-software",
+      "names": [
+        "Schneider Electric",
+        "Schneider Electric Software, LLC"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/en/support-and-success/cyber-security-updates/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-315-03.json"
+      ],
+      "source_title": "Schneider software security bulletins and CISA label",
+      "rationale": "Official software bulletins shorten Schneider Electric Software, LLC to Schneider Electric, and CISA uses the full software entity for several products. Because the broad parent name covers other entities, this relationship remains review-only."
+    },
+    {
+      "id": "candidate-aveva-software",
+      "names": [
+        "AVEVA",
+        "AVEVA Software, LLC",
+        "AVEVA Software, LLC."
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2022-005.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-254-01.json"
+      ],
+      "source_title": "AVEVA software security bulletin and CISA label",
+      "rationale": "Official security bulletin defines AVEVA Software, LLC. as AVEVA; CISA uses the full entity without the final period. This group remains review-only because the broad AVEVA name also covers other legal entities."
+    },
+    {
+      "id": "candidate-rockwell-short",
+      "names": [
+        "Rockwell",
+        "Rockwell Automation"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2015/icsa-15-300-03a.json",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2025/icsa-25-226-24.json"
+      ],
+      "source_title": "CISA Rockwell short manufacturer labels",
+      "rationale": "CISA sometimes labels the ICS vendor Rockwell while titling the advisory Rockwell Automation. Rockwell alone is retained only for review because it is a broader historically shared name."
+    },
+    {
+      "id": "vendor-ptc",
+      "names": [
+        "PTC",
+        "PTC Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.ptc.com/en/about/facts/ptc",
+        "https://www.ptc.com/en/documents/legal-agreements/data-processing-terms-and-conditions/sub-processors"
+      ],
+      "source_title": "PTC official corporate facts and legal company list",
+      "rationale": "The official corporate facts page identifies PTC Inc. as the official company name and PTC as its short name. Kepware, Velotic and regional affiliates remain separate."
+    },
+    {
+      "id": "vendor-sierra-wireless",
+      "names": [
+        "Sierra Wireless",
+        "Sierra Wireless, Inc."
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.sierrawireless.com/wp-content/uploads/2022/01/2018-Annual-Information-Form-and-40F.pdf"
+      ],
+      "source_title": "Sierra Wireless annual company report",
+      "rationale": "The manufacturer report identifies Sierra Wireless, Inc. and uses Sierra Wireless as its short name. Later ownership and product transfers are not equated."
+    },
+    {
+      "id": "vendor-invensys",
+      "names": [
+        "Invensys",
+        "Invensys plc"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.se.com/ww/en/assets/564/document/27963/20140117-PR-Invensys-Closing-EN.pdf?p_File_Name=Schneider+Electric+completes+the+acquisition+of+Invensys+and+creates+a+unique+player+in+Industry+Automation&p_enDocType=Regulatory+information"
+      ],
+      "source_title": "Schneider announcement identifies Invensys company",
+      "rationale": "The official acquisition announcement uses Invensys and Invensys plc for the acquired company. Schneider Electric relationship is a separate review candidate."
+    },
+    {
+      "id": "candidate-schneider-invensys",
+      "names": [
+        "Schneider Electric",
+        "Invensys"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/ww/en/assets/564/document/27963/20140117-PR-Invensys-Closing-EN.pdf?p_File_Name=Schneider+Electric+completes+the+acquisition+of+Invensys+and+creates+a+unique+player+in+Industry+Automation&p_enDocType=Regulatory+information"
+      ],
+      "source_title": "Schneider completed acquisition of Invensys",
+      "rationale": "Acquisition completion is documented in the manufacturer announcement. Ownership does not establish product identity or version continuity; relationship is review-only."
+    },
+    {
+      "id": "candidate-aveva-osisoft",
+      "names": [
+        "AVEVA",
+        "OSIsoft"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/about/investors/2022_aveva_integrated_annual_report.pdf.coredownload.pdf"
+      ],
+      "source_title": "AVEVA report on OSIsoft acquisition",
+      "rationale": "AVEVA documents its acquisition of OSIsoft. The relation is review-only and cannot establish a product alias or propagate through Wonderware or other owned businesses."
+    },
+    {
+      "id": "vendor-innominate",
+      "names": [
+        "Innominate",
+        "Innominate Security Technologies AG"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://blog.phoenixcontact.com/marketing-sea/technology-day-2015-6-aug-15/"
+      ],
+      "source_title": "Phoenix Contact presentation identifies Innominate company",
+      "rationale": "Official Phoenix Contact event page names Innominate Security Technologies AG and later refers to the same developer as Innominate. Composite CISA vendor fields remain unmodified."
+    },
+    {
+      "id": "candidate-phoenix-innominate",
+      "names": [
+        "Phoenix Contact",
+        "Innominate"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://blog.phoenixcontact.com/marketing-sea/technology-day-2015-6-aug-15/"
+      ],
+      "source_title": "Phoenix Contact identifies Innominate affiliate",
+      "rationale": "The manufacturer describes Innominate as a fully owned affiliate whose mGuard products are available through Phoenix Contact. This relationship only offers a review clue."
+    }
+  ],
+  "products": [
+    {
+      "id": "p-schneider-control-expert-history",
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "names": [
+        "EcoStruxure Control Expert",
+        "Unity Pro"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/us/en/download/document/Unity_OPC_software/"
+      ],
+      "source_title": "Unity Pro and OPC Software Product Catalog",
+      "rationale": "Documented former name. Release-era and edition context must be checked before transferring an affected range."
+    },
+    {
+      "id": "p-schneider-machine-expert-history",
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "names": [
+        "EcoStruxure Machine Expert",
+        "SoMachine",
+        "SoMachine Motion"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/my/en/product-range/2226-ecostruxure-machine-expert/"
+      ],
+      "source_title": "EcoStruxure Machine Expert",
+      "rationale": "The new product consolidates two former software ranges. The older ranges are not interchangeable; identify release and component."
+    },
+    {
+      "id": "p-schneider-machine-expert-basic-history",
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "names": [
+        "EcoStruxure Machine Expert Basic",
+        "EcoStruxure Machine Expert - Basic",
+        "SoMachine Basic"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/ca/en/faqs/FA404219/",
+        "https://www.se.com/us/en/product-range/2226-ecostruxure-machine-expert-software/"
+      ],
+      "source_title": "Programming software for TM221 processors",
+      "rationale": "Documented successor to SoMachine Basic 1.6 SP2. This is distinct from the full Machine Expert product."
+    },
+    {
+      "id": "p-schneider-geo-scada-history",
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "names": [
+        "EcoStruxure Geo SCADA Expert",
+        "Geo SCADA Expert",
+        "ClearSCADA"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/us/en/product-range/61264-ecostruxure-geo-scada-expert/"
+      ],
+      "source_title": "EcoStruxure Geo SCADA Expert",
+      "rationale": "ClearSCADA is a documented former name. A historical-name match needs installed release and component confirmation."
+    },
+    {
+      "id": "p-schneider-pme",
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "names": [
+        "Power Monitoring Expert",
+        "EcoStruxure Power Monitoring Expert",
+        "PME",
+        "EcoStruxure PME",
+        "EcoStruxure Power Monitoring Expert (PME)"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.se.com/us/en/download/document/7EN02-0445/",
+        "https://www.se.com/us/en/faqs/FA363331/",
+        "https://productinfo.se.com/ecostruxurepanelserverguide/doca0172-ecostruxure-panel-server-user-guide/English/DOCA0172%20EcoStruxure%20Panel%20Server%20Universal%20User%20Guide_0000492433.xml/%24/EcoStruxurePanelServer_Software_Applications_0000500236",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2025/icsa-25-037-01.json"
+      ],
+      "source_title": "Power Monitoring Expert 2021 System Guide",
+      "rationale": "Documented full name and abbreviation. PME is scoped to Schneider Electric; Emerson uses PME for a different product. Added the exact parenthesized abbreviation used in the official guide and CISA product labels."
+    },
+    {
+      "id": "p-aveva-edge-history",
+      "vendors": [
+        "AVEVA",
+        "InduSoft"
+      ],
+      "names": [
+        "AVEVA Edge",
+        "InduSoft Web Studio"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/info/edge-resources/AVEVA-Edge-Customer-FAQ-033021.pdf"
+      ],
+      "source_title": "FAQs about InduSoft Web Studio and AVEVA Edge",
+      "rationale": "Documented brand transition, with parallel 2020R2 names. Later releases and runtime editions still require confirmation."
+    },
+    {
+      "id": "p-aveva-plant-scada-history",
+      "vendors": [
+        "AVEVA",
+        "Schneider Electric",
+        "Citect"
+      ],
+      "names": [
+        "AVEVA Plant SCADA",
+        "Citect SCADA"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/perspectives/datasheets/Datasheet_PlantSCADA.pdf"
+      ],
+      "source_title": "AVEVA Plant SCADA datasheet",
+      "rationale": "Documented former product name. Do not transfer a version range between generations without review."
+    },
+    {
+      "id": "p-aveva-intouch",
+      "vendors": [
+        "AVEVA"
+      ],
+      "names": [
+        "AVEVA InTouch HMI",
+        "InTouch HMI",
+        "AVEVA InTouch",
+        "InTouch"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.aveva.com/en/about/partners/embedded-solutions/machine-builders/",
+        "https://www.aveva.com/en/products/intouch-hmi/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2023/icsa-23-318-01.json"
+      ],
+      "source_title": "AVEVA products for OEM machine building",
+      "rationale": "The vendor identifies branded and unprefixed names for the HMI product. This excludes InTouch for System Platform. The current vendor page uses InTouch for AVEVA InTouch HMI. InTouch Edge HMI, Machine Edition, and Access Anywhere remain separate."
+    },
+    {
+      "id": "p-aveva-intouch-history",
+      "vendors": [
+        "AVEVA",
+        "Wonderware"
+      ],
+      "names": [
+        "AVEVA InTouch HMI",
+        "Wonderware InTouch HMI"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/delete-2024/Brochure_AVEVA_Edge_to_Enterprise_2020_EN.pdf"
+      ],
+      "source_title": "Edge to Enterprise",
+      "rationale": "Documented Wonderware branding history. Exact release and HMI edition remain necessary."
+    },
+    {
+      "id": "p-aveva-system-platform-history",
+      "vendors": [
+        "AVEVA",
+        "Wonderware"
+      ],
+      "names": [
+        "AVEVA System Platform",
+        "Wonderware System Platform"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/delete-2024/Brochure_AVEVA_Edge_to_Enterprise_2020_EN.pdf"
+      ],
+      "source_title": "Edge to Enterprise",
+      "rationale": "Documented Wonderware branding history for System Platform. Suite membership does not identify an installed component."
+    },
+    {
+      "id": "p-aveva-historian-history",
+      "vendors": [
+        "AVEVA",
+        "Wonderware"
+      ],
+      "names": [
+        "AVEVA Historian",
+        "Wonderware Historian"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/legal/policies/AVEVA-Software-Schedule-PO-APM-MC-Excluding-Process-Optimization-and-Unified-Supply-Chain-v5-7-5.pdf"
+      ],
+      "source_title": "AVEVA Software Schedule",
+      "rationale": "The vendor documents former Wonderware branding. Historian Client and Historian Server must remain separate."
+    },
+    {
+      "id": "p-aveva-omi",
+      "vendors": [
+        "AVEVA"
+      ],
+      "names": [
+        "Operations Management Interface",
+        "OMI",
+        "AVEVA Operations Management Interface"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://partnergames.aveva.com/accepted-products/"
+      ],
+      "source_title": "Accepted AVEVA products",
+      "rationale": "The vendor explicitly expands OMI. Scope is the named interface, not all System Platform components."
+    },
+    {
+      "id": "p-rockwell-logix-history",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "RSLogix 5000",
+        "RSLogix5000",
+        "Logix Designer",
+        "Studio 5000 Logix Designer"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://support.rockwellautomation.com/cc/okcsFattachCustom/get/9242_46"
+      ],
+      "source_title": "Studio 5000 V21 release notes",
+      "rationale": "The name changes at version 21. Studio 5000 is the containing suite; the bare suite name is deliberately excluded."
+    },
+    {
+      "id": "p-rockwell-linx-history",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "FactoryTalk Linx",
+        "RSLinx Enterprise"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.rockwellautomation.com/en-us/docs/factorytalk-services-platform/6-60/factorytalk-services-platform-help-ditamap/factorytalk-linx-help.html"
+      ],
+      "source_title": "FactoryTalk Linx Help",
+      "rationale": "The name changes at version 6.00. RSLinx Classic is a distinct product and is deliberately excluded."
+    },
+    {
+      "id": "p-rockwell-ccw",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "Connected Components Workbench",
+        "CCW"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.rockwellautomation.com/app/answers/answer_view/a_id/279150/~/connected-components-workbench-%2528ccw%2529-software-"
+      ],
+      "source_title": "Connected Components Workbench (CCW) Software",
+      "rationale": "The official support title supplies the abbreviation. Edition and version restrictions remain applicable."
+    },
+    {
+      "id": "p-rockwell-view-se",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "FactoryTalk View Site Edition",
+        "FactoryTalk View SE"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.rockwellautomation.com/cc/okcsFattachCustom/get/60990_6",
+        "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2025/icsa-25-028-04.json"
+      ],
+      "source_title": "FactoryTalk View Site Edition Installation Guide, VIEWSE-IN003G-EN-P, September 2008, page 1",
+      "rationale": "Documented short form for Site Edition; Machine Edition remains separate."
+    },
+    {
+      "id": "p-rockwell-view-me",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "FactoryTalk View Machine Edition",
+        "FactoryTalk View ME"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://literature.rockwellautomation.com/idc/groups/literature/documents/qr/ftalk-qr003_-en-p.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2024/icsa-24-086-04.json"
+      ],
+      "source_title": "FactoryTalk View Ordering Guide",
+      "rationale": "Documented short form for Machine Edition; Site Edition remains separate."
+    },
+    {
+      "id": "p-rockwell-view-se-history",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "RSView Supervisory Edition",
+        "RSView SE",
+        "FactoryTalk View Site Edition"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://support.rockwellautomation.com/cc/okcsFattachCustom/get/60990_6"
+      ],
+      "source_title": "FactoryTalk View Site Edition Installation Guide, VIEWSE-IN003G-EN-P, September 2008, page 1",
+      "rationale": "Renaming occurs at version 5.00/CPR 9; verify release before using an advisory range."
+    },
+    {
+      "id": "p-rockwell-view-me-history",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "RSView Machine Edition",
+        "RSView ME",
+        "FactoryTalk View Machine Edition"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://support.rockwellautomation.com/cc/okcsFattachCustom/get/60990_6"
+      ],
+      "source_title": "FactoryTalk View Site Edition Installation Guide, VIEWSE-IN003G-EN-P, September 2008, page 1",
+      "rationale": "Historical naming transition, with release and edition review required."
+    },
+    {
+      "id": "p-rockwell-view-studio-history",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "RSView Studio",
+        "FactoryTalk View Studio"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://support.rockwellautomation.com/cc/okcsFattachCustom/get/60990_6"
+      ],
+      "source_title": "FactoryTalk View Site Edition Installation Guide, VIEWSE-IN003G-EN-P, September 2008, page 1",
+      "rationale": "Historical studio-name transition; client and server products are not equivalent."
+    },
+    {
+      "id": "p-rockwell-view-client-history",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "RSView SE Client",
+        "FactoryTalk View SE Client"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://support.rockwellautomation.com/cc/okcsFattachCustom/get/60990_6"
+      ],
+      "source_title": "FactoryTalk View Site Edition Installation Guide, VIEWSE-IN003G-EN-P, September 2008, page 1",
+      "rationale": "Historical client-name transition. This does not identify server software."
+    },
+    {
+      "id": "p-rockwell-view-server-history",
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "names": [
+        "RSView SE Server",
+        "FactoryTalk View SE Server"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://support.rockwellautomation.com/cc/okcsFattachCustom/get/60990_6"
+      ],
+      "source_title": "FactoryTalk View Site Edition Installation Guide, VIEWSE-IN003G-EN-P, September 2008, page 1",
+      "rationale": "Historical server-name transition. This does not identify client software."
+    },
+    {
+      "id": "p-siemens-tia-portal",
+      "vendors": [
+        "Siemens"
+      ],
+      "names": [
+        "TIA Portal",
+        "Totally Integrated Automation Portal"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.siemens.com/en-us/products/tia-portal/"
+      ],
+      "source_title": "TIA Portal",
+      "rationale": "Documented abbreviation for the engineering framework. Individual bundled products remain separate."
+    },
+    {
+      "id": "p-siemens-pcs7",
+      "vendors": [
+        "Siemens"
+      ],
+      "names": [
+        "SIMATIC PCS 7",
+        "PCS 7"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109973491/ps7phesb_en-US.pdf",
+        "https://www.siemens.com/en-us/products/process-control/simatic-pcs-7/"
+      ],
+      "source_title": "PCS 7 Engineering System",
+      "rationale": "The manual uses branded and shorter system names. Hardware and software components still require their own identity context."
+    },
+    {
+      "id": "p-siemens-wincc-oa",
+      "vendors": [
+        "Siemens",
+        "ETM"
+      ],
+      "names": [
+        "SIMATIC WinCC Open Architecture",
+        "WinCC Open Architecture",
+        "SIMATIC WinCC OA",
+        "WinCC OA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.winccoa.com/documentation/WinCCOA/latest/en_US/GettingStarted/GettingStarted-02_2.html",
+        "https://www.siemens.com/en-us/products/simatic-wincc/open-architecture/"
+      ],
+      "source_title": "What is WinCC OA?",
+      "rationale": "The official documentation defines OA as Open Architecture. Generic WinCC and WinCC Unified are excluded."
+    },
+    {
+      "id": "p-honeywell-ebi",
+      "vendors": [
+        "Honeywell"
+      ],
+      "names": [
+        "Honeywell Enterprise Buildings Integrator",
+        "Enterprise Buildings Integrator",
+        "EBI",
+        "Honeywell EBI"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://buildings.honeywell.com/us/en/solutions/integrated-operations/ebi"
+      ],
+      "source_title": "Honeywell Enterprise Buildings Integrator",
+      "rationale": "Official acronym and branded/unprefixed forms. EBI One and EBI Cloud are not automatically included."
+    },
+    {
+      "id": "p-honeywell-experion-pks",
+      "vendors": [
+        "Honeywell"
+      ],
+      "names": [
+        "Experion PKS",
+        "Experion Process Knowledge System"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://process.honeywell.com/us/en/products/trainings/control-monitoring-and-safety-systems/experion-pks-exp"
+      ],
+      "source_title": "Experion PKS training",
+      "rationale": "Documented expansion of PKS within the Experion product name. It does not identify individual controllers or server components."
+    },
+    {
+      "id": "p-honeywell-dvm",
+      "vendors": [
+        "Honeywell"
+      ],
+      "names": [
+        "Honeywell Digital Video Manager",
+        "Digital Video Manager",
+        "DVM"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.honeywell.com/us/en/solutions/building-management/integrated-operations"
+      ],
+      "source_title": "Honeywell Integrated Operations",
+      "rationale": "Documented full name and acronym, restricted to Honeywell."
+    },
+    {
+      "id": "p-honeywell-ccs",
+      "vendors": [
+        "Honeywell"
+      ],
+      "names": [
+        "Command and Control Suite",
+        "Honeywell Command and Control Suite",
+        "CCS"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.honeywell.com/us/en/solutions/building-management/integrated-operations"
+      ],
+      "source_title": "Honeywell Integrated Operations",
+      "rationale": "Documented full name and acronym, restricted to Honeywell."
+    },
+    {
+      "id": "p-honeywell-iq4e-component",
+      "vendors": [
+        "Honeywell",
+        "Trend Controls",
+        "Trend"
+      ],
+      "names": [
+        "IQ4E",
+        "IQ4E Firmware"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-069-03.json"
+      ],
+      "source_title": "CISA ICSA-26-069-03 recorded source fixture",
+      "rationale": "The packaged official CSAF fixture specifies firmware. A bare device name does not prove that firmware is the intended component."
+    },
+    {
+      "id": "p-hitachi-pcm600",
+      "vendors": [
+        "Hitachi Energy",
+        "ABB"
+      ],
+      "names": [
+        "PCM600",
+        "Protection and Control IED Manager PCM600",
+        "Protection and Control IED Manager"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.hitachienergy.com/us/en/products-and-solutions/substation-automation-protection-and-control/products/tools/pcm600",
+        "https://library.e.abb.com/public/3d6fbd4567e4bda6c1257b130056a8aa/IEC_61850_Engineering_Guide_756475_ENd.pdf"
+      ],
+      "source_title": "Protection and control IED manager - PCM600",
+      "rationale": "Both manufacturers directly document these product names. Scope permits the alias within either manufacturer; it does not equate ABB and Hitachi Energy or transfer historical version ranges. PCM600 Engineering Pro and included CCT600 remain distinct."
+    },
+    {
+      "id": "p-mitsubishi-gxworks2",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "MELSOFT GX Works2",
+        "GX Works2",
+        "Mitsubishi Electric GX Works2"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://dl.mitsubishielectric.com/dl/fa/document/catalog/plceng/l08122e/l08122eh.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json"
+      ],
+      "source_title": "Programmable Controller Engineering Software MELSOFT GX Works2",
+      "rationale": "Official branded and unprefixed product name. GX Works3 is a separate product. The added manufacturer-prefixed spelling is explicitly present in the pinned CISA product tree; no model numeral is removed."
+    },
+    {
+      "id": "p-mitsubishi-gxworks3",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "MELSOFT GX Works3",
+        "GX Works3",
+        "Mitsubishi Electric GX Works3"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.mitsubishielectric.com/fa/products/cnt/plceng/smerit/gx_works3/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json"
+      ],
+      "source_title": "MELSOFT GX Works3",
+      "rationale": "Official branded and unprefixed product name. GX Works2 is a separate product. The added manufacturer-prefixed spelling is explicitly present in the pinned CISA product tree; no model numeral is removed."
+    },
+    {
+      "id": "p-weintek-ebpro",
+      "vendors": [
+        "Weintek"
+      ],
+      "names": [
+        "EasyBuilder Pro",
+        "EBPro"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.weintek.com/Download/Software"
+      ],
+      "source_title": "Weintek software downloads",
+      "rationale": "EasyBuilder Pro downloads are named EBPro. EasyBuilder X and EasyBuilder8000 remain separate."
+    },
+    {
+      "id": "p-weintek-eb8000",
+      "vendors": [
+        "Weintek"
+      ],
+      "names": [
+        "EasyBuilder8000",
+        "EB8000"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.weintek.com/Download/Software"
+      ],
+      "source_title": "Weintek software downloads",
+      "rationale": "The vendor labels EasyBuilder8000 download packages EB8000; this does not include EasyBuilder Pro."
+    },
+    {
+      "id": "p-advantech-webaccess-scada",
+      "vendors": [
+        "Advantech"
+      ],
+      "names": [
+        "WebAccess/SCADA",
+        "WebAccess SCADA",
+        "Advantech WebAccess/SCADA",
+        "Advantech WebAccess SCADA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.advantech.com/en-us/industrial-automation/webaccess/webaccessscada",
+        "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2023/icsa-23-150-01.json"
+      ],
+      "source_title": "Advantech WebAccess/SCADA",
+      "rationale": "The vendor uses slash and spaced forms for the SCADA product. WebAccess/CNC and WebAccess/NMS are excluded."
+    },
+    {
+      "id": "p-emerson-pme",
+      "vendors": [
+        "Emerson"
+      ],
+      "names": [
+        "PAC Machine Edition",
+        "PME"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://emerson-css.my.site.com/communities/ArticleDetails?urlName=PAC-Machine-Edition---Landing-Page"
+      ],
+      "source_title": "PAC Machine Edition landing page",
+      "rationale": "Official support summary defines PME. Schneider Electric uses the same acronym for a different product."
+    },
+    {
+      "id": "p-kepware-server-history",
+      "vendors": [
+        "PTC",
+        "Kepware"
+      ],
+      "names": [
+        "Kepware Server",
+        "KEPServerEX",
+        "ThingWorx Kepware Server"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.ptc.com/en/support/help/~/-/media/832A6DBABF5E4B06AFB230C49E42B7DA.ashx"
+      ],
+      "source_title": "Kepware Server Migration Guide, February 2026",
+      "rationale": "Kepware Server 7.0 replaces the earlier Windows products. Linux-based Kepware Edge and product generations must not be conflated."
+    },
+    {
+      "id": "p-kepware-kse",
+      "vendors": [
+        "PTC",
+        "Kepware"
+      ],
+      "names": [
+        "KEPServerEX",
+        "KSE"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.ptc.com/en/support/help/~/-/media/832A6DBABF5E4B06AFB230C49E42B7DA.ashx"
+      ],
+      "source_title": "Kepware Server Migration Guide, February 2026",
+      "rationale": "The migration guide explicitly defines KSE as KEPServerEX."
+    },
+    {
+      "id": "p-kepware-tks",
+      "vendors": [
+        "PTC",
+        "Kepware"
+      ],
+      "names": [
+        "ThingWorx Kepware Server",
+        "TKS"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.ptc.com/en/support/help/~/-/media/832A6DBABF5E4B06AFB230C49E42B7DA.ashx"
+      ],
+      "source_title": "Kepware Server Migration Guide, February 2026",
+      "rationale": "The migration guide explicitly defines TKS as ThingWorx Kepware Server."
+    },
+    {
+      "id": "p-siemens-wincc-runtime-advanced",
+      "names": [
+        "SIMATIC WinCC Runtime Advanced",
+        "WinCC Runtime Advanced",
+        "WinCC RT Advanced"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://sieportal.siemens.com/en-ww/products-services/10229864",
+        "https://docs.tia.siemens.cloud/r/en-us/v21/readme-wincc-basic-advanced-professional/important-information/runtime/notes-on-operation-of-runtime-advanced?contentId=rkrkJWUV2k4O~54omCeaQA",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2011/icsa-11-356-01.json"
+      ],
+      "source_title": "SIMATIC WinCC Runtime and Runtime Advanced operation notes",
+      "rationale": "Siemens uses the full Runtime Advanced name, the unprefixed name, and RT Advanced installation-directory label for the same runtime. Professional, engineering software, and Unified are excluded."
+    },
+    {
+      "id": "p-siemens-wincc-runtime-professional",
+      "names": [
+        "SIMATIC WinCC Runtime Professional",
+        "WinCC Runtime Professional",
+        "SIMATIC WinCC RT Professional",
+        "WinCC RT Professional"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://sieportal.siemens.com/en-ww/products-services/10229864",
+        "https://support.industry.siemens.com/cs/attachments/109925643/ReadMe_TIA_V19_UPD3_enUS.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2016/icsa-16-208-01c.json"
+      ],
+      "source_title": "SIMATIC WinCC Runtime and TIA V19 Update 3 readme",
+      "rationale": "Official product page and license instructions use Runtime Professional and RT Professional. Runtime Advanced, WinCC engineering, Unified, and version-qualified product labels remain separate."
+    },
+    {
+      "id": "p-siemens-alm",
+      "names": [
+        "Automation License Manager",
+        "ALM"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://support.industry.siemens.com/dl/files/771/109971771/att_1286239/v1/INH_RTLS-Locating-Manager-V3.1_76_en-US.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2011/icsa-11-361-01.json",
+        "https://www.siemens.com/en-gb/products/polarion/"
+      ],
+      "source_title": "SIMATIC RTLS Locating Manager installation manual, chapter 4",
+      "rationale": "ALM is used for Automation License Manager and for Application Lifecycle Management in the Siemens Polarion portfolio. The short form alone needs full product-name confirmation before applying advisory rules."
+    },
+    {
+      "id": "p-siemens-pdm",
+      "names": [
+        "SIMATIC PDM",
+        "Process Device Manager"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109986582/pdm_application_en-US_en-US.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2017/icsa-17-045-03.json"
+      ],
+      "source_title": "Help for SIMATIC PDM V9.3 SP1",
+      "rationale": "The manufacturer explicitly expands SIMATIC PDM as Process Device Manager. Bare PDM is excluded from equivalence because Siemens also uses it for Product Data Management."
+    },
+    {
+      "id": "p-siemens-process-historian",
+      "names": [
+        "SIMATIC Process Historian",
+        "Process Historian"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109988050/InformationSystemPRHIenUS_en-US.pdf"
+      ],
+      "source_title": "SIMATIC Process Historian system manual",
+      "rationale": "The Siemens manual uses the branded and unprefixed product names. Its OPC UA Server component and Information Server are distinct and are not aliases."
+    },
+    {
+      "id": "p-siemens-information-server",
+      "names": [
+        "SIMATIC Information Server",
+        "Information Server"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://docs.tia.siemens.cloud/r/en-us/v20/process-historian-and-information-server-rt-professional/basics-rt-professional/information-server-rt-professional",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2021/icsa-21-210-02.json"
+      ],
+      "source_title": "Information Server, WinCC documentation",
+      "rationale": "The product documentation introduces SIMATIC Information Server and uses Information Server throughout. Process Historian is a separate product."
+    },
+    {
+      "id": "p-siemens-plcsim-advanced",
+      "names": [
+        "SIMATIC S7-PLCSIM Advanced",
+        "S7-PLCSIM Advanced",
+        "PLCSIM Advanced"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://developer.siemens.com/s7-plcsim-advanced/overview.html",
+        "https://docs.industrial-operations-x.siemens.cloud/r/en-us/ax/get-started/2504.1.62/setting-up-simatic-ax/installing-additional-software/installing-optional-software/installing-simatic-s7-plcsim-advanced",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2019/icsa-19-099-06.json"
+      ],
+      "source_title": "SIMATIC S7-PLCSIM Advanced developer overview and installation",
+      "rationale": "Both official sources refer to the same Advanced product by these labels. S7-PLCSIM without Advanced remains a separate product and is not included."
+    },
+    {
+      "id": "p-siemens-sinema-rc-server",
+      "names": [
+        "SINEMA Remote Connect Server",
+        "SINEMA RC Server"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109482121/BA_SINEMA-RC-Server_76.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2016/icsa-16-208-03.json"
+      ],
+      "source_title": "SINEMA Remote Connect V3.1 Server operating instructions",
+      "rationale": "Siemens uses SINEMA RC server and SINEMA Remote Connect Server in the same update procedure. The client and SINEMA Server network-monitoring product remain distinct."
+    },
+    {
+      "id": "p-schneider-ebo",
+      "names": [
+        "EcoStruxure Building Operation",
+        "EBO"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://productinfo.se.com/ecostruxurepanelserverguide/doca0172-ecostruxure-panel-server-user-guide/English/DOCA0172%20EcoStruxure%20Panel%20Server%20Universal%20User%20Guide_0000492433.xml/%24/EcoStruxurePanelServer_Software_Applications_0000500236"
+      ],
+      "source_title": "EcoStruxure Panel Server user guide: Edge Monitoring and Supervision Software",
+      "rationale": "The official guide explicitly expands EBO as EcoStruxure Building Operation. Building Expert and named server/controller components remain distinct."
+    },
+    {
+      "id": "p-schneider-epo",
+      "names": [
+        "EcoStruxure Power Operation",
+        "EPO"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://productinfo.se.com/ecostruxurepanelserverguide/doca0172-ecostruxure-panel-server-user-guide/English/DOCA0172%20EcoStruxure%20Panel%20Server%20Universal%20User%20Guide_0000492433.xml/%24/EcoStruxurePanelServer_Software_Applications_0000500236",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2026/icsa-26-169-07.json"
+      ],
+      "source_title": "EcoStruxure Panel Server user guide: Edge Monitoring and Supervision Software",
+      "rationale": "The official guide explicitly expands EPO as EcoStruxure Power Operation. Power Monitoring Expert and Building Operation remain separate."
+    },
+    {
+      "id": "p-schneider-pso",
+      "names": [
+        "Power SCADA Operation",
+        "PowerSCADA Operation",
+        "PSO"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.se.com/us/en/faqs/FA404620/",
+        "https://www.se.com/ca/en/faqs/FA298021/"
+      ],
+      "source_title": "Schneider Power SCADA Operation installation and product FAQ",
+      "rationale": "Official FAQs use spaced and unspaced PowerSCADA and explicitly expand PSO. PSO Anywhere is a separately licensed add-on and is excluded."
+    },
+    {
+      "id": "p-schneider-pse",
+      "names": [
+        "Power SCADA Expert",
+        "PSE"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.se.com/us/en/faqs/FA404620/"
+      ],
+      "source_title": "Power SCADA Operation cumulative update FAQ",
+      "rationale": "The official product/version list explicitly expands PSE as Power SCADA Expert. The later Power SCADA Operation and Power Operation names are not automatic equivalents."
+    },
+    {
+      "id": "p-schneider-epc",
+      "names": [
+        "EcoStruxure Power Commission",
+        "EPC"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.se.com/us/en/faqs/FAQ000266123/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2025/icsa-25-077-04.json"
+      ],
+      "source_title": "EcoStruxure Power Commission subscription and activation FAQ",
+      "rationale": "The official FAQ explicitly names EcoStruxure Power Commission (EPC). Power Commission software is not an alias for the circuit breakers it configures."
+    },
+    {
+      "id": "p-schneider-epc-history",
+      "names": [
+        "EcoStruxure Power Commission",
+        "EcoReach"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/us/en/faqs/FA322371/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2025/icsa-25-077-04.json"
+      ],
+      "source_title": "How to download EcoStruxure Power Commission, formerly EcoReach",
+      "rationale": "Schneider explicitly identifies EcoReach as the former name. Historical product/version identity requires review."
+    },
+    {
+      "id": "p-schneider-ebo-history",
+      "names": [
+        "EcoStruxure Building Operation",
+        "StruxureWare Building Operation",
+        "SmartStruxure"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/il/en/product-subcategory/1210-building-management-systems/",
+        "https://www.se.com/in/en/work/campaign/customer-stories/moorfields-eye-hospital/"
+      ],
+      "source_title": "Schneider Building Management Systems and Moorfields customer story",
+      "rationale": "Schneider calls StruxureWare Building Operation and SmartStruxure former names. Historical solution scope and version need confirmation. SmartStruxure Lite is a separate product and is excluded."
+    },
+    {
+      "id": "p-schneider-easergy-studio-history",
+      "names": [
+        "Easergy Studio",
+        "MiCOM S1 Studio"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.se.com/us/en/faqs/FA284200/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2024/icsa-24-011-05.json"
+      ],
+      "source_title": "MiCOM S1 Studio's Replacement Software",
+      "rationale": "Schneider says the name changed at version 6.0.0. The historical version boundary requires review; neither name is an alias for the relay hardware."
+    },
+    {
+      "id": "p-schneider-ion-setup",
+      "names": [
+        "ION Setup",
+        "PowerLogic ION Setup"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.se.com/us/en/faqs/FA346479/",
+        "https://www.se.com/us/en/download/document/7EN02-0293/"
+      ],
+      "source_title": "ION Setup documentation and PowerLogic ION Setup device configuration guide",
+      "rationale": "Schneider uses the branded and unprefixed name for the same configuration software. Individual ION meters remain separate."
+    },
+    {
+      "id": "p-schneider-igss",
+      "names": [
+        "IGSS",
+        "Interactive Graphical SCADA System"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://igss.schneider-electric.com/what-is-igss/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2026/icsa-26-211-04.json"
+      ],
+      "source_title": "What is IGSS?",
+      "rationale": "The manufacturer explicitly expands IGSS as Interactive Graphical SCADA System. IGSS Definition (Def.exe), Update Service, and other components are not equated to the whole product."
+    },
+    {
+      "id": "p-schneider-sesu",
+      "names": [
+        "SESU",
+        "Schneider Electric Software Update"
+      ],
+      "vendors": [
+        "Schneider Electric"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.se.com/us/en/faqs/FA315432/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2013/icsa-13-016-01.json"
+      ],
+      "source_title": "How to fix updates not showing in Schneider Electric Software Update",
+      "rationale": "The official FAQ explicitly defines SESU. The software it updates, such as Unity or SoMove, is not an alias."
+    },
+    {
+      "id": "p-rockwell-iab",
+      "names": [
+        "Integrated Architecture Builder",
+        "IAB"
+      ],
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.rockwellautomation.com/en-us/support/product/product-selection-configuration/integrated-architecture-builder.html",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2016/icsa-16-056-01.json"
+      ],
+      "source_title": "Integrated Architecture Builder tools and resources",
+      "rationale": "Rockwell explicitly expands IAB as Integrated Architecture Builder. ProposalWorks and other Product Selection Toolbox applications remain separate."
+    },
+    {
+      "id": "p-rockwell-ftam",
+      "names": [
+        "FactoryTalk Activation Manager",
+        "FTAM"
+      ],
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://literature.rockwellautomation.com/idc/groups/literature/documents/um/proces-um100_-en-p.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2018/icsa-18-102-02.json"
+      ],
+      "source_title": "PlantPAx Distributed Control System Configuration and Implementation",
+      "rationale": "The official manual explicitly defines FTAM as FactoryTalk Activation Manager. Activation services and dongles are not separate names for the application."
+    },
+    {
+      "id": "p-rockwell-ftnm",
+      "names": [
+        "FactoryTalk Network Manager",
+        "FTNM"
+      ],
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://literature.rockwellautomation.com/idc/groups/literature/documents/qs/ftnm-qs001_-en-e.pdf"
+      ],
+      "source_title": "FactoryTalk Network Manager quick start guide",
+      "rationale": "The official guide uses FTNM Application and the full FactoryTalk Network Manager name for the same server application."
+    },
+    {
+      "id": "p-rockwell-historian-se",
+      "names": [
+        "FactoryTalk Historian Site Edition",
+        "FactoryTalk Historian SE"
+      ],
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://literature.rockwellautomation.com/idc/groups/literature/documents/qr/hse-qr003_-en-e.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2024/icsa-24-130-01.json"
+      ],
+      "source_title": "FactoryTalk Historian SE Installation Assistant",
+      "rationale": "The guide explicitly defines Site Edition (SE). Machine Edition, Live Data Interface, and other component names are not equivalent to the whole SE product."
+    },
+    {
+      "id": "p-aveva-pi-server",
+      "names": [
+        "AVEVA PI Server",
+        "PI Server"
+      ],
+      "vendors": [
+        "AVEVA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.aveva.com/en/products/aveva-pi-server/",
+        "https://www.aveva.com/content/dam/aveva/documents/legal/policies/AVEVA-Software-Schedule-PI-System.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2024/icsa-24-018-01.json"
+      ],
+      "source_title": "AVEVA PI Server product page and software schedule",
+      "rationale": "Official AVEVA materials use both branded and unprefixed PI Server. PI Data Archive and Asset Framework are separate component identities, not aliases for the entire server."
+    },
+    {
+      "id": "p-aveva-pi-vision",
+      "names": [
+        "AVEVA PI Vision",
+        "PI Vision"
+      ],
+      "vendors": [
+        "AVEVA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.aveva.com/en/products/aveva-pi-vision/",
+        "https://docs.aveva.com/bundle/pi-vision/page/1009407.html"
+      ],
+      "source_title": "AVEVA PI Vision product page and client documentation",
+      "rationale": "Official documentation uses both forms for PI Vision. PI ProcessBook, PI Coresight, and PI DataLink are not automatic equivalents."
+    },
+    {
+      "id": "p-aveva-pi-datalink",
+      "names": [
+        "AVEVA PI DataLink",
+        "PI DataLink"
+      ],
+      "vendors": [
+        "AVEVA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.aveva.com/en/products/aveva-pi-datalink/",
+        "https://docs.aveva.com/category/pi-datalink"
+      ],
+      "source_title": "AVEVA PI DataLink product page and documentation",
+      "rationale": "Official product and documentation pages use the branded and unprefixed name for the Excel add-in. PI Server and other PI clients remain separate."
+    },
+    {
+      "id": "p-aveva-pi-af-client",
+      "names": [
+        "PI AF Client",
+        "PI Asset Framework Client",
+        "PI Asset Framework (AF) Client"
+      ],
+      "vendors": [
+        "AVEVA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://docs.aveva.com/bundle/pi-server-f-af-install",
+        "https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2024-004.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2024/icsa-24-163-03.json"
+      ],
+      "source_title": "PI AF Client installation and AVEVA-2024-004 security bulletin",
+      "rationale": "The vendor bulletin explicitly maps the abbreviated client name to PI Asset Framework (AF) Client downloads. The AF Server, AF SDK, and PI Server are not aliases."
+    },
+    {
+      "id": "p-aveva-application-server",
+      "names": [
+        "AVEVA Application Server",
+        "Application Server"
+      ],
+      "vendors": [
+        "AVEVA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin-AVEVA-2025-005.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2024/icsa-24-226-01.json"
+      ],
+      "source_title": "AVEVA-2025-005 security bulletin",
+      "rationale": "The bulletin uses branded and unprefixed Application Server names. System Platform, the distribution bundle, and Application Server IDE, a particular component, remain separate identities."
+    },
+    {
+      "id": "p-aveva-cdp",
+      "names": [
+        "AVEVA Communication Drivers Pack",
+        "Communication Drivers Pack",
+        "CDP"
+      ],
+      "vendors": [
+        "AVEVA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://docs.aveva.com/bundle/sp-cdp-drivers-2023",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2023/icsa-23-318-01.json"
+      ],
+      "source_title": "Welcome to the AVEVA Communication Drivers Pack",
+      "rationale": "The documentation explicitly identifies Communication Drivers Pack (CDP). Operations Integration Core, individual OI drivers, and the management console remain separate components."
+    },
+    {
+      "id": "p-aveva-historian",
+      "names": [
+        "AVEVA Historian",
+        "Historian"
+      ],
+      "vendors": [
+        "AVEVA"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.aveva.com/en/products/historian/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2023/icsa-23-318-01.json",
+        "https://www.aveva.com/en/solutions/data-management/"
+      ],
+      "source_title": "AVEVA Historian product page",
+      "rationale": "The manufacturer uses Historian as both a former label and shorthand for AVEVA Historian, while also offering the PI System. The bare functional name is ambiguous within this manufacturer, so confirm the installed product and release before applying a version rule."
+    },
+    {
+      "id": "p-aveva-intouch-access-anywhere",
+      "names": [
+        "AVEVA InTouch Access Anywhere",
+        "InTouch Access Anywhere",
+        "InTouch HMI Access Anywhere"
+      ],
+      "vendors": [
+        "AVEVA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.aveva.com/en/products/aveva-intouch-access-anywhere/"
+      ],
+      "source_title": "AVEVA InTouch Access Anywhere",
+      "rationale": "The vendor uses the branded and HMI-qualified names for the Access Anywhere extension. InTouch HMI itself is a separate product and is not included."
+    },
+    {
+      "id": "p-siemens-order-6gk5804-0ap00-2aa2",
+      "names": [
+        "SCALANCE M804PB (6GK5804-0AP00-2AA2)",
+        "6GK5804-0AP00-2AA2"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109826354/BA_SCALANCE-M804PB_76_en-US.pdf?download=true",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2019/icsa-19-253-03.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-siemens-order-6gk5876-4aa00-2da2",
+      "names": [
+        "SCALANCE M876-4 (NAM) (6GK5876-4AA00-2DA2)",
+        "6GK5876-4AA00-2DA2"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109988557/BA_SCALANCE-M87x_76_en-US.pdf?download=true",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2019/icsa-19-253-03.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-siemens-order-6gk5876-4aa00-2ba2",
+      "names": [
+        "SCALANCE M876-4 (EU) (6GK5876-4AA00-2BA2)",
+        "6GK5876-4AA00-2BA2"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109988557/BA_SCALANCE-M87x_76_en-US.pdf?download=true",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2019/icsa-19-253-03.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-siemens-order-6gk5874-2aa00-2aa2",
+      "names": [
+        "SCALANCE M874-2 (6GK5874-2AA00-2AA2)",
+        "6GK5874-2AA00-2AA2"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109988557/BA_SCALANCE-M87x_76_en-US.pdf?download=true",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2019/icsa-19-253-03.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-siemens-order-6gk5874-3aa00-2aa2",
+      "names": [
+        "SCALANCE M874-3 (6GK5874-3AA00-2AA2)",
+        "6GK5874-3AA00-2AA2"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109988557/BA_SCALANCE-M87x_76_en-US.pdf?download=true",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2019/icsa-19-253-03.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-siemens-order-6gk5826-2ab00-2ab2",
+      "names": [
+        "SCALANCE M826-2 SHDSL-Router (6GK5826-2AB00-2AB2)",
+        "6GK5826-2AB00-2AB2"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://cache.industry.siemens.com/dl/files/096/109976096/att_1302968/v1/BA_SCALANCE-M826_76_en-US.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2019/icsa-19-253-03.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-siemens-order-6gk5615-0aa00-2aa2",
+      "names": [
+        "SCALANCE S615 LAN-Router (6GK5615-0AA00-2AA2)",
+        "6GK5615-0AA00-2AA2"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/teddatasheet/?caller=SIOS&format=pdf&language=en&mlfbs=6GK5615-0AA00-2AA2",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-042-04.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-siemens-order-6gk5856-2ea00-3da1",
+      "names": [
+        "SCALANCE MUM856-1 (EU) (6GK5856-2EA00-3DA1)",
+        "6GK5856-2EA00-3DA1"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109826425/BA_SCALANCE-MUM856_76_en-US.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2021/icsa-21-194-03.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-siemens-order-6gk6108-4am00-2ba2",
+      "names": [
+        "RUGGEDCOM RM1224 LTE(4G) EU (6GK6108-4AM00-2BA2)",
+        "6GK6108-4AM00-2BA2"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109739163/BA_RUGGEDCOM-RM1224_76.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2021/icsa-21-194-03.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-siemens-order-6gk6108-4am00-2da2",
+      "names": [
+        "RUGGEDCOM RM1224 LTE(4G) NAM (6GK6108-4AM00-2DA2)",
+        "6GK6108-4AM00-2DA2"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109739163/BA_RUGGEDCOM-RM1224_76.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2021/icsa-21-194-03.json"
+      ],
+      "source_title": "Siemens device manual and original CISA CSAF product label",
+      "rationale": "The complete Siemens article number identifies the same device as the fully qualified CISA product label. Keep every order-code character and regional qualifier; generic family/model shortcuts, other part numbers, and nearby suffixes are not aliases."
+    },
+    {
+      "id": "p-mitsubishi-gxdeveloper",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "GX Developer",
+        "MELSOFT GX Developer",
+        "Mitsubishi Electric GX Developer"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.mitsubishielectric.com/fa/products/cnt/plceng/smerit/other_eng/index.html",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-182-02.json",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json"
+      ],
+      "source_title": "MELSEC other development support tools",
+      "rationale": "The manufacturer uses the MELSOFT-branded name; the advisory corpus uses GX Developer. GX Works2, GX Works3 and GX Configurator remain separate. The manufacturer-prefixed spelling is also explicitly present in the pinned CISA product tree."
+    },
+    {
+      "id": "p-mitsubishi-gtworks3",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "GT Works3",
+        "MELSOFT GT Works3"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://us.mitsubishielectric.com/fa/en/products/hmi/human-machine-interface/got2000/line-up/software/",
+        "https://us.mitsubishielectric.com/fa/en/products/sft/melsoft/iq-works/iq-works/"
+      ],
+      "source_title": "GOT2000 Series software",
+      "rationale": "Brand-prefixed and unprefixed names for the same versioned suite. GT Designer3 and GT SoftGOT2000 are constituent products and are not aliases."
+    },
+    {
+      "id": "p-mitsubishi-mxcomponent",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "MX Component",
+        "MELSOFT MX Component",
+        "Mitsubishi Electric MX Component"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.mitsubishielectric.com/fa/document/technews_discon/plc/fa-a-0439/faa0439a.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json"
+      ],
+      "source_title": "MELSOFT MX series technical bulletin FA-A-0439-A",
+      "rationale": "The manufacturer uses both branded and short product names. MX Works is a package, MX Component a library, and MX Sheet a separate application; these groups do not equate them. Mobile editions are excluded. The manufacturer-prefixed spelling is also explicitly present in the pinned CISA product tree."
+    },
+    {
+      "id": "p-mitsubishi-mxsheet",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "MX Sheet",
+        "MELSOFT MX Sheet",
+        "Mitsubishi Electric MX Sheet"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.mitsubishielectric.com/fa/document/technews_discon/plc/fa-a-0439/faa0439a.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json"
+      ],
+      "source_title": "MELSOFT MX series technical bulletin FA-A-0439-A",
+      "rationale": "The manufacturer uses both branded and short product names. MX Works is a package, MX Component a library, and MX Sheet a separate application; these groups do not equate them. Mobile editions are excluded."
+    },
+    {
+      "id": "p-mitsubishi-mxworks",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "MX Works",
+        "MELSOFT MX Works"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.mitsubishielectric.com/fa/document/technews_discon/plc/fa-a-0439/faa0439a.pdf"
+      ],
+      "source_title": "MELSOFT MX series technical bulletin FA-A-0439-A",
+      "rationale": "The manufacturer uses both branded and short product names. MX Works is a package, MX Component a library, and MX Sheet a separate application; these groups do not equate them. Mobile editions are excluded."
+    },
+    {
+      "id": "p-mitsubishi-mtworks2",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "MT Works2",
+        "MELSOFT MT Works2",
+        "Mitsubishi Electric MT Works2"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://us.mitsubishielectric.com/fa/en/products/cnt/motion-controllers/motion-control-software/mt-works2/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json"
+      ],
+      "source_title": "MT Works2 engineering software",
+      "rationale": "The official page uses branded and short names for the same engineering software. MT Developer2 is not treated as an interchangeable suite name. The manufacturer-prefixed spelling is also explicitly present in the pinned CISA product tree."
+    },
+    {
+      "id": "p-mitsubishi-frconfigurator2",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "FR Configurator2",
+        "MELSOFT FR Configurator2",
+        "Mitsubishi Electric FR Configurator2"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://dl.mitsubishielectric.com/dl/fa/document/manual/inv/ib0600516eng/ib0600516engae.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json"
+      ],
+      "source_title": "MELSOFT FR Configurator2 instruction manual",
+      "rationale": "The manual cover uses the MELSOFT brand and operating sections use FR Configurator2. The numeral 2 is retained; FR Configurator and other generations are excluded. The manufacturer-prefixed spelling is also explicitly present in the pinned CISA product tree."
+    },
+    {
+      "id": "p-mitsubishi-rttoolbox3",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "RT ToolBox3",
+        "MELSOFT RT ToolBox3",
+        "Mitsubishi Electric RT ToolBox3"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://us.mitsubishielectric.com/fa/en/products/rbt/industrial-robots/rt-toolbox3/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json"
+      ],
+      "source_title": "MELSOFT RT ToolBox3",
+      "rationale": "The vendor page uses both forms. Mini and Pro editions are explicitly not included in this mapping. The manufacturer-prefixed spelling is also explicitly present in the pinned CISA product tree."
+    },
+    {
+      "id": "p-mitsubishi-cwconfigurator",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "CW Configurator",
+        "MELSOFT CW Configurator",
+        "Mitsubishi Electric CW Configurator"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://us.mitsubishielectric.com/fa/en/support/technical-support/knowledge-base/getdocument/?docid=3E26SJWH3ZZR-38-1648",
+        "https://www.mitsubishielectric.co.jp/fa/document/techlib/plc/l08587eng/l08587engc.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2020/icsa-20-212-04.json"
+      ],
+      "source_title": "MELSEC-L series engineering software list",
+      "rationale": "The official software list names MELSOFT CW Configurator; the quick-start guide names the application CW Configurator. C Controller hardware is separate. The manufacturer-prefixed spelling is also explicitly present in the pinned CISA product tree."
+    },
+    {
+      "id": "p-mitsubishi-iqworks",
+      "vendors": [
+        "Mitsubishi Electric"
+      ],
+      "names": [
+        "iQ Works",
+        "MELSOFT iQ Works"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://us.mitsubishielectric.com/fa/en/products/sft/melsoft/iq-works/iq-works/"
+      ],
+      "source_title": "MELSOFT iQ Works",
+      "rationale": "The official page uses both names for the integrated suite. MELSOFT Navigator, GX Works and other included products are not equivalent to the suite."
+    },
+    {
+      "id": "p-yokogawa-prm",
+      "vendors": [
+        "Yokogawa"
+      ],
+      "names": [
+        "PRM",
+        "Plant Resource Manager"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.yokogawa.com/solutions/products-and-services/information/asset-management/field-device-management-prm/"
+      ],
+      "source_title": "Plant Resource Manager (PRM)",
+      "rationale": "The vendor explicitly expands the product acronym. PRM from another manufacturer, including Emerson ValveLink PRM, is outside this scope."
+    },
+    {
+      "id": "p-yokogawa-ci-server",
+      "vendors": [
+        "Yokogawa"
+      ],
+      "names": [
+        "CI Server",
+        "Collaborative Information Server"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.yokogawa.com/solutions/products-and-services/control/control-and-safety-system/collaborative-information-server/"
+      ],
+      "source_title": "Collaborative Information Server",
+      "rationale": "The manufacturer defines the short form. FAST/TOOLS is a separate named product, not an alias."
+    },
+    {
+      "id": "p-yokogawa-exaopc",
+      "vendors": [
+        "Yokogawa"
+      ],
+      "names": [
+        "Exaopc",
+        "Exaopc OPC Interface Package",
+        "Exaopc OPC Server Interface Package"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://web-material3.yokogawa.com/GS36J02A10-01E_034.pdf"
+      ],
+      "source_title": "Exaopc OPC Interface Package general specifications",
+      "rationale": "The vendor general specification uses these forms for Exaopc. Generic OPC Server or OPC Interface Package alone is deliberately excluded."
+    },
+    {
+      "id": "p-yokogawa-exaquantum",
+      "vendors": [
+        "Yokogawa"
+      ],
+      "names": [
+        "Exaquantum",
+        "Exaquantum Plant Information Management System"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://ymx.yokogawa.com/content/S636721774035089933/GS36J04A10-01E_023.pdf"
+      ],
+      "source_title": "Exaquantum Plant Information Management System general specifications",
+      "rationale": "The specification identifies both forms. Generic PIMS and Plant Information Management System alone are excluded; Exaquantum add-on applications remain separate."
+    },
+    {
+      "id": "p-yokogawa-fieldmate",
+      "vendors": [
+        "Yokogawa"
+      ],
+      "names": [
+        "FieldMate",
+        "FieldMate Mobile Field Device Management"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.yokogawa.com/us/library/resources/faqs/what-is-fieldmate/"
+      ],
+      "source_title": "What is FieldMate?",
+      "rationale": "Official FAQ identifies the short software name and expanded product heading. FieldMate handheld hardware and Basic/Advanced edition distinctions are not collapsed."
+    },
+    {
+      "id": "p-yokogawa-vds",
+      "vendors": [
+        "Yokogawa"
+      ],
+      "names": [
+        "VDS",
+        "Versatile Data Server Software",
+        "ASTMAC VDS"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.yokogawa.com/cis/solutions/products-and-services/control/control-and-safety-system/process-control-plc-rtu/vds/",
+        "https://library.yokogawa.com/document/download/AxkHnJ89/0000022517/15/EN/"
+      ],
+      "source_title": "Versatile Data Server Software (VDS)",
+      "rationale": "The vendor defines VDS; its release kit document explicitly defines ASTMAC VDS as VDS. ASTMAC without VDS is a different application and is excluded."
+    },
+    {
+      "id": "p-yokogawa-fcn",
+      "vendors": [
+        "Yokogawa"
+      ],
+      "names": [
+        "FCN",
+        "Field Control Node"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.yokogawa.com/eu/library/resources/yokogawa-technical-reports/fcn-and-fcj-autonomous-controllers-in-stardom/"
+      ],
+      "source_title": "FCN and FCJ autonomous controllers in STARDOM",
+      "rationale": "The vendor explicitly expands each controller acronym. FCN and FCJ are distinct; FCN-100, FCN-500 and individual CPU models are not mapped to the broader controller name."
+    },
+    {
+      "id": "p-yokogawa-fcj",
+      "vendors": [
+        "Yokogawa"
+      ],
+      "names": [
+        "FCJ",
+        "Field Control Junction"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.yokogawa.com/eu/library/resources/yokogawa-technical-reports/fcn-and-fcj-autonomous-controllers-in-stardom/"
+      ],
+      "source_title": "FCN and FCJ autonomous controllers in STARDOM",
+      "rationale": "The vendor explicitly expands each controller acronym. FCN and FCJ are distinct; FCN-100, FCN-500 and individual CPU models are not mapped to the broader controller name."
+    },
+    {
+      "id": "p-honeywell-fdm",
+      "vendors": [
+        "Honeywell"
+      ],
+      "names": [
+        "Field Device Manager",
+        "FDM"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://process.honeywell.com/us/en/products/trainings/control-monitoring-and-safety-systems/field-device-manager-fdm"
+      ],
+      "source_title": "Field Device Manager (FDM)",
+      "rationale": "The official training page explicitly expands this product acronym. The manufacturer scope is required."
+    },
+    {
+      "id": "p-honeywell-sm",
+      "vendors": [
+        "Honeywell"
+      ],
+      "names": [
+        "Safety Manager",
+        "SM"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://process.honeywell.com/us/en/products/trainings/control-monitoring-and-safety-systems/safety-manager-sm"
+      ],
+      "source_title": "Safety Manager (SM)",
+      "rationale": "The vendor explicitly expands SM in this product context. Safety Manager SC and individual controllers remain separate."
+    },
+    {
+      "id": "p-hitachi-msm",
+      "vendors": [
+        "Hitachi Energy"
+      ],
+      "names": [
+        "MSM",
+        "Modular Switchgear Monitoring"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.hitachienergy.com/us/en/products-and-solutions/high-voltage-switchgear-and-breakers/monitoring-and-controlled-switching/modular-switchgear-monitoring-msm"
+      ],
+      "source_title": "Modular Switchgear Monitoring (MSM)",
+      "rationale": "The vendor defines MSM. The specific MSM-I and MSM-II configurations and individual modules are not aliases for this parent product."
+    },
+    {
+      "id": "p-hitachi-esoms",
+      "vendors": [
+        "Hitachi Energy"
+      ],
+      "names": [
+        "eSOMS",
+        "Electronic Shift Operations Management System"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.hitachienergy.com/products-and-solutions/asset-and-work-management/work-management/electronic-shift-operations-management-system-esoms"
+      ],
+      "source_title": "Electronic Shift Operations Management System (eSOMS)",
+      "rationale": "The official product title expands the name. This mapping is scoped to Hitachi Energy and does not infer an ABB-to-Hitachi manufacturer equivalence."
+    },
+    {
+      "id": "p-hitachi-iet600",
+      "vendors": [
+        "Hitachi Energy"
+      ],
+      "names": [
+        "IET600",
+        "Integrated Engineering Tool IET600"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.hitachienergy.com/products-and-solutions/substation-automation-protection-and-control/products/tools/iet600"
+      ],
+      "source_title": "Integrated Engineering Tool IET600",
+      "rationale": "The vendor uses the full name and model identifier. ITT600 is a separate testing tool and is excluded."
+    },
+    {
+      "id": "p-hitachi-itt600",
+      "vendors": [
+        "Hitachi Energy"
+      ],
+      "names": [
+        "ITT600",
+        "Integrated Testing Tool ITT600",
+        "ITT600 SA Explorer"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.hitachienergy.com/us/en/products-and-solutions/substation-automation-protection-and-control/products/tools/itt600"
+      ],
+      "source_title": "Integrated Testing Tool ITT600",
+      "rationale": "The vendor uses all forms on the same product page. IET600 is a separate engineering tool and is excluded."
+    },
+    {
+      "id": "p-abb-800xa",
+      "vendors": [
+        "ABB"
+      ],
+      "names": [
+        "System 800xA",
+        "ABB Ability System 800xA"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://landscapes.abb.com/r/d88460cef5ddf851e955896ed1c9b798.pdf"
+      ],
+      "source_title": "System 800xA 6.1 product catalog",
+      "rationale": "The catalog uses branded and unprefixed system names. System 800xA Base, Information Management, Batch Management and other components are separate identities."
+    },
+    {
+      "id": "p-abb-compact-control-builder",
+      "vendors": [
+        "ABB"
+      ],
+      "names": [
+        "Compact Control Builder",
+        "ABB Compact Control Builder"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.abb.com/global/en/areas/automation/control-systems/compact-product-suite/engineering"
+      ],
+      "source_title": "Compact Engineering",
+      "rationale": "Official page uses branded and short names. The broad Control Builder name and other Control Builder editions are excluded."
+    },
+    {
+      "id": "p-beckhoff-twincat",
+      "vendors": [
+        "Beckhoff"
+      ],
+      "names": [
+        "TwinCAT",
+        "The Windows Control and Automation Technology"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.beckhoff.com/en-us/products/automation/twincat/"
+      ],
+      "source_title": "TwinCAT automation software",
+      "rationale": "The vendor explicitly expands TwinCAT. This family label is not an alias for a particular generation, XAE, XAR, or individual TwinCAT function."
+    },
+    {
+      "id": "p-beckhoff-twincat3-xae",
+      "vendors": [
+        "Beckhoff"
+      ],
+      "names": [
+        "TwinCAT 3 Engineering",
+        "TwinCAT 3 XAE",
+        "TwinCAT 3 eXtended Automation Engineering"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://infosys.beckhoff.com/content/1033/tc3_overview/6162419083.html"
+      ],
+      "source_title": "TwinCAT 3 system requirements",
+      "rationale": "The official documentation defines these forms for the engineering component. Runtime/XAR, TwinCAT 2 and the broader TwinCAT suite are excluded."
+    },
+    {
+      "id": "p-beckhoff-twincat3-xar",
+      "vendors": [
+        "Beckhoff"
+      ],
+      "names": [
+        "TwinCAT 3 Runtime",
+        "TwinCAT 3 XAR",
+        "TwinCAT 3 eXtended Automation Runtime"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://infosys.beckhoff.com/content/1033/tc3_overview/6162419083.html"
+      ],
+      "source_title": "TwinCAT 3 system requirements",
+      "rationale": "The official documentation defines these forms for the runtime component. Engineering/XAE, TwinCAT 2 and the broader TwinCAT suite are excluded."
+    },
+    {
+      "id": "p-advantech-webaccess-cnc",
+      "vendors": [
+        "Advantech"
+      ],
+      "names": [
+        "WebAccess/CNC",
+        "Advantech WebAccess/CNC"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.advantech.com/en-us/industrial-automation/webaccess/webaccesscnc"
+      ],
+      "source_title": "Advantech WebAccess/CNC",
+      "rationale": "The official page uses branded and short names. WebAccess/SCADA is its underlying architecture but is not an equivalent product identity."
+    },
+    {
+      "id": "p-advantech-webaccess-nms",
+      "vendors": [
+        "Advantech"
+      ],
+      "names": [
+        "WebAccess/NMS",
+        "WebAccessNMS"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.advantech.com/en-us/support/details/manual?id=1-12EVMMA"
+      ],
+      "source_title": "Introduction of WebAccess/NMS",
+      "rationale": "The official support page uses WebAccess/NMS in the title and WebAccessNMS for the named manual. WebAccess/CNC, /SCADA and /DMP remain separate."
+    },
+    {
+      "id": "p-advantech-webaccess-dmp-history",
+      "vendors": [
+        "Advantech"
+      ],
+      "names": [
+        "WebAccess/DMP",
+        "SmartWorx HUB"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://icr.advantech.com/support/router-models/download/206/pn-2018-10-01-advantech-uploading-of-hmpclient-um-en.pdf"
+      ],
+      "source_title": "WebAccess/DMP product change notification PN-2018-10-01",
+      "rationale": "The official change notice documents the renaming. Treat the historical link as review-only because installed release and deployment context must be established. The hmpclient module is not an alias."
+    },
+    {
+      "id": "p-codesys-runtime-toolkit",
+      "vendors": [
+        "CODESYS"
+      ],
+      "names": [
+        "CODESYS Runtime Toolkit",
+        "CODESYS Control Runtime Toolkit"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.codesys.com/device-manufacturers/codesys-for-you/licence-devices/"
+      ],
+      "source_title": "CODESYS for your device: licensing",
+      "rationale": "Official licensing page uses both names for the device-manufacturer toolkit. Runtime products, V2/V3, platform and bitness-specific editions are not collapsed."
+    },
+    {
+      "id": "p-codesys-control-win-sl",
+      "vendors": [
+        "CODESYS"
+      ],
+      "names": [
+        "CODESYS Control Win SL",
+        "Control Win SL"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://us.codesys.com/ecosystem/up-to-date/release-lifecycle/releases-updates/control-win-sl/"
+      ],
+      "source_title": "CODESYS Control Win SL releases",
+      "rationale": "The official release page uses prefixed and short product names. Control Win V3, Control RTE SL and other platforms are not automatically equivalent."
+    },
+    {
+      "id": "p-emerson-ams-device-manager-history",
+      "vendors": [
+        "Emerson"
+      ],
+      "names": [
+        "AMS Device Manager",
+        "AMS Suite: Intelligent Device Manager"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.emerson.com/is/content/emerson/en/systems-and-software/ams/manuals-and-guides/documents/ams-device-manager-13.0-installation-guide.pdf"
+      ],
+      "source_title": "AMS Device Manager 13.0 installation guide",
+      "rationale": "The installation guide documents the longer name in operating-system application entries for AMS Device Manager. Review the release and installed component before using this historical label."
+    },
+    {
+      "id": "p-emerson-machine-edition-history",
+      "vendors": [
+        "Emerson"
+      ],
+      "names": [
+        "Proficy Machine Edition",
+        "PAC Machine Edition"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://emerson-mas.my.site.com/communities/ArticleDetails?urlName=Software-Licensing---Landing-Page"
+      ],
+      "source_title": "Emerson software licensing landing page",
+      "rationale": "The manufacturer distinguishes Proficy Machine Edition 7.00-9.70 from PAC Machine Edition 9.80 and later. This is a review-only historical relationship; no version range transfers across the transition."
+    },
+    {
+      "id": "p-delta-diaenergie",
+      "vendors": [
+        "Delta Electronics"
+      ],
+      "names": [
+        "DIAEnergie",
+        "DIAEnergie Industrial Energy Management System"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.deltaww.com/en-US/products/DIAEnergie-Industrial-Energy-Management-System"
+      ],
+      "source_title": "DIAEnergie Industrial Energy Management System",
+      "rationale": "The official product title supplies the expanded descriptive name. Generic Energy Management System or EMS is deliberately excluded."
+    },
+    {
+      "id": "p-eaton-ipm",
+      "names": [
+        "Intelligent Power Manager",
+        "Eaton Intelligent Power Manager",
+        "IPM",
+        "Eaton Intelligent Power Manager (IPM)"
+      ],
+      "vendors": [
+        "Eaton"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.eaton.com/us/en-us/catalog/backup-power-ups-surge-it-power-distribution/eaton-intelligent-power-manager.models.html",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2021/icsa-21-110-06.json"
+      ],
+      "source_title": "Eaton Intelligent Power Manager and CISA ICSA-21-110-06",
+      "rationale": "Eaton explicitly defines IPM. The CISA record supplies the branded parenthetical form. Virtual Appliance, Infrastructure and explicit v1 labels are not collapsed into this group."
+    },
+    {
+      "id": "p-eaton-ipp",
+      "names": [
+        "Intelligent Power Protector",
+        "Eaton Intelligent Power Protector",
+        "IPP",
+        "Intelligent Power Protector (IPP)",
+        "Eaton Intelligent Power Protector (IPP)"
+      ],
+      "vendors": [
+        "Eaton"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.eaton.com/us/en-us/catalog/software/eaton-intelligent-power-protector.html",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2021/icsa-21-110-06.json",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2022/icsa-22-130-02.json"
+      ],
+      "source_title": "Eaton Intelligent Power Protector and CISA advisory spellings",
+      "rationale": "Eaton explicitly defines IPP and uses the manufacturer-prefixed product title. The two parenthetical forms are observed CISA product labels."
+    },
+    {
+      "id": "p-eaton-ipm-va",
+      "names": [
+        "Eaton Intelligent Power Manager Virtual Appliance (IPM VA)",
+        "Eaton Intelligent Power Manager Virtual Appliance",
+        "Intelligent Power Manager Virtual Appliance",
+        "IPM VA"
+      ],
+      "vendors": [
+        "Eaton"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2021/icsa-21-110-06.json"
+      ],
+      "source_title": "CISA ICSA-21-110-06 product tree",
+      "rationale": "CISA explicitly supplies the Virtual Appliance full name and its IPM VA abbreviation. This distinct product group does not include unqualified IPM."
+    },
+    {
+      "id": "p-eaton-ipm-infrastructure",
+      "names": [
+        "Eaton Intelligent Power Manager Infrastructure (IPM Infrastructure)",
+        "Eaton Intelligent Power Manager Infrastructure",
+        "Intelligent Power Manager Infrastructure",
+        "IPM Infrastructure"
+      ],
+      "vendors": [
+        "Eaton"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2022/icsa-22-130-03.json"
+      ],
+      "source_title": "CISA ICSA-22-130-03 product tree",
+      "rationale": "CISA explicitly supplies the Infrastructure full name and its parenthetical abbreviation. Infrastructure remains separate from IPM and IPM VA."
+    },
+    {
+      "id": "p-eaton-vpm",
+      "names": [
+        "Visual Power Manager",
+        "Eaton Visual Power Manager",
+        "VPM"
+      ],
+      "vendors": [
+        "Eaton"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.eaton.com/us/en-us/catalog/backup-power-ups-surge-it-power-distribution/eaton-visual-power-manager--vpm----na.models.html"
+      ],
+      "source_title": "Eaton Visual Power Manager",
+      "rationale": "Eaton defines VPM in its product heading and description. Essential and Professional editions are not reduced to the unqualified product label."
+    },
+    {
+      "id": "p-sel-quickset",
+      "names": [
+        "acSELerator QuickSet",
+        "acSELerator QuickSet Software",
+        "acSELerator QuickSet SEL-5030 Software",
+        "SEL-5030 acSELerator QuickSet Software",
+        "SEL AcSELerator QuickSet",
+        "QuickSet"
+      ],
+      "vendors": [
+        "Schweitzer Engineering Laboratories",
+        "SEL"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://selinc.com/products/5030/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2013/icsa-13-079-01.json"
+      ],
+      "source_title": "SEL-5030 acSELerator QuickSet and CISA spelling",
+      "rationale": "The manufacturer uses the complete software title and QuickSet shorthand for the same application. CISA supplies SEL AcSELerator QuickSet. QuickSet Device Manager, Template and Designer are not treated as interchangeable component names."
+    },
+    {
+      "id": "p-sel-architect",
+      "names": [
+        "acSELerator Architect",
+        "acSELerator Architect Software",
+        "SEL-5032 acSELerator Architect Software",
+        "acSELerator Architect SEL-5032 Software",
+        "Architect"
+      ],
+      "vendors": [
+        "Schweitzer Engineering Laboratories",
+        "SEL"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://selinc.com/en/products/5032/",
+        "https://selinc.com/api/download/124364",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2018/icsa-18-191-02.json"
+      ],
+      "source_title": "SEL-5032 acSELerator Architect",
+      "rationale": "SEL uses Architect as shorthand for its named IEC 61850 configuration application. The source advisory label is acSELerator Architect. This does not alias the separate ICD Package."
+    },
+    {
+      "id": "p-sel-compass",
+      "names": [
+        "Compass",
+        "SEL Compass"
+      ],
+      "vendors": [
+        "Schweitzer Engineering Laboratories",
+        "SEL"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://selinc.com/products/compass/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2018/icsa-18-191-02.json"
+      ],
+      "source_title": "SEL Compass and CISA Compass label",
+      "rationale": "The manufacturer uses both Compass and SEL Compass on the same product page; CISA names Compass. Scope is restricted to SEL."
+    },
+    {
+      "id": "p-sel-rtac-software",
+      "names": [
+        "acSELerator RTAC",
+        "acSELerator RTAC Software",
+        "acSELerator RTAC SEL-5033 Software",
+        "SEL-5033 acSELerator RTAC Software"
+      ],
+      "vendors": [
+        "Schweitzer Engineering Laboratories",
+        "SEL"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://selinc.com/products/5033/",
+        "https://selinc.com/products/5033/support/"
+      ],
+      "source_title": "SEL-5033 acSELerator RTAC software",
+      "rationale": "Both pages identify the same configuration software by full title and shorter title. RTAC alone and controller hardware model names are deliberately excluded."
+    },
+    {
+      "id": "p-sel-team",
+      "names": [
+        "acSELerator Team",
+        "acSELerator Team SEL-5045 Software",
+        "SEL-5045 acSELerator Team Software"
+      ],
+      "vendors": [
+        "Schweitzer Engineering Laboratories",
+        "SEL"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://selinc.com/products/5045/support/"
+      ],
+      "source_title": "SEL-5045 acSELerator Team",
+      "rationale": "The manufacturer download page supplies full and abbreviated product titles. The Team Web Server and individual Windows services remain separate component identities."
+    },
+    {
+      "id": "p-prosoft-pcb",
+      "names": [
+        "ProSoft Configuration Builder",
+        "PCB",
+        "PSW-PCB"
+      ],
+      "vendors": [
+        "ProSoft Technology"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.prosoft-technology.com/Products/ProSoft-Software/ProSoft-Configuration-Builder",
+        "https://www.prosoft-technology.com/knowledge-base/Software/ProSoft-Configuration-Builder"
+      ],
+      "source_title": "ProSoft Configuration Builder product and knowledge base",
+      "rationale": "Manufacturer identifies the software as PSW-PCB and explicitly abbreviates its name as PCB. The acronym applies only in ProSoft manufacturer scope."
+    },
+    {
+      "id": "p-prosoft-pwd",
+      "names": [
+        "ProSoft Wireless Designer",
+        "PWD",
+        "PSW-PWD"
+      ],
+      "vendors": [
+        "ProSoft Technology"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.prosoft-technology.com/Products/ProSoft-Software/ProSoft-Wireless-Designer",
+        "https://www.prosoft-technology.com/knowledge-base/Wireless/ProSoft-Wireless-Designer"
+      ],
+      "source_title": "ProSoft Wireless Designer product and knowledge base",
+      "rationale": "Manufacturer gives the product code PSW-PWD and explicitly defines PWD. Neither label is a radio hardware model."
+    },
+    {
+      "id": "p-prosoft-pds",
+      "names": [
+        "ProSoft Discovery Service",
+        "PDS"
+      ],
+      "vendors": [
+        "ProSoft Technology"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.prosoft-technology.com/Products/ProSoft-Software/ProSoft-Discovery-Service"
+      ],
+      "source_title": "ProSoft Discovery Service",
+      "rationale": "The manufacturer calls the named discovery utility PDS in the first paragraph. This abbreviation is restricted to ProSoft."
+    },
+    {
+      "id": "p-triangle-sdg",
+      "names": [
+        "SCADA Data Gateway",
+        "SDG",
+        "Triangle MicroWorks SCADA Data Gateway"
+      ],
+      "vendors": [
+        "Triangle MicroWorks"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://products.trianglemicroworks.com/products/scada-data-gateway",
+        "https://products.trianglemicroworks.com/products/scada-data-gateway/system-requirements"
+      ],
+      "source_title": "Triangle MicroWorks SCADA Data Gateway",
+      "rationale": "Manufacturer explicitly defines SDG and uses its company-prefixed name for the same gateway application. SCADA alone is not an alias."
+    },
+    {
+      "id": "p-triangle-dtm",
+      "names": [
+        "Distributed Test Manager",
+        "DTM"
+      ],
+      "vendors": [
+        "Triangle MicroWorks"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.trianglemicroworks.com/products/testing-and-configuration-tools/dtm-pages/overview"
+      ],
+      "source_title": "Triangle MicroWorks Distributed Test Manager",
+      "rationale": "Manufacturer explicitly defines DTM for this application. DTM is not globally equated to device type managers or Delta DTM Soft."
+    },
+    {
+      "id": "p-triangle-test-harness",
+      "names": [
+        "Communication Protocol Test Harness",
+        "Protocol Test Harness",
+        "Test Harness"
+      ],
+      "vendors": [
+        "Triangle MicroWorks"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://files.trianglemicroworks.com/support/test-harness"
+      ],
+      "source_title": "Triangle MicroWorks Test Harness support",
+      "rationale": "The support page uses all three titles for the same testing application, within Triangle MicroWorks scope."
+    },
+    {
+      "id": "p-horner-envisionrv",
+      "names": [
+        "Cscape Envision RV",
+        "Cscape EnvisionRV",
+        "EnvisionRV",
+        "Envision RV"
+      ],
+      "vendors": [
+        "Horner Automation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://hornerautomation.com/product/cscape-envision-rv/",
+        "https://hornerautomation.eu/product/envision-rv/?cmdm_direct_download_id=3445"
+      ],
+      "source_title": "Horner Cscape Envision RV",
+      "rationale": "Manufacturer pages use the spaced and joined forms and shorten the title to EnvisionRV. Cscape alone and Cscape Csfont remain separate."
+    },
+    {
+      "id": "p-delta-dtmsoft",
+      "names": [
+        "DTMSoft",
+        "DTM Soft"
+      ],
+      "vendors": [
+        "Delta Electronics"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://filecenter.deltaww.com/news/download/doc/Delta-PCSA-2024-00016_DTM%20Soft%20Deserialization%20of%20Untrusted%20Data%20Vulnerability_EN.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2026/icsa-26-176-06.json"
+      ],
+      "source_title": "Delta DTM Soft product advisory and CISA naming",
+      "rationale": "Delta uses DTM Soft in its advisory title and DTMSoft in its purpose paragraph for the same software. CISA also uses DTMSoft. DTN Soft is not included."
+    },
+    {
+      "id": "p-delta-diaview",
+      "names": [
+        "DIAView",
+        "DIAView SCADA",
+        "DIAView SCADA System"
+      ],
+      "vendors": [
+        "Delta Electronics"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.delta-americas.com/en-US/products/SCADA-System/DIAView",
+        "https://www.deltaww.com.cn/DIAView/en-US/Download"
+      ],
+      "source_title": "Delta DIAView product and download pages",
+      "rationale": "The manufacturer title, description and downloads use these names for the same software. DIAViewX is a separate product and is not included."
+    },
+    {
+      "id": "p-delta-dopsoft",
+      "names": [
+        "DOPSoft",
+        "Delta Industrial Automation DOPSoft"
+      ],
+      "vendors": [
+        "Delta Electronics"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2018/icsa-18-060-03.json",
+        "https://filecenter.deltaww.com/Products/download/06/060302/Manual/DELTA_IA-HMI_DOPSoft_UM_EN_20181101.pdf"
+      ],
+      "source_title": "CISA DOPSoft label and Delta DOPSoft user manual",
+      "rationale": "CISA uses the manufacturer-prefixed software title; Delta identifies DOPSoft and its Delta Industrial Automation installation path. DIAScreen and ScreenEditor are not equated to DOPSoft."
+    },
+    {
+      "id": "p-wellintech-kingview",
+      "names": [
+        "KingView",
+        "WellinTech KingView"
+      ],
+      "vendors": [
+        "WellinTech"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.wellintech.com/kingview",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2011/icsa-11-074-01.json"
+      ],
+      "source_title": "WellinTech KingView and CISA prefixed label",
+      "rationale": "Manufacturer identifies KingView as its software; the CISA product tree uses WellinTech KingView. KingView HistoryServer and other modules are not collapsed into the main product."
+    },
+    {
+      "id": "p-wellintech-kingscada",
+      "names": [
+        "KingSCADA",
+        "WellinTech KingSCADA"
+      ],
+      "vendors": [
+        "WellinTech"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.wellintech.com/kingscada",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2012/icsa-12-129-01.json"
+      ],
+      "source_title": "WellinTech KingSCADA and CISA prefixed label",
+      "rationale": "The vendor product page and CISA product tree supply the unqualified and company-prefixed name. KingView is a different software product."
+    },
+    {
+      "id": "p-wellintech-kinghistorian",
+      "names": [
+        "KingHistorian",
+        "WellinTech KingHistorian"
+      ],
+      "vendors": [
+        "WellinTech"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.wellintech.com/kinghistorian",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2012/icsa-12-185-01.json"
+      ],
+      "source_title": "WellinTech KingHistorian and CISA prefixed label",
+      "rationale": "The vendor page identifies KingHistorian and CISA supplies the company-prefixed form for the same historian. This is not an alias for KingView HistoryServer."
+    },
+    {
+      "id": "p-ecava-integraxor",
+      "names": [
+        "IntegraXor",
+        "Ecava IntegraXor",
+        "ECAVA IGX",
+        "Ecava IGX Web SCADA",
+        "Ecava Sdn Bhd IntegraXor"
+      ],
+      "vendors": [
+        "Ecava",
+        "Ecava Sdn Bhd"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.integraxor.com/",
+        "https://www.integraxor.com/about/",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2014/icsa-14-008-01.json"
+      ],
+      "source_title": "Ecava IntegraXor and IGX branding",
+      "rationale": "Ecava uses IntegraXor and ECAVA IGX for its product and CISA supplies the legal-name-prefixed label. IGX Lite, Standard, Pro, Runtime Engine and Development Tool are not collapsed into this unqualified identity."
+    },
+    {
+      "id": "p-fatek-winproladder",
+      "names": [
+        "WinProladder",
+        "PLC WinProladder"
+      ],
+      "vendors": [
+        "FATEK Automation"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.fatek.com/en/download.php?act=list&cid=141",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2016/icsa-16-350-01.json"
+      ],
+      "source_title": "FATEK WinProladder download and CISA label",
+      "rationale": "FATEK names the PLC programming software WinProladder; CISA names the same software PLC WinProladder. Winproladder for DOS is a distinct qualified label and is excluded."
+    },
+    {
+      "id": "p-fatek-fvdesigner-candidate",
+      "names": [
+        "Automation FV Designer",
+        "FvDesigner"
+      ],
+      "vendors": [
+        "FATEK Automation"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://www.fatek.com/en/download.php?act=list&cid=13",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2016/icsa-16-287-06.json"
+      ],
+      "source_title": "FATEK designer software and historical CISA spelling",
+      "rationale": "The historical CISA label and current download spelling suggest the same HMI engineering product, but the release-line identity has not been independently established. Require review before applying advisory versions. PM Designer V3 is excluded."
+    },
+    {
+      "id": "p-wecon-levistudiou",
+      "names": [
+        "LeviStudioU",
+        "WECON LeviStudioU"
+      ],
+      "vendors": [
+        "WECON"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2018/icsa-18-116-02.json",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2018/icsa-18-212-03.json"
+      ],
+      "source_title": "CISA WECON LeviStudioU source spellings",
+      "rationale": "Both CISA product trees use the same distinctive software title, with and without a manufacturer prefix. This does not equate LeviStudioU with unqualified LeviStudio, LEVI Studio HMI Editor or PI Studio."
+    },
+    {
+      "id": "p-moxa-mxview",
+      "names": [
+        "MXview",
+        "MXview Series",
+        "MXview Industrial Network Management Software"
+      ],
+      "vendors": [
+        "Moxa"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://moxa.com/en/support/product-support/software-and-documentation?psid=53389",
+        "https://www.moxa.com/Moxa/media/PDIM/S100000150/moxa-mxview-series-manual-v11.1.pdf"
+      ],
+      "source_title": "Moxa MXview support and user manual",
+      "rationale": "Moxa supplies the MXview Series software package and MXview user guide; the manual shows the full software title in the product interface. MXview One and MXview ToGo are excluded."
+    },
+    {
+      "id": "p-moxa-mxview-one",
+      "names": [
+        "MXview One",
+        "MXview One Series"
+      ],
+      "vendors": [
+        "Moxa"
+      ],
+      "mode": "equivalent",
+      "source_urls": [
+        "https://www.moxa.com/getmedia/dd5604d7-d56b-46fb-b775-f1532e27171d/mxview-one-series-datasheet.pdf"
+      ],
+      "source_title": "Moxa MXview One datasheet",
+      "rationale": "The datasheet uses the series title and MXview One for the same network management software. The original MXview and MXview One Central Manager are excluded."
+    },
+    {
+      "id": "p-moxa-mxview-successor",
+      "names": [
+        "MXview",
+        "MXview One"
+      ],
+      "vendors": [
+        "Moxa"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://moxa.com/en/products/industrial-network-infrastructure/network-management-software/mxview-series"
+      ],
+      "source_title": "Moxa MXview replacement notice",
+      "rationale": "Moxa identifies MXview One as the replacement for discontinued MXview. A successor relationship does not prove equivalent affected versions and only prompts review."
+    },
+    {
+      "id": "p-phoenix-plcnext-engineer-history",
+      "names": [
+        "PC Worx Engineer",
+        "PLCnext Engineer"
+      ],
+      "vendors": [
+        "Phoenix Contact"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://forum.plcnext-community.net/uploads/default/original/2X/c/c0d708cdf07482bb1753f23e3c807bb0b51d60b1.pdf"
+      ],
+      "source_title": "Phoenix Contact PLCnext Engineer change notes",
+      "rationale": "The manufacturer change notes state PC Worx Engineer becomes PLCnext Engineer. Historical naming spans release changes, so matching requires review. PC Worx and PC Worx Express are separate names and are not included."
+    },
+    {
+      "id": "p-siemens-pdm-ambiguous",
+      "names": [
+        "PDM",
+        "SIMATIC PDM"
+      ],
+      "vendors": [
+        "Siemens"
+      ],
+      "mode": "candidate",
+      "source_urls": [
+        "https://support.industry.siemens.com/cs/attachments/109986582/pdm_application_en-US_en-US.pdf",
+        "https://raw.githubusercontent.com/cisagov/CSAF/020f7c01c13b08df34a9557e734d76ed7943c537/csaf_files/OT/white/2017/icsa-17-045-03.json",
+        "https://www.siemens.com/en-gb/technology/product-data-management-pdm/"
+      ],
+      "source_title": "Siemens process device and product data management terminology",
+      "rationale": "PDM can refer to Process Device Manager or Product Data Management within Siemens. Ask for the full product name; the short form cannot establish identity or affected status."
+    }
+  ]
+}

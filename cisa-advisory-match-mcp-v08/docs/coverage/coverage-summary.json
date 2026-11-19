@@ -1,0 +1,237 @@
+{
+  "advisory_counts": {
+    "ICSA": 3804,
+    "ICSMA": 191
+  },
+  "advisory_year_counts": {
+    "2010": 6,
+    "2011": 46,
+    "2012": 79,
+    "2013": 80,
+    "2014": 95,
+    "2015": 137,
+    "2016": 128,
+    "2017": 187,
+    "2018": 222,
+    "2019": 224,
+    "2020": 249,
+    "2021": 388,
+    "2022": 385,
+    "2023": 380,
+    "2024": 422,
+    "2025": 506,
+    "2026": 461
+  },
+  "alias_presence": {
+    "baseline": {
+      "scoped_products": {
+        "equivalent_available": 20,
+        "no_documented_alias": 11997,
+        "review_only": 13
+      },
+      "vendors": {
+        "equivalent_available": 34,
+        "no_documented_alias": 838,
+        "review_only": 9
+      }
+    },
+    "current": {
+      "scoped_products": {
+        "equivalent_available": 114,
+        "no_documented_alias": 11895,
+        "review_only": 21
+      },
+      "vendors": {
+        "equivalent_available": 87,
+        "no_documented_alias": 785,
+        "review_only": 9
+      }
+    }
+  },
+  "baseline_catalog": {
+    "sha256": "3dc0f7cacfe3adc7d61d65318a88aa2b0c4673691d407db72aa1e4215489d74b",
+    "version": "2026.11.06.1"
+  },
+  "catalog_groups": {
+    "baseline": {
+      "products": {
+        "groups_total": 40,
+        "groups_with_observed_source_label": 29,
+        "groups_without_observed_source_label": [
+          "p-schneider-geo-scada-history",
+          "p-aveva-plant-scada-history",
+          "p-aveva-intouch",
+          "p-aveva-intouch-history",
+          "p-aveva-system-platform-history",
+          "p-aveva-omi",
+          "p-rockwell-view-client-history",
+          "p-rockwell-view-server-history",
+          "p-honeywell-dvm",
+          "p-honeywell-ccs",
+          "p-weintek-eb8000"
+        ]
+      },
+      "vendors": {
+        "groups_total": 52,
+        "groups_with_observed_source_label": 48,
+        "groups_without_observed_source_label": [
+          "vendor-trend",
+          "vendor-lenze",
+          "vendor-sprecher",
+          "candidate-velotic-kepware"
+        ]
+      }
+    },
+    "current": {
+      "products": {
+        "groups_total": 150,
+        "groups_with_observed_source_label": 104,
+        "groups_without_observed_source_label": [
+          "p-schneider-geo-scada-history",
+          "p-aveva-plant-scada-history",
+          "p-aveva-intouch-history",
+          "p-aveva-system-platform-history",
+          "p-aveva-omi",
+          "p-rockwell-view-client-history",
+          "p-rockwell-view-server-history",
+          "p-honeywell-dvm",
+          "p-honeywell-ccs",
+          "p-weintek-eb8000",
+          "p-siemens-process-historian",
+          "p-schneider-ebo",
+          "p-schneider-pso",
+          "p-schneider-pse",
+          "p-schneider-ebo-history",
+          "p-schneider-ion-setup",
+          "p-rockwell-ftnm",
+          "p-aveva-pi-vision",
+          "p-aveva-pi-datalink",
+          "p-aveva-intouch-access-anywhere",
+          "p-mitsubishi-gtworks3",
+          "p-mitsubishi-mxworks",
+          "p-mitsubishi-iqworks",
+          "p-yokogawa-vds",
+          "p-yokogawa-fcn",
+          "p-yokogawa-fcj",
+          "p-honeywell-fdm",
+          "p-hitachi-iet600",
+          "p-hitachi-itt600",
+          "p-abb-800xa",
+          "p-abb-compact-control-builder",
+          "p-beckhoff-twincat3-xae",
+          "p-beckhoff-twincat3-xar",
+          "p-advantech-webaccess-cnc",
+          "p-advantech-webaccess-dmp-history",
+          "p-codesys-runtime-toolkit",
+          "p-codesys-control-win-sl",
+          "p-eaton-vpm",
+          "p-sel-rtac-software",
+          "p-sel-team",
+          "p-prosoft-pcb",
+          "p-prosoft-pwd",
+          "p-prosoft-pds",
+          "p-triangle-dtm",
+          "p-triangle-test-harness",
+          "p-phoenix-plcnext-engineer-history"
+        ]
+      },
+      "vendors": {
+        "groups_total": 107,
+        "groups_with_observed_source_label": 98,
+        "groups_without_observed_source_label": [
+          "vendor-trend",
+          "vendor-lenze",
+          "vendor-sprecher",
+          "candidate-velotic-kepware",
+          "vendor-pilz",
+          "vendor-horner-apg",
+          "vendor-softing-industrial",
+          "vendor-inovance",
+          "candidate-inovance-control"
+        ]
+      }
+    }
+  },
+  "current_catalog": {
+    "sha256": "7da10268ea2d3febfe867215bcb3e95cd1be855bdbbc476f5067d68d937d0a07",
+    "version": "2026.11.06.2"
+  },
+  "denominator": "Distinct normalized vendor/product_name pairs at branch product definitions with exactly one vendor and one product_name in their ancestry. Additional context retained. Missing/ambiguous lineage, flat products and relationship-generated products are recorded separately.",
+  "excluded_non_advisory_files": [
+    {
+      "path": "csaf_files/OT/white/cisa-csaf-ot-feed-tlp-white.json",
+      "reason": "not_an_advisory_with_tracking_identity"
+    }
+  ],
+  "extraction_issue_count": 186,
+  "extraction_issue_counts": {
+    "ambiguous_or_missing_vendor_product_lineage": 186
+  },
+  "limitations": [
+    "Unmapped names can still match exactly; this is not a missed-advisory rate.",
+    "Not every product has meaningful alternate names. No claim is made to enumerate all alternatives.",
+    "Labels in this source snapshot do not enumerate all ICS products or real-world inventory usage.",
+    "Catalog membership and pair consistency do not validate product versions, advisory applicability, precision or recall.",
+    "The runtime retains its own source parser, version grammar, discovery budget and relationship limitations."
+  ],
+  "manifest_json_files": 3996,
+  "normalization": "Case folding and whitespace only; vendor/product pairs stay manufacturer-scoped",
+  "purpose": "Alias presence in observed source labels, not matching accuracy or supported-device coverage",
+  "raw_scoped_product_label_variants": 12089,
+  "raw_vendor_labels": 916,
+  "runtime_id_and_length_intersection": {
+    "alias_presence": {
+      "baseline": {
+        "scoped_products": {
+          "equivalent_available": 19,
+          "no_documented_alias": 10956,
+          "review_only": 13
+        },
+        "vendors": {
+          "equivalent_available": 34,
+          "no_documented_alias": 737,
+          "review_only": 7
+        }
+      },
+      "current": {
+        "scoped_products": {
+          "equivalent_available": 113,
+          "no_documented_alias": 10854,
+          "review_only": 21
+        },
+        "vendors": {
+          "equivalent_available": 86,
+          "no_documented_alias": 684,
+          "review_only": 8
+        }
+      }
+    },
+    "definition": "Observed in at least one exact ICSA-NN-NNN-NN advisory and source name lengths fit manufacturer<=120/product<=160. This only checks ID/name shape, not runtime matchability, version support or advisory correctness.",
+    "scoped_product_labels_exceeding_input_lengths": 6,
+    "unique_scoped_product_labels": 10988,
+    "unique_vendor_labels": 778
+  },
+  "schema_version": 1,
+  "scope": "All advisory JSON with a document tracking identity under csaf_files/OT/white at the pinned commit; feed metadata excluded. Unusual advisory ID shapes are included and listed separately.",
+  "source_commit": "020f7c01c13b08df34a9557e734d76ed7943c537",
+  "source_commit_date": "2026-11-05T16:29:08Z",
+  "source_counts": {
+    "advisories_outside_current_runtime_id_format": 310,
+    "advisories_with_current_runtime_id_format": 3685,
+    "advisories_with_relationships": 51,
+    "advisory_files": 3995,
+    "branch_product_definitions": 27694,
+    "flat_product_definitions_not_interpreted": 0,
+    "pair_definitions_with_additional_context": 308,
+    "relationship_definitions_not_interpreted": 1724
+  },
+  "source_retrieved_at": "2026-11-06T18:19:25.935222+00:00",
+  "unique_scoped_product_labels": 12030,
+  "unique_vendor_labels": 881,
+  "unusual_advisory_id_shapes": [
+    {
+      "advisory_id": "ICSA-16-231-01-0",
+      "path": "csaf_files/OT/white/2016/icsa-16-231-01-0.json"
+    }
+  ]
+}
