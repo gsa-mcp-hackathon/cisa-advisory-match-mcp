@@ -1,5 +1,8 @@
-# Start here: CISA advisory catalog candidate 0.8.0
+# CISA Advisory Matching MCP — v0.8.0 candidate
 
-This is a separate candidate for the GSA MCP Hackathon. Follow [PRODUCT_CATALOG_HANDOFF.md](PRODUCT_CATALOG_HANDOFF.md), complete its first verification task only, and stop. Preserve the v0.6 project, `gsa_jc_inventory_advisory_v01` toolkit, `gsa_jc_inventory_agent_v01` agent and original starter. Do not register this package until the local checks are reviewed. Never put credentials in prompts, logs or the repository.
+This directory contains the v0.8.0 candidate submission for the GSA MCP Hackathon.
 
-The private working repository reported by Johnson is https://github.com/jc-cisa/cisa-advisory-match-mcp . The organizer-provisioned submission repository and judge access still need confirmation.
+See [README.md](README.md) for setup, tools, supported comparisons, and limits.
+See [CATALOG_BUILD.md](CATALOG_BUILD.md) to build the required product catalog database.
+See [PRODUCT_CATALOG_HANDOFF.md](PRODUCT_CATALOG_HANDOFF.md) for IBM verification steps and expected build output.
+See [test-results/](test-results/) for IBM MCP protocol checks, catalog verification, and agent behavior records.

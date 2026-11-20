@@ -1,6 +1,6 @@
 # CISA advisory matching MCP
 
-**Version 0.8.0 candidate:** Adds scoped alternate-name candidate discovery, diverse advisory ordering, safer ingestion and pinned source links to the 0.7 catalog prototype. The catalog must be built separately from a public snapshot. It returns candidates only, not product identity, vulnerability status, version applicability, KEV, safety or complete coverage. This revision requires IBM and agent verification. See [catalog handoff](PRODUCT_CATALOG_HANDOFF.md).
+**Version 0.8.0 candidate:** Adds scoped alternate-name candidate discovery, diverse advisory ordering, safer ingestion, and pinned source links to the v0.7 catalog prototype. The catalog must be built separately from a public snapshot; see [CATALOG_BUILD.md](CATALOG_BUILD.md). It returns candidates only, not product identity, vulnerability status, version applicability, KEV, safety, or complete coverage. IBM MCP protocol checks (18/18 offline, 18/18 live) and four agent behavior cases were run on 2026-11-17; records are in [`test-results/`](test-results/). Those records report the caller runtime; they do not independently establish whether that runtime was IBM or another environment. See [`test-results/`](test-results/) for the full set of verification records.
 
 GSA MCP Hackathon · sandbox prototype · candidate version 0.8.0
 
@@ -8,13 +8,13 @@ Matches a fictional device inventory against a bounded selection of CISA ICS adv
 
 This is an MCP wrapper: an IBM agent calls our tools; for ICS matching our server uses the public [cyanheads CISA MCP](https://github.com/cyanheads/cisa-cybersecurity-mcp-server) to discover advisories and check KEV, then compares product/version rules in original [CISA CSAF](https://github.com/cisagov/CSAF) documents. No model makes the version comparison. KEV means CISA's Known Exploited Vulnerabilities catalog; CSAF is the machine-readable advisory format.
 
-**Earlier v0.6 status:** adds a product-query helper and experimental feed-title and summary discovery to the source reader, plain-language guidance and conservative version handling. The earlier v0.6 package was tested in IBM as reported by Bob; this changed v0.8 candidate has not been tested in IBM. The private working repository is https://github.com/jc-cisa/cisa-advisory-match-mcp . GSA now requests an organizer-provisioned hackathon repository; its URL and access remain unverified. See [the measured results](docs/evaluation.md) for what actually passed. The v0.6 ZIP was uploaded, and its toolkit and agent registered, per Bob; v0.8 source publication and IBM validation are pending. This is a sandbox prototype. Catalog intersection with a pinned source snapshot is measured separately from actual match accuracy and runtime discovery coverage.
+**v0.8 status:** Source published at https://github.com/gsa-mcp-hackathon/cisa-advisory-match-mcp . IBM MCP protocol and agent verification records are in [`test-results/`](test-results/). See [the measured results](docs/evaluation.md) for what was observed and what remains unverified. This is a sandbox prototype. Catalog intersection with a pinned source snapshot is measured separately from actual match accuracy and runtime discovery coverage.
 
 The version 0.4 dictionary contains **565 distinct labels** across 107 manufacturer and 150 product groups, including both full and alternate names. The [audit of 3,995 source advisories](docs/coverage/README.md) identifies remaining naming gaps. A name in the dictionary does not establish version applicability or comprehensive discovery.
 
 ## Mission and related tools
 
-This prototype helps an agent compare a fictional ICS inventory with selected or bounded CISA advisories and explain the original product/version rule and any uncertainty. Existing projects already offer ICS inventory matching and MCP vulnerability lookups; our contribution is a specific agent-facing combination, not a claim of being first. See the [related-project and mission review](docs/mission-related-project-review.md) and [IBM demo and evaluation plan](docs/ibm-demo-plan.md). The full workflow still requires IBM verification.
+This prototype helps an agent compare a fictional ICS inventory with selected or bounded CISA advisories and explain the original product/version rule and any uncertainty. Existing projects already offer ICS inventory matching and MCP vulnerability lookups; our contribution is a specific agent-facing combination, not a claim of being first. See the [related-project and mission review](docs/mission-related-project-review.md) and [IBM demo and evaluation plan](docs/ibm-demo-plan.md).
 
 ## First reproducible milestone
 

@@ -35,6 +35,6 @@ Independent review exposed name-order-dependent overlap resolution, large alias 
 
 ## Next milestone
 
-Use the version 0.2.0 ZIP in a separate IBM VM folder. Read `BOB_START_HERE.md` and reproduce Milestone 1, including alias provenance and live discovery. Then execute the Orchestrate agent cases. Keep the repository private until submission access is deliberately configured. Use the selected repository https://github.com/jc-cisa/ics-product-advisory-match-mcp .
+Use the version 0.2.0 ZIP in a separate IBM VM folder. Read `BOB_START_HERE.md` and reproduce Milestone 1, including alias provenance and live discovery. Then execute the Orchestrate agent cases. *(The working repository for this version is no longer publicly accessible. The final v0.8.0 submission is at https://github.com/gsa-mcp-hackathon/cisa-advisory-match-mcp .)*
 
 Version 0.1.0 results remain in `test-results/v0.1.0/` and `evaluation-v0.1.0.md` as historical results, not results for the revised code.
