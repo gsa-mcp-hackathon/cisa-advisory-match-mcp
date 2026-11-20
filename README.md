@@ -2,7 +2,7 @@
 
 **GSA MCP Hackathon submission — version 0.8.0 candidate**
 
-Matches a fictional ICS device inventory against public CISA advisories using an MCP server and an IBM watsonx Orchestrate agent. Reports affected-range status, source version rules, alias provenance, coverage limits, and local product-catalog candidates. All inventory is explicitly fictional; advisory data is public CISA content.
+CISA Advisory Matching MCP helps analysts explore public CISA IT and operational technology advisories using an MCP server and an IBM watsonx Orchestrate agent. It identifies product-name candidates for review and compares supported fictional ICS device inventory with published advisory version rules. Results include source links, identity-review information, and coverage limits.
 
 ## Quick start
 
